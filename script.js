@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const startQuizButton = document.getElementById('start-quiz');
     const submitQuizButton = document.getElementById('submit-quiz');
+    const themeButton = document.getElementById('theme-button');
+    let isDarkMode = false;
 
     if (startQuizButton) {
         startQuizButton.addEventListener('click', startQuiz);
@@ -13,32 +15,45 @@ document.addEventListener('DOMContentLoaded', () => {
     } else {
         console.error('Element with id="submit-quiz" not found.');
     }
+
+    if (themeButton) {
+        themeButton.addEventListener('click', toggleTheme);
+    } else {
+        console.error('Element with id="theme-button" not found.');
+    }
+
+    function toggleTheme() {
+        isDarkMode = !isDarkMode;
+        if (isDarkMode) {
+            document.body.classList.add('dark-mode');
+            themeButton.textContent = 'Switch to Light Mode';
+        } else {
+            document.body.classList.remove('dark-mode');
+            themeButton.textContent = 'Switch to Dark Mode';
+        }
+    }
 });
 
 function startQuiz() {
+    const category = document.getElementById('category').value;
     const difficulty = document.getElementById('difficulty').value;
 
-    // Clear the result box
     const resultContainer = document.getElementById('result');
     resultContainer.innerHTML = '';
 
-    fetchQuestions(difficulty);
+    fetchQuestions(category, difficulty);
 }
 
-function fetchQuestions(difficulty) {
+function fetchQuestions(category, difficulty) {
     fetch('./questions.json')
         .then(response => response.json())
         .then(data => {
-            // Filter questions by selected difficulty
-            const filteredQuestions = data.filter(q => q.difficulty === difficulty);
+            const filteredQuestions = data.filter(
+                q => q.category === category && q.difficulty === difficulty
+            );
 
-            // Randomly select 5 questions
             const selectedQuestions = getRandomQuestions(filteredQuestions, 5);
-
-            // Display the selected questions
             displayQuestions(selectedQuestions);
-
-            // Store the selected questions globally for grading
             window.quizData = selectedQuestions;
         })
         .catch(error => console.error('Error loading questions:', error));
@@ -51,18 +66,16 @@ function getRandomQuestions(array, count) {
 
 function displayQuestions(questions) {
     const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = ''; // Clear previous questions
+    quizContainer.innerHTML = '';
 
     if (questions.length === 0) {
-        quizContainer.innerHTML = '<p>No questions available for the selected difficulty.</p>';
+        quizContainer.innerHTML = '<p>No questions available for the selected category and difficulty.</p>';
         return;
     }
 
     questions.forEach((item, index) => {
-        // Randomize options
         const randomizedOptions = item.options.sort(() => 0.5 - Math.random());
 
-        // Create question element
         const questionElement = document.createElement('div');
         questionElement.classList.add('question');
         questionElement.innerHTML = `
