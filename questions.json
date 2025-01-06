@@ -1000,6 +1000,343 @@
         "difficulty": "Medium",
         "category": "SecurityPlus"
     },
+    {
+        "question": "What is the primary objective of a business impact analysis (BIA)?",
+        "options": ["To identify critical business functions and their dependencies", "To monitor network traffic for threats", "To detect malware on endpoints", "To enforce access control policies"],
+        "answer": "To identify critical business functions and their dependencies",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of attack exploits vulnerabilities in web applications to inject malicious code?",
+        "options": ["Cross-Site Scripting (XSS)", "SQL Injection", "Man-in-the-Middle", "Brute Force Attack"],
+        "answer": "Cross-Site Scripting (XSS)",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of risk mitigation in cybersecurity?",
+        "options": ["To reduce the impact and likelihood of a risk", "To eliminate all risks entirely", "To transfer the responsibility of risk to another party", "To document all identified risks"],
+        "answer": "To reduce the impact and likelihood of a risk",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a security token provide in authentication systems?",
+        "options": ["A one-time password or cryptographic code", "Encryption of all transmitted data", "Biometric scanning capabilities", "Permanent access to all resources"],
+        "answer": "A one-time password or cryptographic code",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a digital certificate in a Public Key Infrastructure (PKI)?",
+        "options": ["To verify the authenticity of a public key", "To encrypt data for secure storage", "To block unauthorized users", "To monitor access logs"],
+        "answer": "To verify the authenticity of a public key",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol is responsible for securing email communication?",
+        "options": ["Secure/Multipurpose Internet Mail Extensions (S/MIME)", "Post Office Protocol (POP3)", "File Transfer Protocol (FTP)", "Hypertext Transfer Protocol Secure (HTTPS)"],
+        "answer": "Secure/Multipurpose Internet Mail Extensions (S/MIME)",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary purpose of a network access control (NAC) solution?",
+        "options": ["To enforce security policies before granting access to network resources", "To encrypt network traffic", "To detect vulnerabilities in connected devices", "To block unauthorized email traffic"],
+        "answer": "To enforce security policies before granting access to network resources",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the term 'sandboxing' refer to in cybersecurity?",
+        "options": ["Isolating a program or process to prevent it from affecting the rest of the system", "Encrypting sensitive data for secure storage", "Blocking malicious network traffic", "Monitoring user activities in real-time"],
+        "answer": "Isolating a program or process to prevent it from affecting the rest of the system",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which attack manipulates DNS queries to redirect users to malicious websites?",
+        "options": ["DNS Spoofing", "Man-in-the-Middle", "SQL Injection", "Rainbow Table Attack"],
+        "answer": "DNS Spoofing",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a cold site in disaster recovery planning?",
+        "options": ["A backup location with basic facilities but no equipment", "A fully equipped backup location", "An online-only backup solution", "A secure data storage facility"],
+        "answer": "A backup location with basic facilities but no equipment",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the acronym SIEM stand for?",
+        "options": ["Security Information and Event Management", "Secure Internet Endpoint Management", "System Integrity and Encryption Mechanism", "Security Incident and Event Monitoring"],
+        "answer": "Security Information and Event Management",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which encryption algorithm is considered suitable for securing sensitive government information?",
+        "options": ["Advanced Encryption Standard (AES)", "Data Encryption Standard (DES)", "Triple DES (3DES)", "Rivest Cipher 4 (RC4)"],
+        "answer": "Advanced Encryption Standard (AES)",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of penetration testing?",
+        "options": ["To identify exploitable vulnerabilities in a system", "To encrypt sensitive files", "To monitor real-time traffic", "To detect malware"],
+        "answer": "To identify exploitable vulnerabilities in a system",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the function of a Security Information and Event Management (SIEM) system?",
+        "options": ["Aggregating and analyzing security-related data from multiple sources", "Encrypting network communications", "Blocking unauthorized users", "Managing digital certificates"],
+        "answer": "Aggregating and analyzing security-related data from multiple sources",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol is used to securely transfer files over the internet?",
+        "options": ["Secure File Transfer Protocol (SFTP)", "File Transfer Protocol (FTP)", "Hypertext Transfer Protocol (HTTP)", "Internet Message Access Protocol (IMAP)"],
+        "answer": "Secure File Transfer Protocol (SFTP)",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the difference between symmetric and asymmetric encryption?",
+        "options": ["Symmetric uses one key; asymmetric uses two keys", "Symmetric encrypts; asymmetric decrypts", "Symmetric is faster; asymmetric is more secure", "Symmetric is used for digital signatures"],
+        "answer": "Symmetric uses one key; asymmetric uses two keys",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of malware replicates itself and spreads across networks?",
+        "options": ["Worm", "Trojan Horse", "Adware", "Rootkit"],
+        "answer": "Worm",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary purpose of two-factor authentication?",
+        "options": ["To enhance login security by requiring two forms of verification", "To encrypt stored data", "To detect phishing attempts", "To monitor network activity"],
+        "answer": "To enhance login security by requiring two forms of verification",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which security model focuses on preventing unauthorized access to information?",
+        "options": ["Bell-LaPadula Model", "Clark-Wilson Model", "Biba Model", "Access Control Matrix"],
+        "answer": "Bell-LaPadula Model",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of encryption in cybersecurity?",
+        "options": ["To protect data by converting it into unreadable formats", "To monitor traffic for threats", "To prevent unauthorized logins", "To manage digital certificates"],
+        "answer": "To protect data by converting it into unreadable formats",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the acronym AAA stand for in cybersecurity?",
+        "options": ["Authentication, Authorization, Accounting", "Access, Authorization, Accountability", "Assessment, Authorization, Application", "Authentication, Analysis, Access"],
+        "answer": "Authentication, Authorization, Accounting",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of attack exploits an unpatched software vulnerability?",
+        "options": ["Zero-Day Attack", "Brute Force Attack", "Man-in-the-Middle Attack", "DNS Spoofing"],
+        "answer": "Zero-Day Attack",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the role of a certificate authority (CA)?",
+        "options": ["To issue and manage digital certificates", "To detect and block malware", "To encrypt transmitted data", "To manage user permissions"],
+        "answer": "To issue and manage digital certificates",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which tool is commonly used for analyzing and aggregating security logs?",
+        "options": ["Splunk", "Wireshark", "Metasploit", "Nmap"],
+        "answer": "Splunk",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    
+    {
+        "question": "What is the main purpose of a disaster recovery plan (DRP)?",
+        "options": ["To restore business operations after a major disruption", "To encrypt sensitive data during storage", "To identify risks in the network infrastructure", "To prevent unauthorized access to systems"],
+        "answer": "To restore business operations after a major disruption",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of malware collects sensitive information such as keystrokes and sends it to attackers?",
+        "options": ["Spyware", "Trojan Horse", "Adware", "Rootkit"],
+        "answer": "Spyware",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the principle of least privilege enforce?",
+        "options": ["Users are granted only the access necessary to perform their jobs", "All users have full access to all resources", "Only administrators have access to the network", "Users must change passwords frequently"],
+        "answer": "Users are granted only the access necessary to perform their jobs",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a risk assessment in cybersecurity?",
+        "options": ["To identify, analyze, and evaluate risks to an organization", "To implement encryption methods", "To monitor real-time traffic", "To ensure compliance with government regulations"],
+        "answer": "To identify, analyze, and evaluate risks to an organization",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of backup strategy involves backing up only data that has changed since the last backup?",
+        "options": ["Incremental Backup", "Full Backup", "Differential Backup", "Snapshot Backup"],
+        "answer": "Incremental Backup",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the term 'shoulder surfing' refer to?",
+        "options": ["Observing someone's screen or keyboard to steal information", "Hacking into a network via a physical connection", "Interfering with network signals", "Using malware to monitor email traffic"],
+        "answer": "Observing someone's screen or keyboard to steal information",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of social engineering attack involves impersonating a trusted entity over the phone?",
+        "options": ["Vishing", "Phishing", "Spear Phishing", "Whaling"],
+        "answer": "Vishing",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a hash function do in cybersecurity?",
+        "options": ["Generates a unique fixed-length string for data integrity verification", "Encrypts sensitive files for secure storage", "Monitors unauthorized user activity", "Manages encryption keys in a database"],
+        "answer": "Generates a unique fixed-length string for data integrity verification",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a hot site in disaster recovery planning?",
+        "options": ["To provide a fully operational backup site ready for immediate use", "To serve as a secure data storage facility", "To encrypt backup files during transit", "To store archived data indefinitely"],
+        "answer": "To provide a fully operational backup site ready for immediate use",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol is commonly used for secure remote administration of network devices?",
+        "options": ["SSH", "Telnet", "HTTP", "SNMP"],
+        "answer": "SSH",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the term 'man-in-the-browser attack' refer to?",
+        "options": ["An attack where malware intercepts communication between a user and their browser", "An attack that floods a browser with pop-ups", "An attack where a hacker takes control of a web server", "An attack that exploits outdated browser plugins"],
+        "answer": "An attack where malware intercepts communication between a user and their browser",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of multi-factor authentication (MFA)?",
+        "options": ["To enhance security by requiring multiple methods of verification", "To encrypt sensitive data before transmission", "To block unauthorized traffic from entering the network", "To monitor user activity across devices"],
+        "answer": "To enhance security by requiring multiple methods of verification",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a rainbow table attack used for?",
+        "options": ["Cracking hashed passwords by using precomputed hash values", "Stealing session tokens during a network transmission", "Executing code on a vulnerable web application", "Flooding a network with traffic to cause downtime"],
+        "answer": "Cracking hashed passwords by using precomputed hash values",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the acronym VPN stand for?",
+        "options": ["Virtual Private Network", "Virtual Protocol Node", "Verified Private Network", "Verified Protocol Node"],
+        "answer": "Virtual Private Network",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of patch management in cybersecurity?",
+        "options": ["To apply updates that fix security vulnerabilities and bugs", "To encrypt network traffic for secure transmission", "To monitor the performance of applications", "To track and manage user permissions"],
+        "answer": "To apply updates that fix security vulnerabilities and bugs",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which attack relies on overwhelming a system with more requests than it can handle?",
+        "options": ["Denial-of-Service (DoS)", "Man-in-the-Middle", "Cross-Site Scripting (XSS)", "Phishing"],
+        "answer": "Denial-of-Service (DoS)",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which cryptographic algorithm is best suited for data integrity verification?",
+        "options": ["SHA-256", "AES", "RSA", "Diffie-Hellman"],
+        "answer": "SHA-256",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a zero-trust security model designed to do?",
+        "options": ["Assume no user or device is trusted by default", "Encrypt data stored in the cloud", "Block all outbound traffic on a network", "Allow only administrators access to sensitive data"],
+        "answer": "Assume no user or device is trusted by default",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary function of a rootkit?",
+        "options": ["To hide malicious activity and maintain privileged access", "To encrypt sensitive data for secure storage", "To monitor network traffic for anomalies", "To analyze system logs for threats"],
+        "answer": "To hide malicious activity and maintain privileged access",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol resolves IP addresses to MAC addresses?",
+        "options": ["Address Resolution Protocol (ARP)", "Domain Name System (DNS)", "Dynamic Host Configuration Protocol (DHCP)", "Internet Control Message Protocol (ICMP)"],
+        "answer": "Address Resolution Protocol (ARP)",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a session hijacking attack?",
+        "options": ["To take control of a user's active session and impersonate them", "To disable an application by overloading its session handling", "To encrypt all session data on the fly", "To block legitimate users from accessing a session"],
+        "answer": "To take control of a user's active session and impersonate them",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of an air-gapped system?",
+        "options": ["To isolate a computer or network from external connections for security", "To encrypt sensitive data during transit", "To block unauthorized access to applications", "To monitor and log network activity"],
+        "answer": "To isolate a computer or network from external connections for security",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the term 'non-repudiation' ensure in cybersecurity?",
+        "options": ["Proof that an action or transaction cannot be denied", "That only authorized users can access sensitive data", "That encrypted data cannot be decrypted by attackers", "That all network activity is logged"],
+        "answer": "Proof that an action or transaction cannot be denied",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a honeynet consist of?",
+        "options": ["Multiple honeypots designed to trap attackers", "A single secure network for storing sensitive data", "A cloud-based security system for monitoring threats", "An automated system for patch management"],
+        "answer": "Multiple honeypots designed to trap attackers",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
 
     {
         "question": "What does LAN stand for?",
