@@ -1,0 +1,608 @@
+[
+    {
+        "question": "What does SSL stand for?",
+        "options": ["Secure Socket Layer", "Safe Socket Layer", "Secure System Log", "Secure System Layer"],
+        "answer": "Secure Socket Layer",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is phishing?",
+        "options": ["An email scam", "A type of malware", "A firewall technique", "A cryptographic algorithm"],
+        "answer": "An email scam",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is a firewall used for?",
+        "options": ["Encrypting data", "Preventing unauthorized access", "Scanning for viruses", "Detecting spyware"],
+        "answer": "Preventing unauthorized access",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does HTTPS stand for?",
+        "options": ["HyperText Transfer Protocol Secure", "HyperText Transfer Protocol Standard", "Hyper Transfer Text Protocol", "Hyper Transfer Text Secure"],
+        "answer": "HyperText Transfer Protocol Secure",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What improves login security by requiring two forms of verification?",
+        "options": ["Encryption", "Two-Factor Authentication", "VPN", "Biometrics"],
+        "answer": "Two-Factor Authentication",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the purpose of hashing in cybersecurity?",
+        "options": ["Encrypting files", "Ensuring data integrity", "Blocking malicious traffic", "Identifying attackers"],
+        "answer": "Ensuring data integrity",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What hacking method tries every possible password?",
+        "options": ["Brute Force Attack", "Phishing", "DDoS Attack", "Social Engineering"],
+        "answer": "Brute Force Attack",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What attack intercepts communication between two parties?",
+        "options": ["Man-in-the-Middle Attack", "DDoS Attack", "SQL Injection", "Zero-Day Attack"],
+        "answer": "Man-in-the-Middle Attack",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does the acronym IDS stand for?",
+        "options": ["Intrusion Detection System", "Internet Data Security", "Information Data Source", "Intrusion Defense Security"],
+        "answer": "Intrusion Detection System",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which cybersecurity tool is used to encrypt data for secure transmission?",
+        "options": ["VPN", "PKI", "AES", "Firewall"],
+        "answer": "AES",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which type of malware encrypts files and demands payment for the decryption key?",
+        "options": ["Spyware", "Adware", "Ransomware", "Trojan Horse"],
+        "answer": "Ransomware",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the term for a secret key used in symmetric encryption?",
+        "options": ["Public Key", "Private Key", "Session Key", "Master Key"],
+        "answer": "Session Key",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the goal of a DDoS attack?",
+        "options": ["Stealing user credentials", "Disrupting services", "Intercepting communications", "Installing malware"],
+        "answer": "Disrupting services",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following is NOT a form of authentication?",
+        "options": ["Password", "Biometrics", "Firewall", "Smart Card"],
+        "answer": "Firewall",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does the acronym VPN stand for?",
+        "options": ["Virtual Private Network", "Virtual Protected Node", "Verified Private Network", "Verified Protection Network"],
+        "answer": "Virtual Private Network",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the primary function of a Public Key Infrastructure (PKI)?",
+        "options": ["Issuing digital certificates", "Encrypting network traffic", "Detecting intrusions", "Preventing DDoS attacks"],
+        "answer": "Issuing digital certificates",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is a zero-day vulnerability?",
+        "options": ["A flaw exploited before a fix is available", "A vulnerability discovered on the day of attack", "An unpatched system vulnerability", "An old vulnerability that is re-exploited"],
+        "answer": "A flaw exploited before a fix is available",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What technique disguises malware as a legitimate program?",
+        "options": ["Trojan Horse", "Worm", "Spyware", "Ransomware"],
+        "answer": "Trojan Horse",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What protocol is commonly used to transfer email?",
+        "options": ["SMTP", "FTP", "HTTP", "SNMP"],
+        "answer": "SMTP",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is SQL Injection?",
+        "options": ["Injecting malicious SQL commands", "Hacking encrypted databases", "Deploying a database virus", "Injecting malware into applications"],
+        "answer": "Injecting malicious SQL commands",
+        "difficulty": "Hard"
+    },
+
+    {
+        "question": "Which protocol is used to secure web traffic?",
+        "options": ["HTTP", "HTTPS", "FTP", "SMTP"],
+        "answer": "HTTPS",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does the term 'malware' refer to?",
+        "options": ["Harmful software", "Encrypted software", "Firewall rules", "Software patches"],
+        "answer": "Harmful software",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the purpose of a VPN?",
+        "options": ["Encrypting internet traffic", "Blocking viruses", "Scanning email", "Preventing phishing"],
+        "answer": "Encrypting internet traffic",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does a digital signature provide?",
+        "options": ["Data authenticity and integrity", "Encryption of files", "Hiding IP addresses", "Preventing malware"],
+        "answer": "Data authenticity and integrity",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the primary goal of social engineering?",
+        "options": ["Tricking people into revealing sensitive information", "Stealing hardware", "Cracking passwords", "Installing spyware"],
+        "answer": "Tricking people into revealing sensitive information",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is an example of multi-factor authentication?",
+        "options": ["Password and fingerprint", "Password only", "Biometric scan only", "Captcha verification"],
+        "answer": "Password and fingerprint",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which cryptographic algorithm is commonly used for secure hashing?",
+        "options": ["SHA-256", "RSA", "AES", "DES"],
+        "answer": "SHA-256",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What type of attack involves flooding a network with traffic?",
+        "options": ["DDoS", "Phishing", "Man-in-the-Middle", "SQL Injection"],
+        "answer": "DDoS",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is a botnet?",
+        "options": ["A network of compromised devices", "A type of firewall", "An encrypted database", "A secure web protocol"],
+        "answer": "A network of compromised devices",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is a buffer overflow attack?",
+        "options": ["Exploiting excessive memory allocation", "Flooding the network with data", "Decrypting secure traffic", "Injecting SQL commands"],
+        "answer": "Exploiting excessive memory allocation",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which tool monitors network traffic for suspicious activity?",
+        "options": ["IDS", "VPN", "Firewall", "AES"],
+        "answer": "IDS",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does a vulnerability scanner do?",
+        "options": ["Identifies security weaknesses", "Encrypts sensitive files", "Prevents DDoS attacks", "Authenticates users"],
+        "answer": "Identifies security weaknesses",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is spear phishing?",
+        "options": ["A targeted phishing attack", "Malware spread through email", "A brute force attack on credentials", "A social engineering tactic"],
+        "answer": "A targeted phishing attack",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which protocol is used to encrypt emails?",
+        "options": ["PGP", "SMTP", "FTP", "HTTP"],
+        "answer": "PGP",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does a honeypot do in cybersecurity?",
+        "options": ["Attracts attackers to detect malicious activities", "Encrypts sensitive data", "Prevents phishing attacks", "Monitors network traffic"],
+        "answer": "Attracts attackers to detect malicious activities",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which type of attack exploits a software vulnerability before it's patched?",
+        "options": ["Zero-Day Attack", "Brute Force Attack", "Phishing", "Spyware"],
+        "answer": "Zero-Day Attack",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the primary purpose of a DMZ in network security?",
+        "options": ["Isolating public-facing servers", "Encrypting internal traffic", "Detecting intrusions", "Managing firewalls"],
+        "answer": "Isolating public-facing servers",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the difference between symmetric and asymmetric encryption?",
+        "options": ["Symmetric uses one key; asymmetric uses two", "Symmetric uses public keys only", "Asymmetric is faster than symmetric", "Symmetric provides higher security"],
+        "answer": "Symmetric uses one key; asymmetric uses two",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does the principle of least privilege mean?",
+        "options": ["Granting only necessary access", "Revoking all access", "Allowing unrestricted access", "Monitoring privileged users"],
+        "answer": "Granting only necessary access",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which tool is commonly used for penetration testing?",
+        "options": ["Metasploit", "PGP", "VPN", "Firewall"],
+        "answer": "Metasploit",
+        "difficulty": "Medium"
+    },
+
+    {
+        "question": "What is the primary function of a firewall?",
+        "options": ["Blocking unauthorized access", "Encrypting files", "Detecting phishing attempts", "Scanning emails"],
+        "answer": "Blocking unauthorized access",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does the term 'brute force' refer to in cybersecurity?",
+        "options": ["Trying all possible passwords", "Exploiting a software vulnerability", "Intercepting network traffic", "Injecting malicious code"],
+        "answer": "Trying all possible passwords",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of the following is a strong password example?",
+        "options": ["password123", "qwerty", "Tr0ub4dor&3", "abc123"],
+        "answer": "Tr0ub4dor&3",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is ransomware?",
+        "options": ["Malware that encrypts files for payment", "A tool for testing security", "A type of phishing", "An encryption protocol"],
+        "answer": "Malware that encrypts files for payment",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does CAPTCHA help prevent?",
+        "options": ["Automated bot attacks", "Phishing emails", "Malware infections", "Man-in-the-Middle attacks"],
+        "answer": "Automated bot attacks",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "Which of these is an example of two-factor authentication?",
+        "options": ["Password and SMS code", "Password only", "Biometric scan only", "Security questions only"],
+        "answer": "Password and SMS code",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does the CIA triad stand for?",
+        "options": ["Confidentiality, Integrity, Availability", "Cybersecurity, Integrity, Access", "Control, Identification, Authentication", "Confidentiality, Identification, Accountability"],
+        "answer": "Confidentiality, Integrity, Availability",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the primary use of a hashing algorithm?",
+        "options": ["Data integrity verification", "Encrypting messages", "User authentication", "Blocking malware"],
+        "answer": "Data integrity verification",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following is an example of a symmetric encryption algorithm?",
+        "options": ["AES", "RSA", "ECDSA", "PGP"],
+        "answer": "AES",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is a Trojan Horse in cybersecurity?",
+        "options": ["Malware disguised as legitimate software", "A phishing email", "A network protocol", "A cryptographic key"],
+        "answer": "Malware disguised as legitimate software",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is penetration testing?",
+        "options": ["Testing vulnerabilities in a system", "Preventing malware infections", "Encrypting network traffic", "Blocking phishing attempts"],
+        "answer": "Testing vulnerabilities in a system",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What does the term 'spoofing' refer to?",
+        "options": ["Impersonating a legitimate source", "Exploiting software vulnerabilities", "Blocking network traffic", "Scanning open ports"],
+        "answer": "Impersonating a legitimate source",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is a sandbox in cybersecurity?",
+        "options": ["An isolated environment for testing", "A network firewall", "A cryptographic tool", "A malware detection protocol"],
+        "answer": "An isolated environment for testing",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which type of attack targets a specific individual or organization?",
+        "options": ["Spear phishing", "Brute force", "Man-in-the-Middle", "DDoS"],
+        "answer": "Spear phishing",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the purpose of network segmentation?",
+        "options": ["Restricting access to critical systems", "Encrypting traffic", "Preventing malware infections", "Detecting phishing emails"],
+        "answer": "Restricting access to critical systems",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the primary purpose of a security audit?",
+        "options": ["Evaluating system vulnerabilities", "Encrypting sensitive data", "Preventing DDoS attacks", "Blocking phishing emails"],
+        "answer": "Evaluating system vulnerabilities",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is a polymorphic virus?",
+        "options": ["A virus that changes its code to avoid detection", "A virus that targets multiple systems simultaneously", "A virus that encrypts its payload", "A virus that spreads through email"],
+        "answer": "A virus that changes its code to avoid detection",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the main goal of an Advanced Persistent Threat (APT)?",
+        "options": ["Stealing sensitive information over time", "Disrupting services", "Encrypting user data for ransom", "Intercepting network traffic"],
+        "answer": "Stealing sensitive information over time",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is a zero-trust security model?",
+        "options": ["A model that assumes no user or device is inherently trusted", "A model that blocks all access by default", "A model focused on endpoint protection", "A model that requires encrypted data transfer"],
+        "answer": "A model that assumes no user or device is inherently trusted",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "Which cybersecurity tool provides a visual representation of network activity?",
+        "options": ["SIEM", "Firewall", "VPN", "DMZ"],
+        "answer": "SIEM",
+        "difficulty": "Hard"
+    },
+
+    {
+        "question": "What is the purpose of two-factor authentication (2FA)?",
+        "options": ["To require two forms of verification for security", "To encrypt user data", "To restrict access to specific IP addresses", "To block malware"],
+        "answer": "To require two forms of verification for security",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does an Intrusion Prevention System (IPS) do?",
+        "options": ["Blocks detected threats", "Encrypts data", "Logs user activity", "Monitors bandwidth usage"],
+        "answer": "Blocks detected threats",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of the following is a method of biometric authentication?",
+        "options": ["Fingerprint scan", "Password", "Security questions", "Captcha"],
+        "answer": "Fingerprint scan",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What does DNS stand for?",
+        "options": ["Domain Name System", "Data Network Security", "Dynamic Node Server", "Digital Name Service"],
+        "answer": "Domain Name System",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the purpose of a Digital Certificate?",
+        "options": ["To authenticate the identity of a website or user", "To encrypt email messages", "To block phishing attacks", "To scan for malware"],
+        "answer": "To authenticate the identity of a website or user",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is a denial-of-service (DoS) attack?",
+        "options": ["An attempt to make a system unavailable", "Intercepting network traffic", "Stealing user credentials", "Encrypting a server's data"],
+        "answer": "An attempt to make a system unavailable",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the purpose of endpoint security software?",
+        "options": ["To secure individual devices in a network", "To scan web traffic for malware", "To encrypt email communications", "To monitor network bandwidth usage"],
+        "answer": "To secure individual devices in a network",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which type of malware monitors user activity and collects sensitive data?",
+        "options": ["Spyware", "Ransomware", "Adware", "Trojan Horse"],
+        "answer": "Spyware",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the role of a Security Information and Event Management (SIEM) system?",
+        "options": ["To aggregate and analyze security data", "To block malware in real-time", "To encrypt network traffic", "To scan devices for vulnerabilities"],
+        "answer": "To aggregate and analyze security data",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does multi-tenancy mean in cloud security?",
+        "options": ["Multiple users sharing the same resources securely", "Users having separate encryption keys", "Each user having a private server", "Encrypting data in transit"],
+        "answer": "Multiple users sharing the same resources securely",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "Which of these is a form of physical security?",
+        "options": ["Smart card access", "Firewall", "Antivirus software", "Email encryption"],
+        "answer": "Smart card access",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is a rootkit?",
+        "options": ["A type of malware that hides its presence", "A system recovery tool", "A type of encryption software", "A firewall component"],
+        "answer": "A type of malware that hides its presence",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does the principle of defense in depth refer to?",
+        "options": ["Using multiple layers of security", "Encrypting all network traffic", "Isolating internal servers", "Blocking all incoming connections"],
+        "answer": "Using multiple layers of security",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the purpose of a penetration test?",
+        "options": ["To simulate attacks to identify vulnerabilities", "To block malicious traffic", "To encrypt sensitive data", "To monitor network performance"],
+        "answer": "To simulate attacks to identify vulnerabilities",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the main function of a Content Delivery Network (CDN)?",
+        "options": ["To deliver content quickly and securely", "To block phishing attacks", "To encrypt server communications", "To monitor bandwidth usage"],
+        "answer": "To deliver content quickly and securely",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is a mantrap in physical security?",
+        "options": ["A physical security mechanism for controlled access", "A type of intrusion detection system", "A malware removal tool", "A firewall rule for network segmentation"],
+        "answer": "A physical security mechanism for controlled access",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does endpoint detection and response (EDR) focus on?",
+        "options": ["Detecting and responding to threats on devices", "Encrypting all communications", "Blocking phishing emails", "Monitoring server performance"],
+        "answer": "Detecting and responding to threats on devices",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is whitelisting in cybersecurity?",
+        "options": ["Allowing only approved applications or traffic", "Blocking all incoming connections", "Encrypting all user communications", "Monitoring outgoing connections"],
+        "answer": "Allowing only approved applications or traffic",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is a brute force attack?",
+        "options": ["A method of trying all possible passwords", "A type of malware attack", "A vulnerability in encryption protocols", "A way to intercept communications"],
+        "answer": "A method of trying all possible passwords",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is a phishing kit?",
+        "options": ["A set of tools used by attackers to automate phishing campaigns", "A recovery tool for email accounts", "A cryptographic algorithm", "A type of intrusion detection system"],
+        "answer": "A set of tools used by attackers to automate phishing campaigns",
+        "difficulty": "Hard"
+    },
+
+    {
+        "question": "What is the primary purpose of a Virtual Private Network (VPN)?",
+        "options": ["Encrypting internet traffic", "Detecting malware", "Scanning email attachments", "Blocking phishing attempts"],
+        "answer": "Encrypting internet traffic",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the purpose of a honeynet?",
+        "options": ["To lure attackers into a controlled environment", "To encrypt all network traffic", "To scan for vulnerabilities", "To block unauthorized users"],
+        "answer": "To lure attackers into a controlled environment",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What does an SSL/TLS certificate validate?",
+        "options": ["The authenticity of a website", "The encryption of files", "The security of a network", "The integrity of a database"],
+        "answer": "The authenticity of a website",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the purpose of patch management?",
+        "options": ["To update and fix security vulnerabilities", "To encrypt sensitive files", "To block phishing emails", "To monitor network traffic"],
+        "answer": "To update and fix security vulnerabilities",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is spyware?",
+        "options": ["Malware that secretly monitors user activity", "A type of encryption software", "A method of phishing", "A tool for securing email communications"],
+        "answer": "Malware that secretly monitors user activity",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the function of a hardware security module (HSM)?",
+        "options": ["To securely store cryptographic keys", "To block malware", "To monitor network traffic", "To encrypt web communications"],
+        "answer": "To securely store cryptographic keys",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the purpose of role-based access control (RBAC)?",
+        "options": ["To grant permissions based on roles", "To encrypt sensitive data", "To detect malware on endpoints", "To block network intrusions"],
+        "answer": "To grant permissions based on roles",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What does the term 'data at rest' refer to?",
+        "options": ["Data stored on a device", "Data being transmitted over a network", "Data in a backup system", "Data being processed in memory"],
+        "answer": "Data stored on a device",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the purpose of an air-gapped system?",
+        "options": ["To isolate a device from external networks for security", "To monitor physical access", "To encrypt email communications", "To block unauthorized logins"],
+        "answer": "To isolate a device from external networks for security",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the purpose of an anti-virus program?",
+        "options": ["To detect and remove malware", "To block unauthorized access", "To encrypt sensitive files", "To monitor network bandwidth"],
+        "answer": "To detect and remove malware",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is a rainbow table attack?",
+        "options": ["An attack using precomputed hashes to crack passwords", "A phishing attack on cloud systems", "An exploit targeting outdated SSL certificates", "A brute force attack on encrypted data"],
+        "answer": "An attack using precomputed hashes to crack passwords",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is encryption in transit?",
+        "options": ["Encrypting data while it is being transmitted over a network", "Encrypting data stored on a hard drive", "Encrypting data backed up to the cloud", "Encrypting data stored in a database"],
+        "answer": "Encrypting data while it is being transmitted over a network",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What does the term 'zero-day exploit' mean?",
+        "options": ["An exploit for a vulnerability not yet patched", "An exploit used after a patch is released", "An exploit targeting outdated software", "An exploit that spreads via email"],
+        "answer": "An exploit for a vulnerability not yet patched",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the purpose of a Bastion host?",
+        "options": ["To act as a secure entry point to a network", "To encrypt network traffic", "To block phishing attempts", "To manage patch deployments"],
+        "answer": "To act as a secure entry point to a network",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the primary function of an incident response plan?",
+        "options": ["To define procedures for handling security incidents", "To block malicious traffic", "To encrypt sensitive data", "To scan for vulnerabilities"],
+        "answer": "To define procedures for handling security incidents",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is the main purpose of encryption?",
+        "options": ["To protect data by converting it into an unreadable format", "To monitor user activity", "To detect phishing attempts", "To block unauthorized access"],
+        "answer": "To protect data by converting it into an unreadable format",
+        "difficulty": "Easy"
+    },
+    {
+        "question": "What is the purpose of an SSL/TLS handshake?",
+        "options": ["To establish a secure connection between a client and a server", "To monitor email traffic for phishing", "To encrypt stored data", "To block malicious websites"],
+        "answer": "To establish a secure connection between a client and a server",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What does a forensic investigation in cybersecurity involve?",
+        "options": ["Analyzing systems to determine the cause of a breach", "Blocking malicious traffic", "Encrypting sensitive data", "Monitoring endpoint activity"],
+        "answer": "Analyzing systems to determine the cause of a breach",
+        "difficulty": "Hard"
+    },
+    {
+        "question": "What is the main goal of a distributed denial-of-service (DDoS) attack?",
+        "options": ["To overwhelm a system to make it unavailable", "To steal sensitive data", "To encrypt server communications", "To monitor user activity"],
+        "answer": "To overwhelm a system to make it unavailable",
+        "difficulty": "Medium"
+    },
+    {
+        "question": "What is a phishing email designed to do?",
+        "options": ["Trick recipients into revealing sensitive information", "Encrypt the recipient's device", "Detect vulnerabilities in the network", "Redirect web traffic to malicious sites"],
+        "answer": "Trick recipients into revealing sensitive information",
+        "difficulty": "Easy"
+    }
+]
+
+
