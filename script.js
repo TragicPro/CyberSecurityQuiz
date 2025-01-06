@@ -52,7 +52,7 @@ function fetchQuestions(category, difficulty) {
                 q => q.category === category && q.difficulty === difficulty
             );
 
-            const selectedQuestions = getRandomQuestions(filteredQuestions, 5);
+            const selectedQuestions = getRandomQuestions(filteredQuestions, 10);
             displayQuestions(selectedQuestions);
             window.quizData = selectedQuestions;
         })
