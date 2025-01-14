@@ -1,62 +1,78 @@
 :root {
     /* Light Mode Variables */
-    --bg-color: #f9fcff;
+    --bg-color: #eef2f3;
     --text-color: #333;
-    --container-bg: #ffffff;
+    --container-bg: rgba(255, 255, 255, 0.6);
+    --container-blur: 15px;
     --button-bg: linear-gradient(135deg, #4caf50, #81c784);
     --button-hover-bg: linear-gradient(135deg, #81c784, #4caf50);
-    --result-bg: #e8f5e9;
+    --result-bg: rgba(255, 255, 255, 0.8);
     --result-border: #aed581;
-    --question-bg: #f8f9fa;
-    --option-bg: #ffffff;
-    --option-hover-bg: #f4f8fb;
+    --question-bg: rgba(255, 255, 255, 0.8);
+    --option-bg: rgba(255, 255, 255, 0.8);
+    --option-hover-bg: rgba(220, 250, 240, 0.6);
     --shadow-color: rgba(0, 0, 0, 0.1);
     --font-family: 'Poppins', sans-serif;
+    --blur: 15px;
+    --border-radius: 15px;
 }
 
 body.dark-mode {
     /* Dark Mode Variables */
     --bg-color: #1c1c1e;
     --text-color: #e0e0e0;
-    --container-bg: #2e2e2e;
+    --container-bg: rgba(46, 46, 46, 0.6);
+    --container-blur: 15px;
     --button-bg: linear-gradient(135deg, #00695c, #004d40);
     --button-hover-bg: linear-gradient(135deg, #004d40, #00695c);
-    --result-bg: #2e7d32;
+    --result-bg: rgba(46, 46, 46, 0.8);
     --result-border: #81c784;
-    --question-bg: #3a3a3c;
-    --option-bg: #2e2e2e;
-    --option-hover-bg: #444444;
+    --question-bg: rgba(58, 58, 60, 0.8);
+    --option-bg: rgba(46, 46, 46, 0.8);
+    --option-hover-bg: rgba(68, 68, 68, 0.6);
     --shadow-color: rgba(0, 0, 0, 0.3);
+    --blur: 15px;
+    --border-radius: 15px;
 }
 
 body {
     font-family: var(--font-family);
     background: var(--bg-color);
+    background: linear-gradient(135deg, #f6f7f9, #eef2f3);
     color: var(--text-color);
     line-height: 1.6;
     transition: background 0.3s ease, color 0.3s ease;
+    overflow-x: hidden;
 }
 
 h1 {
-    background: var(--button-bg);
     color: white;
-    padding: 20px;
     text-align: center;
     font-size: 2.8rem;
     font-weight: bold;
     text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    margin-bottom: 20px;
-    transition: background 0.3s ease;
+    background: var(--button-bg);
+    padding: 20px;
+    margin: 0 auto 30px auto;
+    border-radius: var(--border-radius);
+    max-width: 700px;
+    box-shadow: 0 8px 30px var(--shadow-color);
+    transition: background 0.3s ease, transform 0.2s ease;
 }
 
+    h1:hover {
+        transform: scale(1.05);
+    }
+
+/* Glassmorphism Container */
 .container {
     width: 90%;
     max-width: 800px;
     margin: 30px auto;
     padding: 30px;
     background: var(--container-bg);
-    border-radius: 15px;
+    backdrop-filter: blur(var(--blur));
+    border-radius: var(--border-radius);
     box-shadow: 0 8px 30px var(--shadow-color);
     transition: all 0.3s ease;
 }
@@ -65,25 +81,29 @@ h1 {
         transform: translateY(-5px);
     }
 
+/* Dropdown Menus */
 select {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
     font-size: 1.1rem;
-    border: 2px solid #ccc;
-    border-radius: 10px;
+    border: 2px solid transparent;
+    border-radius: var(--border-radius);
     background: var(--option-bg);
     color: var(--text-color);
     box-shadow: inset 0 2px 6px var(--shadow-color);
     transition: all 0.3s ease;
+    backdrop-filter: blur(var(--blur));
 }
 
+    select:hover,
     select:focus {
         outline: none;
         border-color: var(--button-bg);
         box-shadow: 0 0 10px var(--button-bg);
     }
 
+/* Buttons */
 button {
     width: 100%;
     padding: 15px;
@@ -92,11 +112,12 @@ button {
     font-weight: bold;
     color: white;
     border: none;
-    border-radius: 10px;
+    border-radius: var(--border-radius);
     background: var(--button-bg);
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 8px 12px var(--shadow-color);
+    text-transform: uppercase;
 }
 
     button:hover {
@@ -109,19 +130,16 @@ button {
         transform: translateY(1px);
     }
 
-    button:focus {
-        outline: 2px solid var(--button-bg);
-        outline-offset: 4px;
-    }
-
+/* Quiz Container */
 #quiz-container .question {
     background: var(--question-bg);
     padding: 20px;
-    border-radius: 12px;
+    border-radius: var(--border-radius);
     margin-bottom: 20px;
-    border: 1px solid #ddd;
+    border: 1px solid transparent;
     box-shadow: 0 4px 10px var(--shadow-color);
     transition: all 0.3s ease;
+    backdrop-filter: blur(var(--blur));
 }
 
 #quiz-container ul {
@@ -132,11 +150,12 @@ button {
 #quiz-container li {
     padding: 14px;
     margin: 10px 0;
-    border-radius: 8px;
+    border-radius: var(--border-radius);
     background: var(--option-bg);
-    border: 1px solid #ddd;
+    border: 1px solid transparent;
     transition: background 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
+    backdrop-filter: blur(var(--blur));
 }
 
     #quiz-container li:hover {
@@ -150,17 +169,19 @@ button {
         box-shadow: 0 0 10px var(--button-bg);
     }
 
+/* Result Section */
 #result {
     margin-top: 30px;
     padding: 30px;
     background: var(--result-bg);
     border: 1px solid var(--result-border);
-    border-radius: 12px;
+    border-radius: var(--border-radius);
     box-shadow: 0 8px 20px var(--shadow-color);
     font-size: 1.4rem;
     text-align: center;
 }
 
+/* Support Section */
 .support {
     text-align: center;
     margin-top: 20px;
@@ -172,14 +193,19 @@ button {
         margin-bottom: 10px;
     }
 
+/* Media Queries for Responsiveness */
 @media (max-width: 600px) {
+    h1 {
+        font-size: 2rem;
+    }
+
     button,
     select {
         font-size: 1rem;
         padding: 12px;
     }
 
-    h1 {
-        font-size: 2rem;
+    #quiz-container .question {
+        font-size: 1rem;
     }
 }
