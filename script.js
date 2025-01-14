@@ -92,6 +92,14 @@ function displayQuestions(questions) {
             </ul>
         `;
         quizContainer.appendChild(questionElement);
+
+        // Add event listener for option selection
+        questionElement.querySelectorAll('input').forEach(input => {
+            input.addEventListener('change', () => {
+                questionElement.querySelectorAll('li').forEach(li => li.classList.remove('selected'));
+                input.parentElement.parentElement.classList.add('selected');
+            });
+        });
     });
 }
 
@@ -138,4 +146,7 @@ function submitQuiz() {
             </ul>
         </div>
     `;
+
+    // Scroll to results
+    resultContainer.scrollIntoView({ behavior: 'smooth' });
 }
