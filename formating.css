@@ -214,3 +214,27 @@ button {
         font-size: 1.1rem;
     }
 }
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: var(--container-bg);
+    color: var(--text-color);
+    text-align: center;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+#changelog {
+    margin-top: 10px;
+    text-align: left;
+    background: var(--result-bg);
+    padding: 10px;
+    border: 1px solid var(--result-border);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+    #changelog ul {
+        list-style: disc;
+        margin-left: 20px;
+    }

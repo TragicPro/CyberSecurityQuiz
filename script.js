@@ -2,8 +2,10 @@
     const startQuizButton = document.getElementById('start-quiz');
     const submitQuizButton = document.getElementById('submit-quiz');
     const themeButton = document.getElementById('theme-button');
+    const viewChangelogButton = document.getElementById('view-changelog');
+    const changelog = document.getElementById('changelog');
     let isDarkMode = false;
-    let quizStarted = false; // Ensure this tracks the quiz state
+    let quizStarted = false; // Tracks the quiz state
 
     // Initially disable the Submit button
     submitQuizButton.disabled = true;
@@ -34,20 +36,31 @@
 
     // Theme Switcher
     if (themeButton) {
-        themeButton.addEventListener('click', toggleTheme);
-    } else {
-        console.error('Theme Switch button not found.');
+        themeButton.addEventListener('click', () => {
+            isDarkMode = !isDarkMode;
+            if (isDarkMode) {
+                document.body.classList.add('dark-mode');
+                themeButton.textContent = 'Switch to Light Mode';
+            } else {
+                document.body.classList.remove('dark-mode');
+                themeButton.textContent = 'Switch to Dark Mode';
+            }
+        });
     }
 
-    function toggleTheme() {
-        isDarkMode = !isDarkMode;
-        if (isDarkMode) {
-            document.body.classList.add('dark-mode');
-            themeButton.textContent = 'Switch to Light Mode';
-        } else {
-            document.body.classList.remove('dark-mode');
-            themeButton.textContent = 'Switch to Dark Mode';
-        }
+    // Changelog Interactivity
+    if (viewChangelogButton && changelog) {
+        viewChangelogButton.addEventListener('click', () => {
+            if (changelog.style.display === 'none') {
+                changelog.style.display = 'block';
+                viewChangelogButton.textContent = 'Hide Changelog';
+            } else {
+                changelog.style.display = 'none';
+                viewChangelogButton.textContent = 'View Changelog';
+            }
+        });
+    } else {
+        console.error('Changelog elements not found.');
     }
 });
 
@@ -151,7 +164,6 @@ function displayResults(correctCount, incorrectCount, incorrectQuestions) {
     const resultContainer = document.getElementById('result');
     resultContainer.innerHTML = '';
 
-    // Provide motivational feedback messages
     const feedbackMessages = {
         high: [
             "You're a cybersecurity master!",
