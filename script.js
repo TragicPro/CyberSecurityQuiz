@@ -1,55 +1,56 @@
 ﻿document.addEventListener('DOMContentLoaded', () => {
-    // Get DOM elements
     const startQuizButton = document.getElementById('start-quiz');
     const submitQuizButton = document.getElementById('submit-quiz');
     const themeButton = document.getElementById('theme-button');
     let isDarkMode = false;
-    let quizStarted = false;
+    let quizStarted = false; // Ensure this tracks the quiz state
 
-    // Disable the Submit button until the quiz is started
-    if (submitQuizButton) {
-        submitQuizButton.disabled = true;
-    } else {
-        console.error('Submit button not found. Make sure the element with id="submit-quiz" exists.');
-    }
+    // Initially disable the Submit button
+    submitQuizButton.disabled = true;
 
-    // Add event listener to Start Quiz button
+    // Start Quiz Button
     if (startQuizButton) {
         startQuizButton.addEventListener('click', () => {
             startQuiz();
-            if (submitQuizButton) submitQuizButton.disabled = false;
+            quizStarted = true; // Set quizStarted to true when quiz starts
+            submitQuizButton.disabled = false; // Enable Submit button
         });
     } else {
-        console.error('Start Quiz button not found. Make sure the element with id="start-quiz" exists.');
+        console.error('Start Quiz button not found.');
     }
 
-    // Add event listener to Submit Quiz button
+    // Submit Quiz Button
     if (submitQuizButton) {
         submitQuizButton.addEventListener('click', () => {
             if (quizStarted) {
-                submitQuiz();
+                submitQuiz(); // Only allow submitting if quiz has started
             } else {
-                alert('Please start the quiz before submitting!');
+                alert('Please start the quiz before submitting your answers.');
             }
         });
+    } else {
+        console.error('Submit Quiz button not found.');
     }
 
-    // Add event listener to Theme Toggle button
+    // Theme Switcher
     if (themeButton) {
         themeButton.addEventListener('click', toggleTheme);
     } else {
-        console.error('Theme button not found. Make sure the element with id="theme-button" exists.');
+        console.error('Theme Switch button not found.');
     }
 
-    // Theme toggling logic
     function toggleTheme() {
         isDarkMode = !isDarkMode;
-        document.body.classList.toggle('dark-mode', isDarkMode);
-        themeButton.textContent = isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode';
+        if (isDarkMode) {
+            document.body.classList.add('dark-mode');
+            themeButton.textContent = 'Switch to Light Mode';
+        } else {
+            document.body.classList.remove('dark-mode');
+            themeButton.textContent = 'Switch to Dark Mode';
+        }
     }
 });
 
-// Function to start the quiz
 function startQuiz() {
     const category = document.getElementById('category').value;
     const difficulty = document.getElementById('difficulty').value;
@@ -58,10 +59,8 @@ function startQuiz() {
     resultContainer.innerHTML = ''; // Clear previous results
 
     fetchQuestions(category, difficulty);
-    quizStarted = true; // Mark the quiz as started
 }
 
-// Fetch questions from JSON
 function fetchQuestions(category, difficulty) {
     fetch('./questions.json')
         .then(response => response.json())
@@ -77,16 +76,14 @@ function fetchQuestions(category, difficulty) {
         .catch(error => console.error('Error loading questions:', error));
 }
 
-// Get random questions
 function getRandomQuestions(array, count) {
     const shuffled = array.sort(() => 0.5 - Math.random());
     return shuffled.slice(0, count);
 }
 
-// Display the quiz questions
 function displayQuestions(questions) {
     const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = ''; // Clear previous content
+    quizContainer.innerHTML = ''; // Clear previous questions
 
     if (questions.length === 0) {
         quizContainer.innerHTML = '<p>No questions available for the selected category and difficulty.</p>';
@@ -154,6 +151,7 @@ function displayResults(correctCount, incorrectCount, incorrectQuestions) {
     const resultContainer = document.getElementById('result');
     resultContainer.innerHTML = '';
 
+    // Provide motivational feedback messages
     const feedbackMessages = {
         high: [
             "You're a cybersecurity master!",
@@ -225,7 +223,6 @@ function displayResults(correctCount, incorrectCount, incorrectQuestions) {
         <button id="try-again">Try Again</button>
     `;
 
-    // Add event listener for "Show Incorrect Questions" button
     const showWrongAnswersButton = document.getElementById('show-wrong-answers');
     if (showWrongAnswersButton) {
         showWrongAnswersButton.addEventListener('click', () => {
@@ -234,11 +231,11 @@ function displayResults(correctCount, incorrectCount, incorrectQuestions) {
         });
     }
 
-    // Add event listener for "Try Again" button
     const tryAgainButton = document.getElementById('try-again');
     if (tryAgainButton) {
         tryAgainButton.addEventListener('click', () => {
             window.scrollTo(0, 0);
+            quizStarted = false; // Reset the quiz state
             startQuiz();
         });
     }
