@@ -1,33 +1,75 @@
 ﻿document.addEventListener('DOMContentLoaded', () => {
+    // Get DOM elements
     const startQuizButton = document.getElementById('start-quiz');
     const submitQuizButton = document.getElementById('submit-quiz');
     const themeButton = document.getElementById('theme-button');
-    const resultContainer = document.getElementById('result');
     let isDarkMode = false;
+    let quizStarted = false;
 
-    if (startQuizButton) startQuizButton.addEventListener('click', startQuiz);
-    if (submitQuizButton) submitQuizButton.addEventListener('click', submitQuiz);
-    if (themeButton) themeButton.addEventListener('click', toggleTheme);
+    // Disable the Submit button until the quiz is started
+    if (submitQuizButton) {
+        submitQuizButton.disabled = true;
+    } else {
+        console.error('Submit button not found. Make sure the element with id="submit-quiz" exists.');
+    }
 
+    // Add event listener to Start Quiz button
+    if (startQuizButton) {
+        startQuizButton.addEventListener('click', () => {
+            startQuiz();
+            if (submitQuizButton) submitQuizButton.disabled = false;
+        });
+    } else {
+        console.error('Start Quiz button not found. Make sure the element with id="start-quiz" exists.');
+    }
+
+    // Add event listener to Submit Quiz button
+    if (submitQuizButton) {
+        submitQuizButton.addEventListener('click', () => {
+            if (quizStarted) {
+                submitQuiz();
+            } else {
+                alert('Please start the quiz before submitting!');
+            }
+        });
+    }
+
+    // Add event listener to Theme Toggle button
+    if (themeButton) {
+        themeButton.addEventListener('click', toggleTheme);
+    } else {
+        console.error('Theme button not found. Make sure the element with id="theme-button" exists.');
+    }
+
+    // Theme toggling logic
     function toggleTheme() {
         isDarkMode = !isDarkMode;
-        document.body.classList.toggle('dark-mode');
+        document.body.classList.toggle('dark-mode', isDarkMode);
         themeButton.textContent = isDarkMode ? 'Switch to Light Mode' : 'Switch to Dark Mode';
     }
 });
 
+// Function to start the quiz
 function startQuiz() {
     const category = document.getElementById('category').value;
     const difficulty = document.getElementById('difficulty').value;
-    document.getElementById('result').innerHTML = '';
+
+    const resultContainer = document.getElementById('result');
+    resultContainer.innerHTML = ''; // Clear previous results
+
     fetchQuestions(category, difficulty);
+    quizStarted = true; // Mark the quiz as started
 }
 
+// Fetch questions from JSON
 function fetchQuestions(category, difficulty) {
     fetch('./questions.json')
         .then(response => response.json())
         .then(data => {
-            const filteredQuestions = data.filter(q => q.category === category && q.difficulty === difficulty);
+            const filteredQuestions = data.filter(
+                q => q.category === category && q.difficulty === difficulty
+            );
+
             const selectedQuestions = getRandomQuestions(filteredQuestions, 10);
             displayQuestions(selectedQuestions);
             window.quizData = selectedQuestions;
@@ -35,91 +77,169 @@ function fetchQuestions(category, difficulty) {
         .catch(error => console.error('Error loading questions:', error));
 }
 
+// Get random questions
 function getRandomQuestions(array, count) {
-    return array.sort(() => 0.5 - Math.random()).slice(0, count);
+    const shuffled = array.sort(() => 0.5 - Math.random());
+    return shuffled.slice(0, count);
 }
 
+// Display the quiz questions
 function displayQuestions(questions) {
     const quizContainer = document.getElementById('quiz-container');
-    quizContainer.innerHTML = '';
+    quizContainer.innerHTML = ''; // Clear previous content
+
     if (questions.length === 0) {
         quizContainer.innerHTML = '<p>No questions available for the selected category and difficulty.</p>';
         return;
     }
+
     questions.forEach((item, index) => {
-        const options = item.options.sort(() => 0.5 - Math.random());
-        const questionHTML = `
-            <div class="question" data-index="${index}">
-                <p>${index + 1}. ${item.question}</p>
-                <ul>
-                    ${options.map(option => `
-                        <li>
-                            <label>
-                                <input type="radio" name="q${index}" value="${option}">
-                                ${option}
-                            </label>
-                        </li>
-                    `).join('')}
-                </ul>
-            </div>`;
-        quizContainer.innerHTML += questionHTML;
+        const randomizedOptions = item.options.sort(() => 0.5 - Math.random());
+
+        const questionElement = document.createElement('div');
+        questionElement.classList.add('question');
+        questionElement.innerHTML = `
+            <p>${index + 1}. ${item.question}</p>
+            <ul>
+                ${randomizedOptions.map(option => `
+                    <li>
+                        <label>
+                            <input type="radio" name="q${index}" value="${option}">
+                            ${option}
+                        </label>
+                    </li>
+                `).join('')}
+            </ul>
+        `;
+        quizContainer.appendChild(questionElement);
     });
 }
 
 function submitQuiz() {
     const quizContainer = document.getElementById('quiz-container');
-    const questions = document.querySelectorAll('.question');
-    let correctCount = 0, incorrectCount = 0;
+    const questions = quizContainer.getElementsByClassName('question');
+    let correctCount = 0;
+    let incorrectCount = 0;
     const incorrectQuestions = [];
-    questions.forEach((question, index) => {
+
+    Array.from(questions).forEach((question, index) => {
         const selectedOption = question.querySelector(`input[name="q${index}"]:checked`);
         const correctAnswer = window.quizData[index].answer;
+
         if (selectedOption) {
-            if (selectedOption.value === correctAnswer) correctCount++;
-            else incorrectQuestions.push({ number: index + 1, question: window.quizData[index].question, correctAnswer });
+            if (selectedOption.value === correctAnswer) {
+                correctCount++;
+            } else {
+                incorrectCount++;
+                incorrectQuestions.push({
+                    questionNumber: index + 1,
+                    question: window.quizData[index].question,
+                    correctAnswer: correctAnswer,
+                });
+            }
         } else {
-            incorrectQuestions.push({ number: index + 1, question: window.quizData[index].question, correctAnswer });
+            incorrectCount++;
+            incorrectQuestions.push({
+                questionNumber: index + 1,
+                question: window.quizData[index].question,
+                correctAnswer: correctAnswer,
+            });
         }
     });
-    incorrectCount = incorrectQuestions.length;
+
     displayResults(correctCount, incorrectCount, incorrectQuestions);
 }
 
 function displayResults(correctCount, incorrectCount, incorrectQuestions) {
     const resultContainer = document.getElementById('result');
+    resultContainer.innerHTML = '';
+
     const feedbackMessages = {
-        high: ["Amazing! You’re a cybersecurity superstar! 🌟", "Fantastic! You're on your way to mastery! 🏆"],
-        medium: ["Good job! Keep it up! You're doing great! 🚀", "Almost there! A bit more practice, and you’re golden! 🔐"],
-        low: ["Don't worry, it's a learning process! 🌱", "Keep going; every expert started somewhere! 💪"]
+        high: [
+            "You're a cybersecurity master!",
+            "Amazing performance! Hackers beware!",
+            "Outstanding work! You’re a cyber ninja!",
+            "You crushed it! 🎉 Your cybersecurity skills are sharp!",
+            "Legendary! Are you sure you're not a cybersecurity pro already? 🔒",
+            "Fantastic job! Hackers are trembling at your knowledge! 💪",
+            "Unstoppable! You're the cybersecurity hero we all need. 🦸",
+            "10/10! You’re practically unhackable! 🔐",
+            "You just breached the wall of awesomeness! 🎯",
+            "Your skills are firewalls against ignorance! 🔥",
+            "You're the encryption key to cybersecurity mastery! 🚀",
+            "Elite-level skills detected! Are you even human? 🤖",
+            "Flawless victory! You're a digital samurai! 🥷",
+            "Your knowledge is like a zero-day exploit—unstoppable! 🛡️",
+            "Hackers are crying right now. You're unbeatable! 😎",
+        ],
+        medium: [
+            "Good job! Keep practicing, and you'll ace it next time.",
+            "You're on the right track! Keep going.",
+            "Not bad! A little more effort will get you to the top.",
+            "Great effort! A bit more practice, and you'll dominate. 🛠️",
+            "Well done! You’re on the right path to mastery. 🌟",
+            "Solid work! Keep at it; your skills are leveling up! 📈",
+            "Not bad! Remember: every expert started as a beginner. 🚀",
+            "You’re getting there! Cybersecurity mastery is within reach. 🏗️",
+            "Your effort shows great potential. Keep studying! 💡",
+            "You're a few firewall rules away from perfection! 🔥",
+            "Good job! You're building a strong foundation. 💪",
+            "Cybersecurity is no easy feat, but you're handling it well! 🌍",
+            "Nice effort! Just a little more, and you're there! ✨",
+        ],
+        low: [
+            "It’s okay; learning is part of the journey!",
+            "Don't worry! Every expert started where you are now.",
+            "Mistakes are opportunities to grow. Try again!",
+            "Hey, even Edison failed 1,000 times before the lightbulb! 💡",
+            "Think of this as debugging—try again and learn! 🛠️",
+            "Don’t worry, this is just a warm-up. 🔥",
+            "Keep going! Cybersecurity takes time, but you're on the way. 🏋️",
+            "Mistakes are proof you’re trying—don't stop now! 🌟",
+            "It's okay! Every expert started exactly where you are. 🚀",
+            "Learning curves are tough, but so worth it. Keep climbing! 📈",
+            "Failures are just stepping stones to success. Keep moving! 🧗",
+            "This is just the first round. Victory is in sight! 🥇",
+            "Even pros fail sometimes. You're doing great! 🧑‍💻",
+            "Every click, every answer—you're getting better! 🚀",
+            "Cybersecurity is tough, but so are you! 💪",
+        ]
     };
-    const scoreCategory = correctCount >= 8 ? 'high' : correctCount >= 4 ? 'medium' : 'low';
-    const feedbackMessage = feedbackMessages[scoreCategory][Math.floor(Math.random() * feedbackMessages[scoreCategory].length)];
+
+    let scoreCategory = correctCount >= 8 ? 'high' :
+        correctCount >= 4 ? 'medium' : 'low';
+
+    const randomFeedback = feedbackMessages[scoreCategory][Math.floor(Math.random() * feedbackMessages[scoreCategory].length)];
 
     resultContainer.innerHTML = `
-        <div>
-            <h2>${feedbackMessage}</h2>
-            <p>You answered ${correctCount} question(s) correctly and ${incorrectCount} incorrectly.</p>
-            <button id="show-incorrect" style="margin: 10px;">Show Incorrect Answers</button>
-            <button id="try-again" style="margin: 10px;">Try Again</button>
-        </div>
-        <div id="incorrect-container" style="display: none;">
-            <h3>Incorrect Questions:</h3>
-            <ul>
+        <p>${randomFeedback}</p>
+        <p>You got ${correctCount} question(s) correct and ${incorrectCount} wrong.</p>
+        ${incorrectQuestions.length > 0 ? `
+            <button id="show-wrong-answers">Show Incorrect Questions</button>
+            <ul id="wrong-answers" style="display: none;">
                 ${incorrectQuestions.map(q => `
-                    <li>
-                        <strong>Q${q.number}:</strong> ${q.question}<br>
-                        <em>Correct Answer:</em> ${q.correctAnswer}
-                    </li>
+                    <li>Q${q.questionNumber}: ${q.question}<br><strong>Correct Answer:</strong> ${q.correctAnswer}</li>
                 `).join('')}
             </ul>
-        </div>
+        ` : ''}
+        <button id="try-again">Try Again</button>
     `;
 
-    document.getElementById('show-incorrect').addEventListener('click', () => {
-        document.getElementById('incorrect-container').style.display = 'block';
-    });
+    // Add event listener for "Show Incorrect Questions" button
+    const showWrongAnswersButton = document.getElementById('show-wrong-answers');
+    if (showWrongAnswersButton) {
+        showWrongAnswersButton.addEventListener('click', () => {
+            const wrongAnswers = document.getElementById('wrong-answers');
+            wrongAnswers.style.display = wrongAnswers.style.display === 'none' ? 'block' : 'none';
+        });
+    }
 
-    document.getElementById('try-again').addEventListener('click', () => {
-        startQuiz();
-    });
+    // Add event listener for "Try Again" button
+    const tryAgainButton = document.getElementById('try-again');
+    if (tryAgainButton) {
+        tryAgainButton.addEventListener('click', () => {
+            window.scrollTo(0, 0);
+            startQuiz();
+        });
+    }
 }
