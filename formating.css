@@ -1,79 +1,66 @@
 :root {
-    /* Light Mode Variables */
-    --bg-color: #eef2f3;
-    --text-color: #333;
-    --container-bg: rgba(255, 255, 255, 0.6);
-    --container-blur: 15px;
-    --button-bg: linear-gradient(135deg, #4caf50, #81c784);
-    --button-hover-bg: linear-gradient(135deg, #81c784, #4caf50);
-    --result-bg: rgba(255, 255, 255, 0.8);
-    --result-border: #aed581;
-    --question-bg: rgba(255, 255, 255, 0.8);
-    --option-bg: rgba(255, 255, 255, 0.8);
-    --option-hover-bg: rgba(220, 250, 240, 0.6);
+    /* General Variables */
+    --bg-color: #f4f8fb;
+    --text-color: #2c2c2c;
+    --container-bg: rgba(255, 255, 255, 0.85);
+    --button-bg: linear-gradient(135deg, #007bff, #0056b3);
+    --button-hover-bg: linear-gradient(135deg, #0056b3, #007bff);
+    --result-bg: rgba(255, 255, 255, 0.9);
+    --result-border: #007bff;
+    --question-bg: rgba(248, 249, 250, 0.95);
+    --option-bg: rgba(240, 240, 240, 0.95);
+    --option-hover-bg: rgba(230, 230, 230, 0.95);
     --shadow-color: rgba(0, 0, 0, 0.1);
-    --font-family: 'Poppins', sans-serif;
-    --blur: 15px;
+    --blur: 8px;
     --border-radius: 15px;
+    --font-family: 'Inter', sans-serif;
 }
 
 body.dark-mode {
-    /* Dark Mode Variables */
-    --bg-color: #1c1c1e;
+    --bg-color: #121212;
     --text-color: #e0e0e0;
-    --container-bg: rgba(46, 46, 46, 0.6);
-    --container-blur: 15px;
-    --button-bg: linear-gradient(135deg, #00695c, #004d40);
-    --button-hover-bg: linear-gradient(135deg, #004d40, #00695c);
-    --result-bg: rgba(46, 46, 46, 0.8);
-    --result-border: #81c784;
-    --question-bg: rgba(58, 58, 60, 0.8);
-    --option-bg: rgba(46, 46, 46, 0.8);
-    --option-hover-bg: rgba(68, 68, 68, 0.6);
-    --shadow-color: rgba(0, 0, 0, 0.3);
-    --blur: 15px;
-    --border-radius: 15px;
+    --container-bg: rgba(30, 30, 30, 0.85);
+    --button-bg: linear-gradient(135deg, #4a4a4a, #1f1f1f);
+    --button-hover-bg: linear-gradient(135deg, #1f1f1f, #4a4a4a);
+    --result-bg: rgba(40, 40, 40, 0.95);
+    --result-border: #666666;
+    --question-bg: rgba(50, 50, 50, 0.95);
+    --option-bg: rgba(60, 60, 60, 0.95);
+    --option-hover-bg: rgba(70, 70, 70, 0.95);
+    --shadow-color: rgba(0, 0, 0, 0.5);
 }
 
 body {
     font-family: var(--font-family);
     background: var(--bg-color);
-    background: linear-gradient(135deg, #f6f7f9, #eef2f3);
     color: var(--text-color);
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
     transition: background 0.3s ease, color 0.3s ease;
-    overflow-x: hidden;
 }
 
 h1 {
-    color: white;
     text-align: center;
-    font-size: 2.8rem;
-    font-weight: bold;
-    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 20px 0;
+    color: white;
     background: var(--button-bg);
-    padding: 20px;
-    margin: 0 auto 30px auto;
+    padding: 15px;
     border-radius: var(--border-radius);
-    max-width: 700px;
-    box-shadow: 0 8px 30px var(--shadow-color);
-    transition: background 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 20px var(--shadow-color);
+    transition: background 0.3s ease;
 }
 
-    h1:hover {
-        transform: scale(1.05);
-    }
-
-/* Glassmorphism Container */
+/* Container Styles */
 .container {
-    width: 90%;
     max-width: 800px;
-    margin: 30px auto;
-    padding: 30px;
+    margin: 20px auto;
+    padding: 20px;
     background: var(--container-bg);
-    backdrop-filter: blur(var(--blur));
     border-radius: var(--border-radius);
-    box-shadow: 0 8px 30px var(--shadow-color);
+    box-shadow: 0 8px 20px var(--shadow-color);
     transition: all 0.3s ease;
 }
 
@@ -82,25 +69,30 @@ h1 {
     }
 
 /* Dropdown Menus */
+label {
+    display: block;
+    margin: 15px 0 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
 select {
     width: 100%;
     padding: 12px;
     margin-bottom: 20px;
     font-size: 1.1rem;
-    border: 2px solid transparent;
+    border: 2px solid #ccc;
     border-radius: var(--border-radius);
     background: var(--option-bg);
     color: var(--text-color);
     box-shadow: inset 0 2px 6px var(--shadow-color);
     transition: all 0.3s ease;
-    backdrop-filter: blur(var(--blur));
 }
 
-    select:hover,
     select:focus {
         outline: none;
         border-color: var(--button-bg);
-        box-shadow: 0 0 10px var(--button-bg);
+        box-shadow: 0 0 8px var(--button-bg);
     }
 
 /* Buttons */
@@ -109,7 +101,7 @@ button {
     padding: 15px;
     margin-top: 15px;
     font-size: 1.2rem;
-    font-weight: bold;
+    font-weight: 600;
     color: white;
     border: none;
     border-radius: var(--border-radius);
@@ -117,7 +109,6 @@ button {
     cursor: pointer;
     transition: all 0.3s ease;
     box-shadow: 0 8px 12px var(--shadow-color);
-    text-transform: uppercase;
 }
 
     button:hover {
@@ -130,16 +121,17 @@ button {
         transform: translateY(1px);
     }
 
-/* Quiz Container */
+/* Quiz Question Styling */
 #quiz-container .question {
     background: var(--question-bg);
     padding: 20px;
     border-radius: var(--border-radius);
     margin-bottom: 20px;
-    border: 1px solid transparent;
-    box-shadow: 0 4px 10px var(--shadow-color);
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 12px var(--shadow-color);
     transition: all 0.3s ease;
-    backdrop-filter: blur(var(--blur));
+    font-size: 1.2rem;
+    font-weight: 500;
 }
 
 #quiz-container ul {
@@ -152,10 +144,9 @@ button {
     margin: 10px 0;
     border-radius: var(--border-radius);
     background: var(--option-bg);
-    border: 1px solid transparent;
+    border: 1px solid #ddd;
     transition: background 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    backdrop-filter: blur(var(--blur));
 }
 
     #quiz-container li:hover {
@@ -163,16 +154,9 @@ button {
         box-shadow: inset 0 0 12px var(--button-bg);
     }
 
-    #quiz-container li.active {
-        background: var(--button-bg);
-        color: white;
-        box-shadow: 0 0 10px var(--button-bg);
-    }
-
-/* Result Section */
 #result {
     margin-top: 30px;
-    padding: 30px;
+    padding: 20px;
     background: var(--result-bg);
     border: 1px solid var(--result-border);
     border-radius: var(--border-radius);
@@ -184,28 +168,32 @@ button {
 /* Support Section */
 .support {
     text-align: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
     .support p {
         font-size: 1.2rem;
         color: var(--text-color);
-        margin-bottom: 10px;
+        margin-bottom: 15px;
     }
 
-/* Media Queries for Responsiveness */
-@media (max-width: 600px) {
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
     h1 {
         font-size: 2rem;
     }
 
-    button,
-    select {
+    .container {
+        padding: 15px;
+    }
+
+    button {
         font-size: 1rem;
         padding: 12px;
     }
 
-    #quiz-container .question {
+    select {
         font-size: 1rem;
+        padding: 10px;
     }
 }
