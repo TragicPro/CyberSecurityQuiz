@@ -7,11 +7,7 @@
       "A brute force attack on system passwords",
       "A denial-of-service attack against network infrastructure"
     ],
-    "answers": [
-      "Supply chain attacks exploit weaknesses in vendors or partners to compromise a target.",
-      "These attacks can impact software, hardware, or service providers.",
-      "Mitigating supply chain attacks requires vetting suppliers and ensuring secure practices."
-    ],
+    "answer": "An attack targeting vulnerabilities in third-party suppliers or vendors",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -23,11 +19,7 @@
       "To monitor internal employee activities",
       "To optimize network bandwidth usage"
     ],
-    "answers": [
-      "Threat intelligence helps organizations anticipate, prepare for, and respond to cyber threats.",
-      "It involves collecting data about threat actors, methods, and vulnerabilities.",
-      "Proactive use of threat intelligence strengthens an organization’s defenses."
-    ],
+    "answer": "To gather and analyze information on potential cyber threats",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -39,11 +31,7 @@
       "A DDoS attack on external systems",
       "A brute force attack on network devices"
     ],
-    "answers": [
-      "Lateral movement occurs when attackers move within a network to access valuable data.",
-      "It involves exploiting privileges and weak configurations to navigate systems.",
-      "Detecting lateral movement early can prevent attackers from reaching critical assets."
-    ],
+    "answer": "The process of moving deeper into a network after initial access",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -55,11 +43,7 @@
       "To optimize the performance of antivirus software",
       "To automate the patching of vulnerabilities"
     ],
-    "answers": [
-      "Cyber risk management focuses on reducing the likelihood and impact of cyber incidents.",
-      "It includes assessing threats, vulnerabilities, and implementing controls.",
-      "Effective risk management helps align cybersecurity measures with business objectives."
-    ],
+    "answer": "To identify, assess, and mitigate risks to an organization’s digital assets",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -71,11 +55,7 @@
       "To encrypt data stored on endpoints",
       "To increase the speed of network communication"
     ],
-    "answers": [
-      "EDR tools provide real-time visibility into endpoint activity, aiding in threat detection.",
-      "They help detect advanced threats, such as fileless malware, and support remediation.",
-      "Deploying EDR strengthens an organization’s overall cybersecurity framework."
-    ],
+    "answer": "To monitor and analyze endpoint activity for signs of malicious behavior",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -87,11 +67,7 @@
       "A phishing scam aimed at executives",
       "A DDoS attack on critical infrastructure"
     ],
-    "answers": [
-      "Watering hole attacks infect trusted websites to target specific groups of users.",
-      "Attackers use this technique to exploit trust in popular or industry-specific sites.",
-      "Mitigating such attacks involves monitoring website integrity and user behavior."
-    ],
+    "answer": "An attack that compromises a frequently visited website to target its users",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -103,11 +79,7 @@
       "An insider threat attempting to access sensitive data",
       "A phishing email designed to steal credentials"
     ],
-    "answers": [
-      "MITM attacks intercept and potentially alter communication between two parties.",
-      "Attackers often use techniques like Wi-Fi spoofing or ARP poisoning to execute MITM.",
-      "Preventing MITM involves using encryption, secure protocols, and network monitoring."
-    ],
+    "answer": "An attack where a third party intercepts and manipulates communication between two entities",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -119,11 +91,7 @@
       "To monitor real-time traffic for anomalies",
       "To perform vulnerability assessments on endpoints"
     ],
-    "answers": [
-      "SOAR platforms help automate repetitive tasks, reducing response times for security incidents.",
-      "They integrate tools and processes to enhance threat detection and response.",
-      "Using SOAR improves operational efficiency and reduces analyst workload."
-    ],
+    "answer": "To automate and streamline security operations workflows",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -135,11 +103,7 @@
       "Black-box tests are faster but less effective than white-box tests",
       "White-box testing requires no tools, while black-box testing uses automated tools"
     ],
-    "answers": [
-      "Black-box testing mimics an attacker’s perspective, focusing on external vulnerabilities.",
-      "White-box testing provides testers with system details to thoroughly examine security.",
-      "Both approaches complement each other in comprehensive penetration testing strategies."
-    ],
+    "answer": "Black-box tests simulate external attacks without prior knowledge; white-box tests have full knowledge of the system",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -151,15 +115,10 @@
       "To detect and remove malware from endpoints",
       "To encrypt sensitive data stored in databases"
     ],
-    "answers": [
-      "Security baselines define the foundational security measures required for compliance.",
-      "They serve as benchmarks for maintaining a consistent security posture.",
-      "Implementing baselines ensures that all systems meet minimum protection requirements."
-    ],
+    "answer": "To establish minimum security standards for systems and processes",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
-
   {
     "question": "What is the purpose of a shadow IT policy?",
     "options": [
@@ -168,11 +127,7 @@
       "To encrypt sensitive communications",
       "To establish physical security measures"
     ],
-    "answers": [
-      "Shadow IT policies address the risks associated with unapproved software and devices.",
-      "They aim to reduce vulnerabilities and improve IT governance.",
-      "Enforcing such policies helps maintain compliance and security."
-    ],
+    "answer": "To manage and monitor unauthorized IT resources within an organization",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -184,11 +139,7 @@
       "A strategy for improving database performance",
       "A way to back up sensitive files"
     ],
-    "answers": [
-      "Data sanitization ensures that sensitive information cannot be retrieved after deletion.",
-      "Methods include physical destruction, degaussing, and secure overwriting.",
-      "Sanitization is critical for disposing of old hardware or transferring devices."
-    ],
+    "answer": "A process to permanently erase or modify sensitive information to prevent recovery",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -200,11 +151,7 @@
       "A phishing scam targeting executives",
       "A malware designed to encrypt sensitive files"
     ],
-    "answers": [
-      "XSS attacks exploit vulnerabilities in web applications to inject harmful scripts.",
-      "Attackers use XSS to steal session tokens, manipulate websites, or launch phishing schemes.",
-      "Preventing XSS involves input validation and escaping output."
-    ],
+    "answer": "An attack that injects malicious scripts into trusted websites",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -216,11 +163,7 @@
       "A backup device for critical network operations",
       "A firewall feature for filtering traffic"
     ],
-    "answers": [
-      "Rogue access points pose risks by creating unsecured entry points to networks.",
-      "Attackers use them to capture sensitive data or launch man-in-the-middle attacks.",
-      "Regular network monitoring and access point management mitigate these threats."
-    ],
+    "answer": "An unauthorized wireless access point installed to intercept network traffic",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -232,11 +175,7 @@
       "To create strong passwords for employees",
       "To encrypt communications between devices"
     ],
-    "answers": [
-      "BCPs identify critical functions and outline recovery strategies to maintain operations.",
-      "They help minimize downtime and financial loss during emergencies.",
-      "Effective BCPs are regularly updated and tested to ensure reliability."
-    ],
+    "answer": "To ensure operations can continue during and after a disruption",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -248,11 +187,7 @@
       "A phishing scheme targeting financial data",
       "A process for securely erasing sensitive data"
     ],
-    "answers": [
-      "Cryptojacking exploits compromised devices to perform cryptocurrency mining.",
-      "It often occurs via malicious scripts or malware embedded in websites or downloads.",
-      "Detecting and removing cryptojacking scripts protects system performance and security."
-    ],
+    "answer": "Unauthorized use of a device’s resources to mine cryptocurrency",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -264,11 +199,7 @@
       "To monitor user activity in real-time",
       "To enhance the performance of firewalls"
     ],
-    "answers": [
-      "Security tokens provide an additional layer of authentication for secure access.",
-      "They are commonly used in multi-factor authentication setups.",
-      "Using security tokens reduces the risk of unauthorized access."
-    ],
+    "answer": "To authenticate users and grant secure access to systems",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -280,285 +211,274 @@
       "Hot sites are used for physical security, while cold sites are for network security",
       "Cold sites offer real-time data synchronization, while hot sites do not"
     ],
-    "answers": [
-      "Hot sites are ready-to-use facilities with real-time data and operational systems.",
-      "Cold sites provide basic infrastructure and require setup during an emergency.",
-      "Choosing between hot and cold sites depends on an organization’s recovery time objectives."
-    ],
+    "answer": "Hot sites are fully operational backup facilities; cold sites require setup and resources",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
-  {
-    "question": "What is privilege escalation?",
-    "options": [
-      "An attack that exploits system flaws to gain higher access levels",
-      "A method for encrypting sensitive data",
-      "A technique to create backups for critical files",
-      "A process for optimizing network bandwidth"
-    ],
-    "answers": [
-      "Privilege escalation attacks allow attackers to perform unauthorized actions by gaining elevated privileges.",
-      "They exploit vulnerabilities or misconfigurations in software and systems.",
-      "Preventing privilege escalation requires regular patches and principle of least privilege enforcement."
-    ],
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the purpose of an air-gapped system?",
-    "options": [
-      "To isolate critical systems from external networks for maximum security",
-      "To encrypt communications between devices",
-      "To monitor real-time user activity",
-      "To enhance network bandwidth utilization"
-    ],
-    "answers": [
-      "Air-gapped systems prevent unauthorized access by being physically disconnected from networks.",
-      "They are commonly used in environments requiring high security, like military or financial institutions.",
-      "Implementing air-gapped systems protects sensitive data from external threats."
-    ],
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
+  
+    {
+      "question": "What is privilege escalation?",
+      "options": [
+        "An attack that exploits system flaws to gain higher access levels",
+        "A method for encrypting sensitive data",
+        "A technique to create backups for critical files",
+        "A process for optimizing network bandwidth"
+      ],
+      "answer": "An attack that exploits system flaws to gain higher access levels",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of an air-gapped system?",
+      "options": [
+        "To isolate critical systems from external networks for maximum security",
+        "To encrypt communications between devices",
+        "To monitor real-time user activity",
+        "To enhance network bandwidth utilization"
+      ],
+      "answer": "To isolate critical systems from external networks for maximum security",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
 
-  {
-    "question": "What is the primary function of a content filtering system?",
-    "options": [
-      "To block access to inappropriate or malicious websites",
-      "To encrypt network traffic",
-      "To monitor employee activity",
-      "To create secure backups"
-    ],
-    "answer": "To block access to inappropriate or malicious websites",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What does a penetration testing report typically include?",
-    "options": [
-      "Findings of vulnerabilities and recommendations for mitigation",
-      "Encrypted sensitive data",
-      "Employee performance metrics",
-      "Network traffic logs"
-    ],
-    "answer": "Findings of vulnerabilities and recommendations for mitigation",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the goal of data encryption?",
-    "options": [
-      "To protect data confidentiality by converting it into an unreadable format",
-      "To delete unnecessary files from a system",
-      "To monitor traffic between devices",
-      "To enhance system performance"
-    ],
-    "answer": "To protect data confidentiality by converting it into an unreadable format",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the primary purpose of multifactor authentication (MFA)?",
-    "options": [
-      "To add multiple layers of verification to secure user access",
-      "To encrypt sensitive information",
-      "To block phishing attacks",
-      "To monitor network traffic"
-    ],
-    "answer": "To add multiple layers of verification to secure user access",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is a buffer overflow attack?",
-    "options": [
-      "An attack that exploits memory handling vulnerabilities to execute malicious code",
-      "A phishing attempt targeting large organizations",
-      "A ransomware attack encrypting files on a network",
-      "A brute force attack on user passwords"
-    ],
-    "answer": "An attack that exploits memory handling vulnerabilities to execute malicious code",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the function of a security information and event management (SIEM) system?",
-    "options": [
-      "To collect and analyze security-related data from across the organization",
-      "To monitor bandwidth usage",
-      "To encrypt email communications",
-      "To optimize database performance"
-    ],
-    "answer": "To collect and analyze security-related data from across the organization",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the purpose of a security operations center (SOC)?",
-    "options": [
-      "To monitor, detect, and respond to cybersecurity threats",
-      "To encrypt sensitive data for compliance",
-      "To manage employee authentication protocols",
-      "To optimize network speed"
-    ],
-    "answer": "To monitor, detect, and respond to cybersecurity threats",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the difference between white-hat and black-hat hackers?",
-    "options": [
-      "White-hat hackers work ethically to improve security; black-hat hackers exploit vulnerabilities maliciously",
-      "Black-hat hackers protect systems; white-hat hackers exploit vulnerabilities",
-      "White-hat hackers use brute force methods; black-hat hackers avoid detection",
-      "Black-hat hackers encrypt sensitive data; white-hat hackers monitor traffic"
-    ],
-    "answer": "White-hat hackers work ethically to improve security; black-hat hackers exploit vulnerabilities maliciously",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the primary purpose of cybersecurity awareness training?",
-    "options": [
-      "To educate employees on recognizing and mitigating cyber threats",
-      "To encrypt company data",
-      "To monitor internal network activity",
-      "To enhance software performance"
-    ],
-    "answer": "To educate employees on recognizing and mitigating cyber threats",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the role of a disaster recovery site?",
-    "options": [
-      "To provide an alternative location for operations during an outage",
-      "To encrypt all backup data",
-      "To block unauthorized access",
-      "To monitor employee activities remotely"
-    ],
-    "answer": "To provide an alternative location for operations during an outage",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the importance of maintaining software updates?",
-    "options": [
-      "To patch vulnerabilities and enhance security",
-      "To delete unnecessary files",
-      "To optimize user experience",
-      "To improve data redundancy"
-    ],
-    "answer": "To patch vulnerabilities and enhance security",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is an advanced persistent threat (APT)?",
-    "options": [
-      "A sophisticated and prolonged cyberattack targeting specific entities",
-      "A tool for encrypting user data",
-      "A firewall rule for blocking phishing emails",
-      "A malware that spreads through USB devices"
-    ],
-    "answer": "A sophisticated and prolonged cyberattack targeting specific entities",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the function of a data loss prevention (DLP) solution?",
-    "options": [
-      "To monitor and prevent unauthorized data transfers",
-      "To encrypt stored files",
-      "To optimize system resources",
-      "To monitor real-time employee activity"
-    ],
-    "answer": "To monitor and prevent unauthorized data transfers",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is an example of a man-in-the-middle (MITM) attack?",
-    "options": [
-      "Intercepting and altering communication between two parties",
-      "Sending bulk phishing emails",
-      "Executing a brute force attack on login credentials",
-      "Launching a denial-of-service (DoS) attack"
-    ],
-    "answer": "Intercepting and altering communication between two parties",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the purpose of an email gateway in cybersecurity?",
-    "options": [
-      "To filter and block malicious emails",
-      "To monitor network speed",
-      "To encrypt messages in real-time",
-      "To manage user authentication"
-    ],
-    "answer": "To filter and block malicious emails",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What does the term 'ransomware' refer to?",
-    "options": [
-      "Malware that encrypts files and demands payment for decryption",
-      "A phishing attack targeting employees",
-      "A method of brute force login attempts",
-      "A tool for secure data backups"
-    ],
-    "answer": "Malware that encrypts files and demands payment for decryption",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the purpose of security patches in software?",
-    "options": [
-      "To fix security vulnerabilities and improve system protection",
-      "To monitor real-time employee activities",
-      "To encrypt files during data transfers",
-      "To increase internet speed"
-    ],
-    "answer": "To fix security vulnerabilities and improve system protection",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is a distributed denial-of-service (DDoS) attack?",
-    "options": [
-      "An attack that overwhelms a system with traffic to disrupt its services",
-      "An attempt to steal login credentials",
-      "A malware that spreads through email attachments",
-      "A phishing email targeting a specific individual"
-    ],
-    "answer": "An attack that overwhelms a system with traffic to disrupt its services",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is a rogue access point?",
-    "options": [
-      "An unauthorized wireless access point installed to intercept data",
-      "A secure device for encrypting network communications",
-      "A firewall configuration for public networks",
-      "A method for secure file transfer"
-    ],
-    "answer": "An unauthorized wireless access point installed to intercept data",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  },
-  {
-    "question": "What is the function of a threat hunting team?",
-    "options": [
-      "To proactively search for hidden threats within a system",
-      "To monitor employee internet usage",
-      "To optimize network performance",
-      "To enforce compliance regulations"
-    ],
-    "answer": "To proactively search for hidden threats within a system",
-    "difficulty": "Medium",
-    "category": "Cybersecurity"
-  }
-]
+    {
+      "question": "What is the primary function of a content filtering system?",
+      "options": [
+        "To block access to inappropriate or malicious websites",
+        "To encrypt network traffic",
+        "To monitor employee activity",
+        "To create secure backups"
+      ],
+      "answer": "To block access to inappropriate or malicious websites",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What does a penetration testing report typically include?",
+      "options": [
+        "Findings of vulnerabilities and recommendations for mitigation",
+        "Encrypted sensitive data",
+        "Employee performance metrics",
+        "Network traffic logs"
+      ],
+      "answer": "Findings of vulnerabilities and recommendations for mitigation",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the goal of data encryption?",
+      "options": [
+        "To protect data confidentiality by converting it into an unreadable format",
+        "To delete unnecessary files from a system",
+        "To monitor traffic between devices",
+        "To enhance system performance"
+      ],
+      "answer": "To protect data confidentiality by converting it into an unreadable format",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the primary purpose of multifactor authentication (MFA)?",
+      "options": [
+        "To add multiple layers of verification to secure user access",
+        "To encrypt sensitive information",
+        "To block phishing attacks",
+        "To monitor network traffic"
+      ],
+      "answer": "To add multiple layers of verification to secure user access",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is a buffer overflow attack?",
+      "options": [
+        "An attack that exploits memory handling vulnerabilities to execute malicious code",
+        "A phishing attempt targeting large organizations",
+        "A ransomware attack encrypting files on a network",
+        "A brute force attack on user passwords"
+      ],
+      "answer": "An attack that exploits memory handling vulnerabilities to execute malicious code",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the function of a security information and event management (SIEM) system?",
+      "options": [
+        "To collect and analyze security-related data from across the organization",
+        "To monitor bandwidth usage",
+        "To encrypt email communications",
+        "To optimize database performance"
+      ],
+      "answer": "To collect and analyze security-related data from across the organization",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of a security operations center (SOC)?",
+      "options": [
+        "To monitor, detect, and respond to cybersecurity threats",
+        "To encrypt sensitive data for compliance",
+        "To manage employee authentication protocols",
+        "To optimize network speed"
+      ],
+      "answer": "To monitor, detect, and respond to cybersecurity threats",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the difference between white-hat and black-hat hackers?",
+      "options": [
+        "White-hat hackers work ethically to improve security; black-hat hackers exploit vulnerabilities maliciously",
+        "Black-hat hackers protect systems; white-hat hackers exploit vulnerabilities",
+        "White-hat hackers use brute force methods; black-hat hackers avoid detection",
+        "Black-hat hackers encrypt sensitive data; white-hat hackers monitor traffic"
+      ],
+      "answer": "White-hat hackers work ethically to improve security; black-hat hackers exploit vulnerabilities maliciously",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the primary purpose of cybersecurity awareness training?",
+      "options": [
+        "To educate employees on recognizing and mitigating cyber threats",
+        "To encrypt company data",
+        "To monitor internal network activity",
+        "To enhance software performance"
+      ],
+      "answer": "To educate employees on recognizing and mitigating cyber threats",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the role of a disaster recovery site?",
+      "options": [
+        "To provide an alternative location for operations during an outage",
+        "To encrypt all backup data",
+        "To block unauthorized access",
+        "To monitor employee activities remotely"
+      ],
+      "answer": "To provide an alternative location for operations during an outage",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the importance of maintaining software updates?",
+      "options": [
+        "To patch vulnerabilities and enhance security",
+        "To delete unnecessary files",
+        "To optimize user experience",
+        "To improve data redundancy"
+      ],
+      "answer": "To patch vulnerabilities and enhance security",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is an advanced persistent threat (APT)?",
+      "options": [
+        "A sophisticated and prolonged cyberattack targeting specific entities",
+        "A tool for encrypting user data",
+        "A firewall rule for blocking phishing emails",
+        "A malware that spreads through USB devices"
+      ],
+      "answer": "A sophisticated and prolonged cyberattack targeting specific entities",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the function of a data loss prevention (DLP) solution?",
+      "options": [
+        "To monitor and prevent unauthorized data transfers",
+        "To encrypt stored files",
+        "To optimize system resources",
+        "To monitor real-time employee activity"
+      ],
+      "answer": "To monitor and prevent unauthorized data transfers",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is an example of a man-in-the-middle (MITM) attack?",
+      "options": [
+        "Intercepting and altering communication between two parties",
+        "Sending bulk phishing emails",
+        "Executing a brute force attack on login credentials",
+        "Launching a denial-of-service (DoS) attack"
+      ],
+      "answer": "Intercepting and altering communication between two parties",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of an email gateway in cybersecurity?",
+      "options": [
+        "To filter and block malicious emails",
+        "To monitor network speed",
+        "To encrypt messages in real-time",
+        "To manage user authentication"
+      ],
+      "answer": "To filter and block malicious emails",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What does the term 'ransomware' refer to?",
+      "options": [
+        "Malware that encrypts files and demands payment for decryption",
+        "A phishing attack targeting employees",
+        "A method of brute force login attempts",
+        "A tool for secure data backups"
+      ],
+      "answer": "Malware that encrypts files and demands payment for decryption",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of security patches in software?",
+      "options": [
+        "To fix security vulnerabilities and improve system protection",
+        "To monitor real-time employee activities",
+        "To encrypt files during data transfers",
+        "To increase internet speed"
+      ],
+      "answer": "To fix security vulnerabilities and improve system protection",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is a distributed denial-of-service (DDoS) attack?",
+      "options": [
+        "An attack that overwhelms a system with traffic to disrupt its services",
+        "An attempt to steal login credentials",
+        "A malware that spreads through email attachments",
+        "A phishing email targeting a specific individual"
+      ],
+      "answer": "An attack that overwhelms a system with traffic to disrupt its services",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is a rogue access point?",
+      "options": [
+        "An unauthorized wireless access point installed to intercept data",
+        "A secure device for encrypting network communications",
+        "A firewall configuration for public networks",
+        "A method for secure file transfer"
+      ],
+      "answer": "An unauthorized wireless access point installed to intercept data",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the function of a threat hunting team?",
+      "options": [
+        "To proactively search for hidden threats within a system",
+        "To monitor employee internet usage",
+        "To optimize network performance",
+        "To enforce compliance regulations"
+      ],
+      "answer": "To proactively search for hidden threats within a system",
+      "difficulty": "Medium",
+      "category": "Cybersecurity"
+    }
+  ]
