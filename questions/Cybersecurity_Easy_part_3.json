@@ -7,11 +7,7 @@
       "A protocol for managing secure connections",
       "A type of firewall rule"
     ],
-    "answers": [
-      "A security token is used in two-factor authentication to generate secure codes.",
-      "They are physical or digital and add an extra layer of security.",
-      "Tokens can be hardware-based, like key fobs, or software-based, like mobile apps."
-    ],
+    "answer": "A device or software used for authentication",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -23,11 +19,7 @@
       "A secure communication protocol",
       "A type of malware that spreads via email"
     ],
-    "answers": [
-      "A botnet consists of compromised devices working together to perform malicious activities.",
-      "They are often used to launch large-scale attacks like DDoS.",
-      "Botnets can be mitigated by updating software and using antivirus tools."
-    ],
+    "answer": "A network of infected computers controlled by an attacker",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -39,11 +31,7 @@
       "To monitor employee activity on the network",
       "To detect phishing emails in real-time"
     ],
-    "answers": [
-      "Patch management policies ensure vulnerabilities are addressed promptly.",
-      "Regular updates minimize the risk of exploitation by attackers.",
-      "They help maintain system performance and compliance with security standards."
-    ],
+    "answer": "To ensure software is updated regularly to fix vulnerabilities",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -55,11 +43,7 @@
       "Creating secure backups for critical files",
       "Designing firewalls to block threats"
     ],
-    "answers": [
-      "Social engineering targets human psychology to bypass security measures.",
-      "Common tactics include phishing, baiting, and pretexting.",
-      "Awareness and training are effective defenses against social engineering attacks."
-    ],
+    "answer": "Manipulating individuals into revealing confidential information",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -71,11 +55,7 @@
       "To scan systems for malware",
       "To monitor network traffic for anomalies"
     ],
-    "answers": [
-      "CAPTCHA helps prevent bots from abusing websites, such as creating fake accounts.",
-      "They often involve tasks like identifying images or solving puzzles.",
-      "CAPTCHAs are a common defense against automated attacks."
-    ],
+    "answer": "To differentiate between human users and automated bots",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -87,11 +67,7 @@
       "A protocol for encrypting email communications",
       "A technique to detect phishing attacks"
     ],
-    "answers": [
-      "Secure password policies include requirements for length, complexity, and uniqueness.",
-      "They often enforce regular password changes to maintain security.",
-      "Using a password manager supports compliance with secure password policies."
-    ],
+    "answer": "A set of rules for creating strong and unique passwords",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -103,11 +79,7 @@
       "A method of blocking phishing emails",
       "A protocol for securing internet traffic"
     ],
-    "answers": [
-      "Vulnerability scans assess systems for known security weaknesses.",
-      "They help prioritize remediation efforts to reduce risks.",
-      "Scanning regularly is an essential part of a proactive cybersecurity strategy."
-    ],
+    "answer": "A process for identifying weaknesses in a system or network",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -119,11 +91,7 @@
       "A secure way to transfer files",
       "A feature that monitors employee internet activity"
     ],
-    "answers": [
-      "A data breach exposes confidential information to unauthorized individuals.",
-      "Common causes include weak passwords, phishing, and unpatched vulnerabilities.",
-      "Responding quickly to a breach minimizes damage and helps prevent recurrence."
-    ],
+    "answer": "An incident where sensitive information is accessed without authorization",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -135,11 +103,7 @@
       "To optimize system performance",
       "To monitor network traffic in real-time"
     ],
-    "answers": [
-      "Anti-malware software protects against threats like viruses, spyware, and ransomware.",
-      "It scans files and applications for malicious activity.",
-      "Keeping anti-malware tools updated ensures they are effective against new threats."
-    ],
+    "answer": "To detect, prevent, and remove malicious software",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -151,11 +115,7 @@
       "It increases the speed of website loading",
       "It blocks malicious scripts from executing"
     ],
-    "answers": [
-      "HTTPS ensures that sensitive data like passwords and payment details are secure.",
-      "It builds trust with users by verifying the authenticity of the website.",
-      "Websites using HTTPS are less vulnerable to man-in-the-middle attacks."
-    ],
+    "answer": "It encrypts communication between the user and the website",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -167,11 +127,7 @@
       "A tool for monitoring network traffic in real-time",
       "A protocol for authenticating user credentials"
     ],
-    "answers": [
-      "The principle of least privilege reduces the attack surface by limiting unnecessary permissions.",
-      "It helps prevent accidental or intentional misuse of access.",
-      "Implementing PoLP enhances security across systems and applications."
-    ],
+    "answer": "A security practice of granting users only the access they need to perform their tasks",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -183,11 +139,7 @@
       "A database of known malware signatures",
       "A protocol for encrypting online communications"
     ],
-    "answers": [
-      "Whitelists define entities that are explicitly permitted access, improving security.",
-      "They are commonly used in email filtering, application controls, and network security.",
-      "Whitelisting minimizes the chances of unauthorized access by restricting unknown entities."
-    ],
+    "answer": "A list of trusted entities allowed to access a system or network",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -199,15 +151,10 @@
       "A method for encrypting sensitive emails",
       "A database containing user credentials"
     ],
-    "answers": [
-      "A sandbox allows testing or executing files without risking the main system.",
-      "It is commonly used to analyze suspicious software or malicious code.",
-      "Sandboxes protect critical systems by containing potential threats in isolation."
-    ],
+    "answer": "An isolated environment for running untrusted programs safely",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
-
   {
     "question": "What is the purpose of a disaster recovery plan?",
     "options": [
@@ -216,11 +163,7 @@
       "To encrypt sensitive emails for secure communication",
       "To monitor employee internet activity"
     ],
-    "answers": [
-      "Disaster recovery plans outline steps to recover from disruptions, ensuring business continuity.",
-      "They address data restoration, system repair, and communication strategies.",
-      "Having a disaster recovery plan minimizes downtime and operational impact."
-    ],
+    "answer": "To restore critical systems and data after a cyberattack or failure",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -232,11 +175,7 @@
       "A protocol for encrypting network traffic",
       "A system for generating secure passwords"
     ],
-    "answers": [
-      "CIRT focuses on identifying, analyzing, and resolving security incidents.",
-      "They coordinate responses to mitigate impact and prevent recurrence.",
-      "Having a CIRT improves an organization’s ability to handle threats effectively."
-    ],
+    "answer": "A group dedicated to managing and mitigating security incidents",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -248,11 +187,7 @@
       "To monitor user behavior on a network",
       "To identify phishing emails in real-time"
     ],
-    "answers": [
-      "Encryption ensures that sensitive data can only be read by authorized parties.",
-      "It protects data during transmission and storage from potential breaches.",
-      "Modern encryption techniques are essential for securing online transactions."
-    ],
+    "answer": "To convert information into an unreadable format to protect it from unauthorized access",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -264,11 +199,7 @@
       "To monitor network traffic for suspicious activity",
       "To enhance the speed of internet connections"
     ],
-    "answers": [
-      "VPNs encrypt internet connections, protecting data from interception.",
-      "They allow users to browse securely on public Wi-Fi and access restricted content.",
-      "Using a VPN enhances privacy by hiding the user’s IP address."
-    ],
+    "answer": "To provide secure and private access to the internet by encrypting traffic",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -280,11 +211,7 @@
       "A process for scanning network vulnerabilities",
       "A tool used for securing internet traffic"
     ],
-    "answers": [
-      "Phishing involves sending fraudulent messages to steal personal or financial details.",
-      "It often uses fake emails or websites pretending to be legitimate organizations.",
-      "Awareness training helps users identify and avoid phishing attempts."
-    ],
+    "answer": "A technique to trick individuals into providing sensitive information",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -296,11 +223,7 @@
       "To increase the speed of file transfers",
       "To store sensitive data securely"
     ],
-    "answers": [
-      "Firewalls act as barriers, filtering traffic based on security rules.",
-      "They prevent unauthorized access and protect systems from threats.",
-      "Firewalls are a key component of network security strategies."
-    ],
+    "answer": "To block unauthorized access to a network while allowing legitimate traffic",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -312,11 +235,7 @@
       "A process for encrypting data in storage",
       "A method to monitor network activity"
     ],
-    "answers": [
-      "Two-step verification enhances security by requiring an additional verification step.",
-      "It combines something you know (password) with something you have (a code or token).",
-      "This reduces the risk of unauthorized access, even if a password is compromised."
-    ],
+    "answer": "An authentication method requiring two forms of identification",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -328,11 +247,7 @@
       "To create secure passwords for accounts",
       "To monitor real-time network traffic"
     ],
-    "answers": [
-      "Antivirus software protects devices from threats like viruses, worms, and Trojans.",
-      "It scans files, applications, and downloads for malicious activity.",
-      "Regular updates ensure antivirus tools are effective against emerging threats."
-    ],
+    "answer": "To detect and remove malicious software from devices",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -344,11 +259,7 @@
       "A method for encrypting sensitive communications",
       "A process for optimizing network performance"
     ],
-    "answers": [
-      "Backups protect against data loss due to hardware failures or cyberattacks.",
-      "Regularly creating and testing backups ensures data can be restored quickly.",
-      "Using cloud storage or external drives for backups adds an extra layer of protection."
-    ],
+    "answer": "A copy of important data stored separately for recovery in case of loss",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   },
@@ -360,11 +271,7 @@
       "A phishing scam targeting sensitive information",
       "A software update to fix vulnerabilities"
     ],
-    "answers": [
-      "Ransomware attacks lock users out of their data until a ransom is paid.",
-      "They spread through malicious links, email attachments, or software vulnerabilities.",
-      "Regular backups and security updates help mitigate the risk of ransomware."
-    ],
+    "answer": "An attack where malware encrypts files and demands payment for decryption",
     "difficulty": "Easy",
     "category": "Cybersecurity"
   }
