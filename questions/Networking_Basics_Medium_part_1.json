@@ -1,0 +1,746 @@
+[
+    {
+        "question": "What protocol is used for secure remote access to a network device?",
+        "options": [
+            "Telnet",
+            "SSH",
+            "FTP",
+            "HTTP"
+        ],
+        "answer": "SSH",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the default TCP port for HTTPS?",
+        "options": [
+            "443",
+            "80",
+            "25",
+            "21"
+        ],
+        "answer": "443",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What does VLAN stand for?",
+        "options": [
+            "Virtual Local Area Network",
+            "Virtual Linked Access Node",
+            "Very Large Area Network",
+            "Virtual LAN Architecture"
+        ],
+        "answer": "Virtual Local Area Network",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which device manages traffic between different networks?",
+        "options": [
+            "Router",
+            "Switch",
+            "Hub",
+            "Bridge"
+        ],
+        "answer": "Router",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What does the acronym IP stand for in networking?",
+        "options": [
+            "Internet Protocol",
+            "Internal Process",
+            "Integrated Platform",
+            "International Packet"
+        ],
+        "answer": "Internet Protocol",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary purpose of a firewall?",
+        "options": [
+            "Preventing unauthorized access",
+            "Encrypting network data",
+            "Connecting devices",
+            "Monitoring system performance"
+        ],
+        "answer": "Preventing unauthorized access",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is responsible for translating domain names to IP addresses?",
+        "options": [
+            "DNS",
+            "DHCP",
+            "SMTP",
+            "HTTP"
+        ],
+        "answer": "DNS",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which layer of the OSI model ensures data is presented in a readable format?",
+        "options": [
+            "Session",
+            "Presentation",
+            "Application",
+            "Transport"
+        ],
+        "answer": "Presentation",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is responsible for translating domain names to IP addresses?",
+        "options": [
+            "DNS",
+            "DHCP",
+            "SMTP",
+            "HTTP"
+        ],
+        "answer": "DNS",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of the ARP protocol?",
+        "options": [
+            "Resolving IP addresses to MAC addresses",
+            "Assigning IP addresses",
+            "Routing data between networks",
+            "Encrypting web traffic"
+        ],
+        "answer": "Resolving IP addresses to MAC addresses",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which device operates at the Data Link layer of the OSI model?",
+        "options": [
+            "Switch",
+            "Router",
+            "Firewall",
+            "Gateway"
+        ],
+        "answer": "Switch",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is a subnet mask used for?",
+        "options": [
+            "Dividing an IP address into network and host portions",
+            "Encrypting network traffic",
+            "Resolving domain names",
+            "Configuring firewalls"
+        ],
+        "answer": "Dividing an IP address into network and host portions",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which type of cable is used for long-distance communication?",
+        "options": [
+            "Fiber Optic",
+            "Twisted Pair",
+            "Coaxial",
+            "Ethernet"
+        ],
+        "answer": "Fiber Optic",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the default port for FTP?",
+        "options": [
+            "21",
+            "22",
+            "80",
+            "443"
+        ],
+        "answer": "21",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of VLANs in networking?",
+        "options": [
+            "To segment a physical network into multiple logical networks",
+            "To provide faster internet access",
+            "To encrypt data",
+            "To resolve IP addresses"
+        ],
+        "answer": "To segment a physical network into multiple logical networks",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which topology connects each device directly to every other device in the network?",
+        "options": [
+            "Mesh",
+            "Star",
+            "Ring",
+            "Bus"
+        ],
+        "answer": "Mesh",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What does the term 'latency' refer to in networking?",
+        "options": [
+            "The time it takes for data to travel from source to destination",
+            "The speed of a connection",
+            "The amount of data transferred",
+            "The number of devices on a network"
+        ],
+        "answer": "The time it takes for data to travel from source to destination",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is used to send emails?",
+        "options": [
+            "SMTP",
+            "IMAP",
+            "POP3",
+            "HTTP"
+        ],
+        "answer": "SMTP",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of the ICMP protocol?",
+        "options": [
+            "To send error messages and operational information",
+            "To encrypt data for secure transmission",
+            "To establish a connection between two devices",
+            "To assign IP addresses to devices"
+        ],
+        "answer": "To send error messages and operational information",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which device is used to amplify and regenerate network signals?",
+        "options": [
+            "Repeater",
+            "Router",
+            "Switch",
+            "Bridge"
+        ],
+        "answer": "Repeater",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which command can be used to display the IP configuration of a device?",
+        "options": [
+            "ipconfig",
+            "ping",
+            "netstat",
+            "traceroute"
+        ],
+        "answer": "ipconfig",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the main difference between TCP and UDP?",
+        "options": [
+            "TCP is connection-oriented, UDP is connectionless",
+            "UDP is connection-oriented, TCP is connectionless",
+            "TCP is faster than UDP",
+            "UDP provides error correction, TCP does not"
+        ],
+        "answer": "TCP is connection-oriented, UDP is connectionless",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary purpose of QoS (Quality of Service) in networking?",
+        "options": [
+            "To prioritize specific types of network traffic",
+            "To encrypt sensitive data",
+            "To reduce latency",
+            "To assign IP addresses"
+        ],
+        "answer": "To prioritize specific types of network traffic",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol uses port 23 for communication?",
+        "options": [
+            "Telnet",
+            "SSH",
+            "SMTP",
+            "DNS"
+        ],
+        "answer": "Telnet",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of a gateway in a network?",
+        "options": [
+            "To connect two different networks",
+            "To amplify signals",
+            "To resolve domain names",
+            "To assign MAC addresses"
+        ],
+        "answer": "To connect two different networks",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which command shows the route packets take to a network host?",
+        "options": [
+            "traceroute",
+            "ping",
+            "netstat",
+            "ipconfig"
+        ],
+        "answer": "traceroute",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the default gateway in a network?",
+        "options": [
+            "The device that routes traffic to external networks",
+            "The server that resolves domain names",
+            "The switch connecting devices",
+            "The firewall blocking traffic"
+        ],
+        "answer": "The device that routes traffic to external networks",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which network device is responsible for forwarding packets based on their destination IP address?",
+        "options": [
+            "Router",
+            "Switch",
+            "Firewall",
+            "Hub"
+        ],
+        "answer": "Router",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for error detection and correction?",
+        "options": [
+            "Data Link",
+            "Transport",
+            "Network",
+            "Physical"
+        ],
+        "answer": "Data Link",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is used for secure file transfer?",
+        "options": [
+            "SFTP",
+            "FTP",
+            "HTTP",
+            "Telnet"
+        ],
+        "answer": "SFTP",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What does NAT stand for in networking?",
+        "options": [
+            "Network Address Translation",
+            "Network Access Table",
+            "Node Allocation Transmission",
+            "Network Allocation Tool"
+        ],
+        "answer": "Network Address Translation",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What type of device is used to divide a network into multiple collision domains?",
+        "options": [
+            "Switch",
+            "Hub",
+            "Router",
+            "Bridge"
+        ],
+        "answer": "Switch",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary function of a firewall?",
+        "options": [
+            "To block unauthorized access to a network",
+            "To assign IP addresses",
+            "To encrypt data packets",
+            "To amplify network signals"
+        ],
+        "answer": "To block unauthorized access to a network",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which layer of the OSI model ensures reliable data delivery?",
+        "options": [
+            "Transport",
+            "Session",
+            "Network",
+            "Application"
+        ],
+        "answer": "Transport",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is a subnet mask used for?",
+        "options": [
+            "To define the network and host portions of an IP address",
+            "To assign IP addresses",
+            "To encrypt data packets",
+            "To monitor network traffic"
+        ],
+        "answer": "To define the network and host portions of an IP address",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of a default route in a routing table?",
+        "options": [
+            "To forward packets when no specific route is found",
+            "To encrypt outgoing data packets",
+            "To monitor bandwidth usage",
+            "To block unauthorized traffic"
+        ],
+        "answer": "To forward packets when no specific route is found",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary function of a proxy server?",
+        "options": [
+            "To act as an intermediary for requests from clients",
+            "To assign MAC addresses",
+            "To block all incoming traffic",
+            "To encrypt data packets"
+        ],
+        "answer": "To act as an intermediary for requests from clients",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which network device operates at the Physical layer of the OSI model?",
+        "options": [
+            "Hub",
+            "Switch",
+            "Router",
+            "Firewall"
+        ],
+        "answer": "Hub",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What does MTU stand for in networking?",
+        "options": [
+            "Maximum Transmission Unit",
+            "Main Transfer Utility",
+            "Maximum Transfer Usage",
+            "Minimal Transmission Unit"
+        ],
+        "answer": "Maximum Transmission Unit",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is used to send error messages and operational information in a network?",
+        "options": [
+            "ICMP",
+            "TCP",
+            "UDP",
+            "SMTP"
+        ],
+        "answer": "ICMP",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary purpose of a network bridge?",
+        "options": [
+            "To connect two network segments",
+            "To encrypt data packets",
+            "To assign IP addresses",
+            "To block unauthorized access"
+        ],
+        "answer": "To connect two network segments",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of Quality of Service (QoS) in networking?",
+        "options": [
+            "To prioritize network traffic",
+            "To assign IP addresses",
+            "To monitor bandwidth usage",
+            "To encrypt data"
+        ],
+        "answer": "To prioritize network traffic",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which layer of the OSI model handles data compression and encryption?",
+        "options": [
+            "Presentation",
+            "Application",
+            "Session",
+            "Transport"
+        ],
+        "answer": "Presentation",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of a VLAN?",
+        "options": [
+            "To create separate broadcast domains within a LAN",
+            "To connect multiple networks",
+            "To assign IP addresses dynamically",
+            "To filter network traffic"
+        ],
+        "answer": "To create separate broadcast domains within a LAN",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is used to synchronize clocks across devices in a network?",
+        "options": [
+            "NTP",
+            "FTP",
+            "SMTP",
+            "ARP"
+        ],
+        "answer": "NTP",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is a collision domain in networking?",
+        "options": [
+            "A network segment where data packets can collide",
+            "A secure network zone",
+            "A type of routing protocol",
+            "A network area with limited bandwidth"
+        ],
+        "answer": "A network segment where data packets can collide",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which wireless standard operates on both 2.4 GHz and 5 GHz frequencies?",
+        "options": [
+            "802.11n",
+            "802.11b",
+            "802.11g",
+            "802.11a"
+        ],
+        "answer": "802.11n",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the role of the Transport layer in the OSI model?",
+        "options": [
+            "To provide reliable data transfer",
+            "To encrypt data packets",
+            "To manage device connections",
+            "To assign IP addresses"
+        ],
+        "answer": "To provide reliable data transfer",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary purpose of a network gateway?",
+        "options": [
+            "To connect different networks",
+            "To block malicious traffic",
+            "To encrypt data packets",
+            "To prioritize network traffic"
+        ],
+        "answer": "To connect different networks",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the function of a network access control (NAC) system?",
+        "options": [
+            "To enforce security policies on devices accessing the network",
+            "To assign IP addresses dynamically",
+            "To encrypt data in transit",
+            "To block unauthorized traffic"
+        ],
+        "answer": "To enforce security policies on devices accessing the network",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which network topology connects all devices in a continuous loop?",
+        "options": [
+            "Ring",
+            "Star",
+            "Mesh",
+            "Bus"
+        ],
+        "answer": "Ring",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of NAT (Network Address Translation)?",
+        "options": [
+            "To allow multiple devices to share a single public IP address",
+            "To encrypt data packets",
+            "To manage VLANs",
+            "To monitor network traffic"
+        ],
+        "answer": "To allow multiple devices to share a single public IP address",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which wireless security protocol is considered the most secure?",
+        "options": [
+            "WPA3",
+            "WPA2",
+            "WEP",
+            "WPA"
+        ],
+        "answer": "WPA3",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What does a network subnet mask do?",
+        "options": [
+            "Defines the network and host portions of an IP address",
+            "Encrypts data packets",
+            "Assigns IP addresses dynamically",
+            "Blocks unauthorized traffic"
+        ],
+        "answer": "Defines the network and host portions of an IP address",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is responsible for delivering email messages?",
+        "options": [
+            "SMTP",
+            "IMAP",
+            "POP3",
+            "FTP"
+        ],
+        "answer": "SMTP",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary purpose of a proxy server?",
+        "options": [
+            "To act as an intermediary between a client and a server",
+            "To encrypt network traffic",
+            "To assign IP addresses",
+            "To connect different networks"
+        ],
+        "answer": "To act as an intermediary between a client and a server",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is used to retrieve emails from a mail server?",
+        "options": [
+            "IMAP",
+            "SMTP",
+            "POP3",
+            "FTP"
+        ],
+        "answer": "IMAP",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the function of the Network layer in the OSI model?",
+        "options": [
+            "Routing and forwarding data",
+            "Managing data encryption",
+            "Establishing device connections",
+            "Providing reliable data transfer"
+        ],
+        "answer": "Routing and forwarding data",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which network topology connects all devices to a single backbone cable?",
+        "options": [
+            "Bus",
+            "Ring",
+            "Star",
+            "Mesh"
+        ],
+        "answer": "Bus",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the maximum length of a CAT5e Ethernet cable?",
+        "options": [
+            "100 meters",
+            "200 meters",
+            "50 meters",
+            "150 meters"
+        ],
+        "answer": "100 meters",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of a load balancer in a network?",
+        "options": [
+            "To distribute network traffic across multiple servers",
+            "To encrypt data packets",
+            "To assign IP addresses",
+            "To block unauthorized traffic"
+        ],
+        "answer": "To distribute network traffic across multiple servers",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which device is used to amplify and retransmit wireless signals?",
+        "options": [
+            "Wireless Repeater",
+            "Router",
+            "Switch",
+            "Access Point"
+        ],
+        "answer": "Wireless Repeater",
+        "difficulty": "Medium",
+        "category": "Networking Basics"
+    }
+]

@@ -1,0 +1,374 @@
+[
+    {
+        "question": "What is the primary purpose of the CIA triad?",
+        "options": [
+            "To ensure confidentiality, integrity, and availability",
+            "To enforce network security policies",
+            "To detect and prevent malware",
+            "To monitor access control"
+        ],
+        "answer": "To ensure confidentiality, integrity, and availability",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does confidentiality in the CIA triad protect?",
+        "options": [
+            "Unauthorized access to data",
+            "System uptime",
+            "Data accuracy",
+            "Network bandwidth"
+        ],
+        "answer": "Unauthorized access to data",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which attack manipulates human psychology to gain access?",
+        "options": [
+            "Social Engineering",
+            "Phishing",
+            "Man-in-the-Middle",
+            "SQL Injection"
+        ],
+        "answer": "Social Engineering",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of multi-factor authentication?",
+        "options": [
+            "Enhances authentication security by using multiple methods",
+            "Encrypts data during transmission",
+            "Scans networks for vulnerabilities",
+            "Ensures system uptime"
+        ],
+        "answer": "Enhances authentication security by using multiple methods",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a vulnerability scanner do?",
+        "options": [
+            "Identifies potential weaknesses in a system",
+            "Monitors network traffic for suspicious activity",
+            "Encrypts data for secure transmission",
+            "Blocks unauthorized access"
+        ],
+        "answer": "Identifies potential weaknesses in a system",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of hashing in cybersecurity?",
+        "options": [
+            "To ensure data integrity",
+            "To encrypt data for secure storage",
+            "To block unauthorized users",
+            "To generate access tokens"
+        ],
+        "answer": "To ensure data integrity",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a firewall do?",
+        "options": [
+            "Blocks unauthorized access to a network",
+            "Encrypts sensitive data",
+            "Manages user permissions",
+            "Scans for malware"
+        ],
+        "answer": "Blocks unauthorized access to a network",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a brute force attack?",
+        "options": [
+            "An attack that tries all possible password combinations",
+            "An attack that floods a network with traffic",
+            "An attack that exploits a software vulnerability",
+            "An attack that manipulates users to reveal sensitive information"
+        ],
+        "answer": "An attack that tries all possible password combinations",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does encryption do?",
+        "options": [
+            "Transforms data into a secure format",
+            "Detects malicious network traffic",
+            "Prevents unauthorized access to a system",
+            "Monitors network activity"
+        ],
+        "answer": "Transforms data into a secure format",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a phishing attack?",
+        "options": [
+            "An attempt to trick users into revealing sensitive information",
+            "A malware infection through email",
+            "A brute force attack on passwords",
+            "An attempt to flood a network with traffic"
+        ],
+        "answer": "An attempt to trick users into revealing sensitive information",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is social engineering?",
+        "options": [
+            "Manipulating people to gain access to systems or information",
+            "Hacking a network through a backdoor",
+            "Testing a network for vulnerabilities",
+            "Encrypting sensitive data"
+        ],
+        "answer": "Manipulating people to gain access to systems or information",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol is used to establish a secure connection over the internet?",
+        "options": [
+            "HTTPS",
+            "FTP",
+            "SMTP",
+            "Telnet"
+        ],
+        "answer": "HTTPS",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of two-factor authentication?",
+        "options": [
+            "To increase the security of login processes",
+            "To encrypt sensitive data",
+            "To detect vulnerabilities in a system",
+            "To monitor network traffic"
+        ],
+        "answer": "To increase the security of login processes",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of attack attempts to overload a system by sending an excessive amount of traffic?",
+        "options": [
+            "DDoS Attack",
+            "Phishing",
+            "Brute Force Attack",
+            "Zero-Day Exploit"
+        ],
+        "answer": "DDoS Attack",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of access control?",
+        "options": [
+            "To restrict user permissions based on policies",
+            "To monitor system activity",
+            "To encrypt sensitive data",
+            "To block malicious network traffic"
+        ],
+        "answer": "To restrict user permissions based on policies",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a Trojan horse in cybersecurity?",
+        "options": [
+            "Malware disguised as legitimate software",
+            "A self-replicating virus",
+            "A type of phishing attack",
+            "A brute force attack"
+        ],
+        "answer": "Malware disguised as legitimate software",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the role of encryption in data security?",
+        "options": [
+            "To transform data into an unreadable format",
+            "To block unauthorized access",
+            "To monitor network activity",
+            "To test system vulnerabilities"
+        ],
+        "answer": "To transform data into an unreadable format",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of risk mitigation in cybersecurity?",
+        "options": [
+            "To reduce the impact and likelihood of a risk",
+            "To eliminate all risks entirely",
+            "To transfer the responsibility of risk to another party",
+            "To document all identified risks"
+        ],
+        "answer": "To reduce the impact and likelihood of a risk",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the acronym SIEM stand for?",
+        "options": [
+            "Security Information and Event Management",
+            "Secure Internet Endpoint Management",
+            "System Integrity and Encryption Mechanism",
+            "Security Incident and Event Monitoring"
+        ],
+        "answer": "Security Information and Event Management",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the difference between symmetric and asymmetric encryption?",
+        "options": [
+            "Symmetric uses one key; asymmetric uses two keys",
+            "Symmetric encrypts; asymmetric decrypts",
+            "Symmetric is faster; asymmetric is more secure",
+            "Symmetric is used for digital signatures"
+        ],
+        "answer": "Symmetric uses one key; asymmetric uses two keys",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of malware replicates itself and spreads across networks?",
+        "options": [
+            "Worm",
+            "Trojan Horse",
+            "Adware",
+            "Rootkit"
+        ],
+        "answer": "Worm",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary purpose of two-factor authentication?",
+        "options": [
+            "To enhance login security by requiring two forms of verification",
+            "To encrypt stored data",
+            "To detect phishing attempts",
+            "To monitor network activity"
+        ],
+        "answer": "To enhance login security by requiring two forms of verification",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of encryption in cybersecurity?",
+        "options": [
+            "To protect data by converting it into unreadable formats",
+            "To monitor traffic for threats",
+            "To prevent unauthorized logins",
+            "To manage digital certificates"
+        ],
+        "answer": "To protect data by converting it into unreadable formats",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of malware collects sensitive information such as keystrokes and sends it to attackers?",
+        "options": [
+            "Spyware",
+            "Trojan Horse",
+            "Adware",
+            "Rootkit"
+        ],
+        "answer": "Spyware",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the principle of least privilege enforce?",
+        "options": [
+            "Users are granted only the access necessary to perform their jobs",
+            "All users have full access to all resources",
+            "Only administrators have access to the network",
+            "Users must change passwords frequently"
+        ],
+        "answer": "Users are granted only the access necessary to perform their jobs",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the term 'shoulder surfing' refer to?",
+        "options": [
+            "Observing someone's screen or keyboard to steal information",
+            "Hacking into a network via a physical connection",
+            "Interfering with network signals",
+            "Using malware to monitor email traffic"
+        ],
+        "answer": "Observing someone's screen or keyboard to steal information",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a hash function do in cybersecurity?",
+        "options": [
+            "Generates a unique fixed-length string for data integrity verification",
+            "Encrypts sensitive files for secure storage",
+            "Monitors unauthorized user activity",
+            "Manages encryption keys in a database"
+        ],
+        "answer": "Generates a unique fixed-length string for data integrity verification",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of multi-factor authentication (MFA)?",
+        "options": [
+            "To enhance security by requiring multiple methods of verification",
+            "To encrypt sensitive data before transmission",
+            "To block unauthorized traffic from entering the network",
+            "To monitor user activity across devices"
+        ],
+        "answer": "To enhance security by requiring multiple methods of verification",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the acronym VPN stand for?",
+        "options": [
+            "Virtual Private Network",
+            "Virtual Protocol Node",
+            "Verified Private Network",
+            "Verified Protocol Node"
+        ],
+        "answer": "Virtual Private Network",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of patch management in cybersecurity?",
+        "options": [
+            "To apply updates that fix security vulnerabilities and bugs",
+            "To encrypt network traffic for secure transmission",
+            "To monitor the performance of applications",
+            "To track and manage user permissions"
+        ],
+        "answer": "To apply updates that fix security vulnerabilities and bugs",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which attack relies on overwhelming a system with more requests than it can handle?",
+        "options": [
+            "Denial-of-Service (DoS)",
+            "Man-in-the-Middle",
+            "Cross-Site Scripting (XSS)",
+            "Phishing"
+        ],
+        "answer": "Denial-of-Service (DoS)",
+        "difficulty": "Easy",
+        "category": "SecurityPlus"
+    }
+]

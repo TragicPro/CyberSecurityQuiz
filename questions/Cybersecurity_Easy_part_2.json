@@ -1,0 +1,517 @@
+[
+  {
+    "question": "What is the difference between a virus and a worm in cybersecurity?",
+    "options": [
+      "A virus requires user action to spread, while a worm spreads automatically",
+      "A virus is harmless, while a worm causes damage",
+      "A virus encrypts data, while a worm scans the network",
+      "A virus targets operating systems, while a worm targets browsers"
+    ],
+    "answers": [
+      "A virus needs user action, such as opening a file, to spread.",
+      "A worm spreads independently by exploiting network vulnerabilities.",
+      "Both are types of malware but differ in their propagation methods."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of a VPN kill switch?",
+    "options": [
+      "To disconnect the internet if the VPN connection drops",
+      "To block malicious websites while browsing",
+      "To encrypt sensitive files on the device",
+      "To increase the speed of the VPN connection"
+    ],
+    "answers": [
+      "A VPN kill switch ensures no data leaks outside the secure VPN tunnel.",
+      "It protects user privacy by immediately disconnecting the internet upon VPN failure.",
+      "Kill switches are essential for maintaining anonymity and security online."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a cybersecurity incident?",
+    "options": [
+      "An event that compromises the confidentiality, integrity, or availability of data",
+      "A planned update to improve software security",
+      "A routine security audit to identify risks",
+      "A harmless error in system configuration"
+    ],
+    "answers": [
+      "A cybersecurity incident involves unauthorized access, data breaches, or attacks.",
+      "It can include malware infections, phishing, or denial-of-service attacks.",
+      "Responding to incidents promptly helps mitigate their impact."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of multi-factor authentication (MFA)?",
+    "options": [
+      "To provide an additional layer of security for user accounts",
+      "To replace passwords entirely",
+      "To store passwords securely",
+      "To monitor suspicious user behavior"
+    ],
+    "answers": [
+      "MFA combines multiple verification methods, like passwords and biometrics.",
+      "It significantly reduces the risk of unauthorized access.",
+      "MFA is crucial for protecting sensitive systems and personal accounts."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a cybersecurity vulnerability?",
+    "options": [
+      "A weakness in a system that can be exploited by attackers",
+      "A malicious program designed to harm computers",
+      "A firewall rule that blocks specific traffic",
+      "An advanced encryption method"
+    ],
+    "answers": [
+      "Vulnerabilities are flaws in software, hardware, or processes that attackers exploit.",
+      "Regular updates and patches help reduce vulnerabilities.",
+      "Conducting vulnerability assessments identifies and addresses these weaknesses."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of data backup in cybersecurity?",
+    "options": [
+      "To create a copy of data for recovery in case of loss or corruption",
+      "To encrypt all files on the system",
+      "To monitor user activity on the network",
+      "To enhance the speed of data transmission"
+    ],
+    "answers": [
+      "Data backups ensure business continuity after cyberattacks or hardware failures.",
+      "Regular backups protect against data loss due to ransomware or accidental deletion.",
+      "Storing backups offsite or in the cloud adds an extra layer of security."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is an access control list (ACL)?",
+    "options": [
+      "A set of rules defining who can access resources and what actions they can perform",
+      "A tool used to encrypt data during transmission",
+      "A list of installed antivirus programs on a system",
+      "A type of cybersecurity certification"
+    ],
+    "answers": [
+      "ACLs regulate access to systems, files, and networks based on defined policies.",
+      "They specify permissions for users and groups, enhancing security.",
+      "Implementing ACLs helps prevent unauthorized access to sensitive resources."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the role of a security operations center (SOC)?",
+    "options": [
+      "To monitor and respond to cybersecurity threats in real-time",
+      "To develop software applications for businesses",
+      "To perform routine system updates",
+      "To manage physical security in office buildings"
+    ],
+    "answers": [
+      "A SOC is a centralized unit responsible for threat detection and response.",
+      "It uses tools and processes to monitor network activity and identify anomalies.",
+      "SOC teams play a critical role in mitigating the impact of cybersecurity incidents."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a denial-of-service (DoS) attack?",
+    "options": [
+      "An attack that overwhelms a system, making it unavailable to legitimate users",
+      "A phishing attempt targeting sensitive user information",
+      "A malicious software designed to encrypt data",
+      "A vulnerability in password management software"
+    ],
+    "answers": [
+      "A DoS attack floods a server or network with excessive traffic.",
+      "It disrupts services, causing inconvenience to users and businesses.",
+      "Mitigating DoS attacks involves using firewalls and traffic filtering."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does a cybersecurity risk assessment involve?",
+    "options": [
+      "Identifying and evaluating potential security threats to an organization",
+      "Installing antivirus software on all company devices",
+      "Developing marketing strategies for security products",
+      "Monitoring user activity across all networks"
+    ],
+    "answers": [
+      "Risk assessments help identify vulnerabilities and prioritize mitigation efforts.",
+      "They include analyzing assets, threats, and potential impacts of attacks.",
+      "Conducting regular risk assessments strengthens overall cybersecurity posture."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does endpoint security protect?",
+    "options": [
+      "Devices such as laptops, smartphones, and workstations",
+      "Only servers within a data center",
+      "The physical locations of a company",
+      "The integrity of email communications"
+    ],
+    "answers": [
+      "Endpoint security focuses on securing devices connected to a network.",
+      "It helps prevent malware, phishing, and unauthorized access on endpoints.",
+      "Using endpoint protection platforms strengthens organizational security."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the main advantage of using a firewall?",
+    "options": [
+      "To monitor and control incoming and outgoing network traffic",
+      "To encrypt data before transmission",
+      "To store user passwords securely",
+      "To increase internet speed"
+    ],
+    "answers": [
+      "Firewalls create a barrier between trusted and untrusted networks.",
+      "They help block unauthorized access and prevent cyberattacks.",
+      "Configuring firewalls correctly ensures optimal network security."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+
+  {
+    "question": "What is the purpose of encrypting data?",
+    "options": [
+      "To prevent unauthorized access by converting information into an unreadable format",
+      "To increase the speed of data transmission",
+      "To compress files for storage savings",
+      "To identify malware on a system"
+    ],
+    "answers": [
+      "Encryption ensures that only authorized parties can access sensitive data.",
+      "It is a critical method for protecting information during storage and transmission.",
+      "Encryption helps prevent data breaches and unauthorized access."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "How does two-factor authentication enhance security?",
+    "options": [
+      "By requiring two forms of verification to access an account",
+      "By replacing traditional passwords",
+      "By storing sensitive data in encrypted format",
+      "By scanning devices for vulnerabilities"
+    ],
+    "answers": [
+      "Two-factor authentication adds an additional layer of security.",
+      "It combines something you know (password) with something you have (code or token).",
+      "2FA makes it more difficult for attackers to gain unauthorized access even if they know the password."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a phishing scam?",
+    "options": [
+      "A fraudulent attempt to obtain sensitive information through deceptive emails or websites",
+      "A malware attack designed to encrypt user files",
+      "A tool for encrypting sensitive data",
+      "A method of creating secure passwords"
+    ],
+    "answers": [
+      "Phishing scams trick users into revealing personal or financial information.",
+      "They often use emails or websites that mimic legitimate organizations.",
+      "Users can protect themselves by verifying email senders and avoiding clicking on suspicious links."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the role of a firewall in cybersecurity?",
+    "options": [
+      "To monitor and control network traffic based on security rules",
+      "To encrypt files stored on a computer",
+      "To improve the speed of internet connections",
+      "To manage user account passwords"
+    ],
+    "answers": [
+      "Firewalls block unauthorized access to a network while allowing legitimate traffic.",
+      "They are an essential defense against cyberattacks and intrusions.",
+      "Properly configured firewalls enhance the overall security of an organization."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of regular software updates?",
+    "options": [
+      "To fix security vulnerabilities and improve performance",
+      "To install new hardware on a system",
+      "To delete old files from storage",
+      "To increase internet speed"
+    ],
+    "answers": [
+      "Regular updates address known security flaws and keep systems protected.",
+      "They often include patches that prevent exploitation by attackers.",
+      "Keeping software up to date is a critical part of maintaining cybersecurity."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the CIA triad in cybersecurity?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Intelligence, Access",
+      "Confidentiality, Identification, Accountability",
+      "Availability, Security, Encryption"
+    ],
+    "answers": [
+      "The CIA triad represents three key principles of cybersecurity: confidentiality, integrity, and availability.",
+      "Confidentiality ensures data is accessible only to authorized users.",
+      "Availability ensures that systems and information are accessible when needed."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a brute force attack?",
+    "options": [
+      "An attempt to gain access by systematically guessing passwords",
+      "A type of phishing scam targeting sensitive information",
+      "A secure method for encrypting user data",
+      "A feature that improves network bandwidth"
+    ],
+    "answers": [
+      "Brute force attacks test multiple combinations to guess credentials.",
+      "Strong passwords and account lockout mechanisms reduce the risk of brute force attacks.",
+      "Attackers often use automated tools to carry out brute force attacks."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is endpoint security?",
+    "options": [
+      "A method of protecting devices like laptops, desktops, and mobile phones from cyber threats",
+      "A type of firewall installed on a network",
+      "A tool for creating secure backups",
+      "A method for encrypting emails"
+    ],
+    "answers": [
+      "Endpoint security protects devices that connect to a network from malware and other threats.",
+      "It includes antivirus software, firewalls, and device management tools.",
+      "Effective endpoint security minimizes vulnerabilities across an organization."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Why is it important to use unique passwords for each account?",
+    "options": [
+      "To prevent one compromised account from affecting others",
+      "To make it easier to remember all passwords",
+      "To improve internet speed",
+      "To ensure compatibility with all devices"
+    ],
+    "answers": [
+      "Using unique passwords reduces the risk of multiple account breaches.",
+      "It ensures that even if one password is stolen, other accounts remain secure.",
+      "Password managers can help create and store unique, strong passwords."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is social engineering in the context of cybersecurity?",
+    "options": [
+      "Manipulating individuals to reveal confidential information",
+      "A method for encrypting data on storage devices",
+      "A type of attack that targets network firewalls",
+      "An automated process for identifying vulnerabilities"
+    ],
+    "answers": [
+      "Social engineering exploits human behavior to bypass security measures.",
+      "Common tactics include phishing, pretexting, and baiting.",
+      "Awareness training helps users recognize and avoid social engineering attempts."
+    ],
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  
+    {
+      "question": "What is the role of a zero-trust security model?",
+      "options": [
+        "To verify every user and device before granting access",
+        "To automatically trust devices within a network",
+        "To replace encryption protocols with firewalls",
+        "To focus solely on physical security measures"
+      ],
+      "answers": [
+        "Zero-trust security ensures strict identity verification for all users and devices.",
+        "It minimizes risks by assuming that no user or device is inherently trusted.",
+        "Implementing zero-trust improves defense against insider threats and breaches."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of penetration testing?",
+      "options": [
+        "To identify and fix vulnerabilities by simulating cyberattacks",
+        "To replace outdated hardware in a network",
+        "To monitor user activity in real-time",
+        "To encrypt sensitive files on devices"
+      ],
+      "answers": [
+        "Penetration testing evaluates a system's defenses against real-world attacks.",
+        "It helps organizations proactively address weaknesses before attackers exploit them.",
+        "Regular penetration tests strengthen an organization’s overall security posture."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "How does multi-factor authentication (MFA) improve security?",
+      "options": [
+        "By requiring multiple forms of verification to confirm identity",
+        "By encrypting all passwords in a database",
+        "By scanning devices for malware",
+        "By monitoring traffic across all network endpoints"
+      ],
+      "answers": [
+        "MFA enhances security by combining at least two verification factors.",
+        "These factors can include something you know (password), have (token), or are (biometric).",
+        "MFA significantly reduces the likelihood of unauthorized access."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of a cybersecurity awareness program?",
+      "options": [
+        "To educate employees on recognizing and responding to cyber threats",
+        "To install antivirus software on all devices",
+        "To replace outdated security protocols",
+        "To monitor the behavior of all employees"
+      ],
+      "answers": [
+        "Awareness programs teach employees about phishing, social engineering, and secure practices.",
+        "They help create a culture of security within an organization.",
+        "Such programs reduce the risk of human errors leading to breaches."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the main purpose of data masking?",
+      "options": [
+        "To protect sensitive data by replacing it with fictitious values",
+        "To encrypt all data before transmission",
+        "To compress large files for storage savings",
+        "To monitor unauthorized access to a database"
+      ],
+      "answers": [
+        "Data masking secures sensitive information by substituting it with fake data.",
+        "It ensures that real data remains inaccessible during testing or analysis.",
+        "Masking is commonly used to protect customer information and comply with regulations."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "Why are regular security audits important?",
+      "options": [
+        "To identify and address weaknesses in an organization’s security infrastructure",
+        "To increase employee productivity",
+        "To enhance internet speed across the network",
+        "To optimize software performance"
+      ],
+      "answers": [
+        "Security audits ensure that existing defenses are effective and up-to-date.",
+        "They help organizations comply with legal and regulatory requirements.",
+        "Audits provide insights into vulnerabilities that may otherwise go unnoticed."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of role-based access control (RBAC)?",
+      "options": [
+        "To restrict system access based on a user’s role or job function",
+        "To encrypt all files on a network",
+        "To automatically detect and remove malware",
+        "To monitor user behavior across devices"
+      ],
+      "answers": [
+        "RBAC limits access to systems and data to only those who need it for their role.",
+        "It minimizes the risk of insider threats and accidental data breaches.",
+        "Implementing RBAC strengthens compliance with security policies."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is a denial-of-service (DoS) attack?",
+      "options": [
+        "An attack that floods a network or server, making it unavailable to users",
+        "A phishing scam designed to steal user credentials",
+        "A malware infection that encrypts files for ransom",
+        "A technique to monitor real-time network activity"
+      ],
+      "answers": [
+        "A DoS attack overwhelms a target with excessive traffic or requests.",
+        "It disrupts normal operations and denies legitimate users access.",
+        "Mitigation involves traffic filtering, firewalls, and robust infrastructure."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of secure socket layer (SSL) certificates?",
+      "options": [
+        "To encrypt communication between a web server and browser",
+        "To monitor website traffic for suspicious activity",
+        "To replace outdated network hardware",
+        "To store sensitive information on a secure server"
+      ],
+      "answers": [
+        "SSL certificates ensure that data transmitted over the internet is secure.",
+        "They authenticate a website’s identity and establish trust with users.",
+        "SSL is critical for protecting sensitive information like credit card details."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    },
+    {
+      "question": "What is the purpose of a honeypot in cybersecurity?",
+      "options": [
+        "To act as a decoy system that attracts and studies potential attackers",
+        "To replace outdated security hardware",
+        "To encrypt sensitive files on user devices",
+        "To monitor employee productivity"
+      ],
+      "answers": [
+        "A honeypot lures attackers into a controlled environment for observation.",
+        "It provides insights into attack methods and helps improve defenses.",
+        "Honeypots are a valuable tool for threat analysis and incident response."
+      ],
+      "difficulty": "Easy",
+      "category": "Cybersecurity"
+    }
+  ]
+

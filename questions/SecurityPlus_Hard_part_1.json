@@ -1,0 +1,194 @@
+[
+    {
+        "question": "What is a zero-day vulnerability?",
+        "options": [
+            "A flaw exploited before a patch is available",
+            "A misconfiguration in a system",
+            "An outdated operating system vulnerability",
+            "An attack that occurs without warning"
+        ],
+        "answer": "A flaw exploited before a patch is available",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the main purpose of a honeypot?",
+        "options": [
+            "To attract attackers and study their methods",
+            "To encrypt sensitive data",
+            "To monitor legitimate network traffic",
+            "To provide high availability of resources"
+        ],
+        "answer": "To attract attackers and study their methods",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What type of attack exploits input fields to execute malicious code?",
+        "options": [
+            "SQL Injection",
+            "Cross-Site Scripting (XSS)",
+            "Brute Force Attack",
+            "Man-in-the-Middle Attack"
+        ],
+        "answer": "SQL Injection",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary purpose of a DMZ in a network?",
+        "options": [
+            "To isolate public-facing servers",
+            "To prevent phishing attacks",
+            "To block all external traffic",
+            "To perform vulnerability scans"
+        ],
+        "answer": "To isolate public-facing servers",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a botnet consist of?",
+        "options": [
+            "Compromised devices controlled by an attacker",
+            "Encrypted data packets",
+            "A secure network of devices",
+            "A database of malware signatures"
+        ],
+        "answer": "Compromised devices controlled by an attacker",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a buffer overflow attack?",
+        "options": [
+            "An attack that exploits excessive memory allocation",
+            "An attack that floods a network with data",
+            "An attack that encrypts sensitive files",
+            "An attack that manipulates input fields"
+        ],
+        "answer": "An attack that exploits excessive memory allocation",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol is responsible for securing email communication?",
+        "options": [
+            "Secure/Multipurpose Internet Mail Extensions (S/MIME)",
+            "Post Office Protocol (POP3)",
+            "File Transfer Protocol (FTP)",
+            "Hypertext Transfer Protocol Secure (HTTPS)"
+        ],
+        "answer": "Secure/Multipurpose Internet Mail Extensions (S/MIME)",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which security model focuses on preventing unauthorized access to information?",
+        "options": [
+            "Bell-LaPadula Model",
+            "Clark-Wilson Model",
+            "Biba Model",
+            "Access Control Matrix"
+        ],
+        "answer": "Bell-LaPadula Model",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which tool is commonly used for analyzing and aggregating security logs?",
+        "options": [
+            "Splunk",
+            "Wireshark",
+            "Metasploit",
+            "Nmap"
+        ],
+        "answer": "Splunk",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a hot site in disaster recovery planning?",
+        "options": [
+            "To provide a fully operational backup site ready for immediate use",
+            "To serve as a secure data storage facility",
+            "To encrypt backup files during transit",
+            "To store archived data indefinitely"
+        ],
+        "answer": "To provide a fully operational backup site ready for immediate use",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the term 'man-in-the-browser attack' refer to?",
+        "options": [
+            "An attack where malware intercepts communication between a user and their browser",
+            "An attack that floods a browser with pop-ups",
+            "An attack where a hacker takes control of a web server",
+            "An attack that exploits outdated browser plugins"
+        ],
+        "answer": "An attack where malware intercepts communication between a user and their browser",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a rainbow table attack used for?",
+        "options": [
+            "Cracking hashed passwords by using precomputed hash values",
+            "Stealing session tokens during a network transmission",
+            "Executing code on a vulnerable web application",
+            "Flooding a network with traffic to cause downtime"
+        ],
+        "answer": "Cracking hashed passwords by using precomputed hash values",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary function of a rootkit?",
+        "options": [
+            "To hide malicious activity and maintain privileged access",
+            "To encrypt sensitive data for secure storage",
+            "To monitor network traffic for anomalies",
+            "To analyze system logs for threats"
+        ],
+        "answer": "To hide malicious activity and maintain privileged access",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a session hijacking attack?",
+        "options": [
+            "To take control of a user's active session and impersonate them",
+            "To disable an application by overloading its session handling",
+            "To encrypt all session data on the fly",
+            "To block legitimate users from accessing a session"
+        ],
+        "answer": "To take control of a user's active session and impersonate them",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of an air-gapped system?",
+        "options": [
+            "To isolate a computer or network from external connections for security",
+            "To encrypt sensitive data during transit",
+            "To block unauthorized access to applications",
+            "To monitor and log network activity"
+        ],
+        "answer": "To isolate a computer or network from external connections for security",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a honeynet consist of?",
+        "options": [
+            "Multiple honeypots designed to trap attackers",
+            "A single secure network for storing sensitive data",
+            "A cloud-based security system for monitoring threats",
+            "An automated system for patch management"
+        ],
+        "answer": "Multiple honeypots designed to trap attackers",
+        "difficulty": "Hard",
+        "category": "SecurityPlus"
+    }
+]

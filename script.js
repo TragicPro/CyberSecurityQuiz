@@ -65,7 +65,7 @@
 });
 
 function startQuiz() {
-    const category = document.getElementById('category').value;
+    const category = document.getElementById('category').value.replace(/ /g, '_');
     const difficulty = document.getElementById('difficulty').value;
 
     const resultContainer = document.getElementById('result');
@@ -75,18 +75,40 @@ function startQuiz() {
 }
 
 function fetchQuestions(category, difficulty) {
-    fetch('./questions.json')
-        .then(response => response.json())
-        .then(data => {
-            const filteredQuestions = data.filter(
-                q => q.category === category && q.difficulty === difficulty
-            );
+    const baseFileName = `${category}_${difficulty}`;
+    const filePathTemplate = `./questions/${baseFileName}_part_`;
+    let part = 1;
+    let allQuestions = [];
 
-            const selectedQuestions = getRandomQuestions(filteredQuestions, 10);
-            displayQuestions(selectedQuestions);
-            window.quizData = selectedQuestions;
-        })
-        .catch(error => console.error('Error loading questions:', error));
+    function loadNextPart() {
+        const filePath = `${filePathTemplate}${part}.json`;
+        fetch(filePath)
+            .then(response => {
+                if (!response.ok) {
+                    console.log(`No more parts found: ${filePath}`); // Friendly message
+                    throw new Error('No more parts');
+                }
+                return response.json();
+            })
+            .then(data => {
+                allQuestions = allQuestions.concat(data);
+                part++;
+                loadNextPart(); // Load the next part
+            })
+            .catch(() => {
+                // No more parts to load
+                if (allQuestions.length === 0) {
+                    console.error('No questions loaded. Please check your files.');
+                } else {
+                    displayQuestions(getRandomQuestions(allQuestions, 10));
+                    window.quizData = allQuestions;
+                }
+            });
+    
+
+    }
+
+    loadNextPart(); // Start loading files
 }
 
 function getRandomQuestions(array, count) {

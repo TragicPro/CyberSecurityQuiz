@@ -1,0 +1,194 @@
+[
+    {
+        "question": "What is the purpose of subnetting in a network?",
+        "options": [
+            "Dividing a network into smaller, manageable segments",
+            "Encrypting traffic between devices",
+            "Managing IP addresses",
+            "Improving wireless connectivity"
+        ],
+        "answer": "Dividing a network into smaller, manageable segments",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What does MTU stand for in networking?",
+        "options": [
+            "Maximum Transmission Unit",
+            "Maximum Traffic Utility",
+            "Minimum Traffic Unit",
+            "Maximum Transfer Usage"
+        ],
+        "answer": "Maximum Transmission Unit",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What type of attack involves intercepting and altering communication between two parties?",
+        "options": [
+            "Man-in-the-Middle",
+            "DDoS",
+            "Phishing",
+            "Spoofing"
+        ],
+        "answer": "Man-in-the-Middle",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary function of the ARP protocol?",
+        "options": [
+            "To map IP addresses to MAC addresses",
+            "To route packets between networks",
+            "To encrypt transmitted data",
+            "To monitor network traffic"
+        ],
+        "answer": "To map IP addresses to MAC addresses",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which networking topology connects all devices to a single backbone cable?",
+        "options": [
+            "Bus",
+            "Star",
+            "Ring",
+            "Mesh"
+        ],
+        "answer": "Bus",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the primary purpose of a network gateway?",
+        "options": [
+            "To connect different networks",
+            "To filter incoming data packets",
+            "To route data within a LAN",
+            "To monitor network activity"
+        ],
+        "answer": "To connect different networks",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which layer of the OSI model is responsible for error detection and correction?",
+        "options": [
+            "Data Link",
+            "Network",
+            "Transport",
+            "Application"
+        ],
+        "answer": "Data Link",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What does MTU stand for in networking?",
+        "options": [
+            "Maximum Transmission Unit",
+            "Minimum Transfer Unit",
+            "Maximum Transfer Utility",
+            "Minimum Transmission Utility"
+        ],
+        "answer": "Maximum Transmission Unit",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which type of cable is used to connect computers directly without a switch?",
+        "options": [
+            "Crossover Cable",
+            "Straight-Through Cable",
+            "Fiber Optic Cable",
+            "Coaxial Cable"
+        ],
+        "answer": "Crossover Cable",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which network topology provides the most redundancy?",
+        "options": [
+            "Mesh",
+            "Star",
+            "Ring",
+            "Bus"
+        ],
+        "answer": "Mesh",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the purpose of port forwarding in a network?",
+        "options": [
+            "To allow external devices to access internal services",
+            "To monitor bandwidth usage",
+            "To assign IP addresses",
+            "To block incoming traffic"
+        ],
+        "answer": "To allow external devices to access internal services",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which type of wireless encryption is considered the most secure?",
+        "options": [
+            "WPA3",
+            "WPA2",
+            "WEP",
+            "TKIP"
+        ],
+        "answer": "WPA3",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "What is the main role of the Session layer in the OSI model?",
+        "options": [
+            "To manage and control dialog sessions between applications",
+            "To encrypt data packets",
+            "To monitor network traffic",
+            "To assign IP addresses"
+        ],
+        "answer": "To manage and control dialog sessions between applications",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which routing protocol is used for exchanging information within an autonomous system?",
+        "options": [
+            "OSPF",
+            "BGP",
+            "RIP",
+            "EIGRP"
+        ],
+        "answer": "OSPF",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is used to manage and monitor network devices?",
+        "options": [
+            "SNMP",
+            "SMTP",
+            "DNS",
+            "ICMP"
+        ],
+        "answer": "SNMP",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    },
+    {
+        "question": "Which protocol is used for network device configuration and automation?",
+        "options": [
+            "NETCONF",
+            "FTP",
+            "SMTP",
+            "DNS"
+        ],
+        "answer": "NETCONF",
+        "difficulty": "Hard",
+        "category": "Networking Basics"
+    }
+]

@@ -1,0 +1,505 @@
+[
+    {
+        "question": "What is non-repudiation in cybersecurity?",
+        "options": [
+            "Ensuring only authorized users can access data",
+            "Proving an action cannot be denied",
+            "Ensuring data integrity during transmission"
+        ],
+        "answer": "Proving an action cannot be denied",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the role of integrity in cybersecurity?",
+        "options": [
+            "Ensures data accuracy and reliability",
+            "Prevents unauthorized access",
+            "Maintains availability of systems",
+            "Detects malicious activity"
+        ],
+        "answer": "Ensures data accuracy and reliability",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which security control type is a firewall?",
+        "options": [
+            "Technical",
+            "Administrative",
+            "Physical",
+            "Operational"
+        ],
+        "answer": "Technical",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does non-repudiation ensure in cybersecurity?",
+        "options": [
+            "Actions cannot be denied by the entity performing them",
+            "Data remains confidential during transmission",
+            "The system remains available during attacks",
+            "Users are always authenticated"
+        ],
+        "answer": "Actions cannot be denied by the entity performing them",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary purpose of a Public Key Infrastructure (PKI)?",
+        "options": [
+            "To issue and manage digital certificates",
+            "To detect vulnerabilities",
+            "To encrypt data for secure storage",
+            "To block unauthorized traffic"
+        ],
+        "answer": "To issue and manage digital certificates",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the principle of least privilege ensure?",
+        "options": [
+            "Users have only the permissions necessary to do their job",
+            "Users can access all company resources",
+            "All users have administrative privileges",
+            "No users are allowed on the network without encryption"
+        ],
+        "answer": "Users have only the permissions necessary to do their job",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the difference between symmetric and asymmetric encryption?",
+        "options": [
+            "Symmetric uses one key, asymmetric uses two keys",
+            "Symmetric encrypts data, asymmetric decrypts data",
+            "Asymmetric is faster than symmetric",
+            "Symmetric only works on text files"
+        ],
+        "answer": "Symmetric uses one key, asymmetric uses two keys",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the difference between IDS and IPS?",
+        "options": [
+            "IDS detects intrusions; IPS prevents intrusions",
+            "IDS encrypts data; IPS decrypts data",
+            "IDS manages firewalls; IPS monitors traffic",
+            "IDS ensures availability; IPS ensures integrity"
+        ],
+        "answer": "IDS detects intrusions; IPS prevents intrusions",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary purpose of penetration testing?",
+        "options": [
+            "To identify vulnerabilities in a system",
+            "To encrypt sensitive data",
+            "To block unauthorized access",
+            "To prevent phishing attacks"
+        ],
+        "answer": "To identify vulnerabilities in a system",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol is used to encrypt emails?",
+        "options": [
+            "PGP",
+            "SMTP",
+            "HTTP",
+            "IMAP"
+        ],
+        "answer": "PGP",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What type of malware replicates itself to spread to other systems?",
+        "options": [
+            "Worm",
+            "Trojan Horse",
+            "Ransomware",
+            "Spyware"
+        ],
+        "answer": "Worm",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does an intrusion detection system (IDS) do?",
+        "options": [
+            "Monitors network traffic for suspicious activity",
+            "Encrypts sensitive data for secure storage",
+            "Prevents unauthorized access to the network",
+            "Scans for open ports on a network"
+        ],
+        "answer": "Monitors network traffic for suspicious activity",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary function of a digital signature?",
+        "options": [
+            "To verify the authenticity and integrity of data",
+            "To encrypt data for secure storage",
+            "To block unauthorized users",
+            "To manage user permissions"
+        ],
+        "answer": "To verify the authenticity and integrity of data",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a Security Information and Event Management (SIEM) system?",
+        "options": [
+            "To collect and analyze security data from multiple sources",
+            "To encrypt network traffic",
+            "To monitor user activity on the network",
+            "To test system vulnerabilities"
+        ],
+        "answer": "To collect and analyze security data from multiple sources",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a certificate authority (CA) do?",
+        "options": [
+            "Issues and verifies digital certificates",
+            "Encrypts sensitive data",
+            "Monitors network traffic for threats",
+            "Manages user accounts"
+        ],
+        "answer": "Issues and verifies digital certificates",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is ransomware?",
+        "options": [
+            "Malware that encrypts files and demands payment for decryption",
+            "A virus that replicates itself across a network",
+            "A Trojan horse disguised as legitimate software",
+            "Malware that spies on user activity"
+        ],
+        "answer": "Malware that encrypts files and demands payment for decryption",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of an access control list (ACL)?",
+        "options": [
+            "To define rules for network traffic",
+            "To detect intrusions on the network",
+            "To encrypt sensitive data",
+            "To authenticate users"
+        ],
+        "answer": "To define rules for network traffic",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the difference between hashing and encryption?",
+        "options": [
+            "Hashing ensures integrity; encryption ensures confidentiality",
+            "Hashing is reversible; encryption is not",
+            "Hashing encrypts data; encryption decrypts data",
+            "Hashing ensures availability; encryption ensures integrity"
+        ],
+        "answer": "Hashing ensures integrity; encryption ensures confidentiality",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary objective of a business impact analysis (BIA)?",
+        "options": [
+            "To identify critical business functions and their dependencies",
+            "To monitor network traffic for threats",
+            "To detect malware on endpoints",
+            "To enforce access control policies"
+        ],
+        "answer": "To identify critical business functions and their dependencies",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of attack exploits vulnerabilities in web applications to inject malicious code?",
+        "options": [
+            "Cross-Site Scripting (XSS)",
+            "SQL Injection",
+            "Man-in-the-Middle",
+            "Brute Force Attack"
+        ],
+        "answer": "Cross-Site Scripting (XSS)",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does a security token provide in authentication systems?",
+        "options": [
+            "A one-time password or cryptographic code",
+            "Encryption of all transmitted data",
+            "Biometric scanning capabilities",
+            "Permanent access to all resources"
+        ],
+        "answer": "A one-time password or cryptographic code",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a digital certificate in a Public Key Infrastructure (PKI)?",
+        "options": [
+            "To verify the authenticity of a public key",
+            "To encrypt data for secure storage",
+            "To block unauthorized users",
+            "To monitor access logs"
+        ],
+        "answer": "To verify the authenticity of a public key",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the primary purpose of a network access control (NAC) solution?",
+        "options": [
+            "To enforce security policies before granting access to network resources",
+            "To encrypt network traffic",
+            "To detect vulnerabilities in connected devices",
+            "To block unauthorized email traffic"
+        ],
+        "answer": "To enforce security policies before granting access to network resources",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the term 'sandboxing' refer to in cybersecurity?",
+        "options": [
+            "Isolating a program or process to prevent it from affecting the rest of the system",
+            "Encrypting sensitive data for secure storage",
+            "Blocking malicious network traffic",
+            "Monitoring user activities in real-time"
+        ],
+        "answer": "Isolating a program or process to prevent it from affecting the rest of the system",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which attack manipulates DNS queries to redirect users to malicious websites?",
+        "options": [
+            "DNS Spoofing",
+            "Man-in-the-Middle",
+            "SQL Injection",
+            "Rainbow Table Attack"
+        ],
+        "answer": "DNS Spoofing",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a cold site in disaster recovery planning?",
+        "options": [
+            "A backup location with basic facilities but no equipment",
+            "A fully equipped backup location",
+            "An online-only backup solution",
+            "A secure data storage facility"
+        ],
+        "answer": "A backup location with basic facilities but no equipment",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which encryption algorithm is considered suitable for securing sensitive government information?",
+        "options": [
+            "Advanced Encryption Standard (AES)",
+            "Data Encryption Standard (DES)",
+            "Triple DES (3DES)",
+            "Rivest Cipher 4 (RC4)"
+        ],
+        "answer": "Advanced Encryption Standard (AES)",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of penetration testing?",
+        "options": [
+            "To identify exploitable vulnerabilities in a system",
+            "To encrypt sensitive files",
+            "To monitor real-time traffic",
+            "To detect malware"
+        ],
+        "answer": "To identify exploitable vulnerabilities in a system",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the function of a Security Information and Event Management (SIEM) system?",
+        "options": [
+            "Aggregating and analyzing security-related data from multiple sources",
+            "Encrypting network communications",
+            "Blocking unauthorized users",
+            "Managing digital certificates"
+        ],
+        "answer": "Aggregating and analyzing security-related data from multiple sources",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol is used to securely transfer files over the internet?",
+        "options": [
+            "Secure File Transfer Protocol (SFTP)",
+            "File Transfer Protocol (FTP)",
+            "Hypertext Transfer Protocol (HTTP)",
+            "Internet Message Access Protocol (IMAP)"
+        ],
+        "answer": "Secure File Transfer Protocol (SFTP)",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the acronym AAA stand for in cybersecurity?",
+        "options": [
+            "Authentication, Authorization, Accounting",
+            "Access, Authorization, Accountability",
+            "Assessment, Authorization, Application",
+            "Authentication, Analysis, Access"
+        ],
+        "answer": "Authentication, Authorization, Accounting",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of attack exploits an unpatched software vulnerability?",
+        "options": [
+            "Zero-Day Attack",
+            "Brute Force Attack",
+            "Man-in-the-Middle Attack",
+            "DNS Spoofing"
+        ],
+        "answer": "Zero-Day Attack",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the role of a certificate authority (CA)?",
+        "options": [
+            "To issue and manage digital certificates",
+            "To detect and block malware",
+            "To encrypt transmitted data",
+            "To manage user permissions"
+        ],
+        "answer": "To issue and manage digital certificates",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the main purpose of a disaster recovery plan (DRP)?",
+        "options": [
+            "To restore business operations after a major disruption",
+            "To encrypt sensitive data during storage",
+            "To identify risks in the network infrastructure",
+            "To prevent unauthorized access to systems"
+        ],
+        "answer": "To restore business operations after a major disruption",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is the purpose of a risk assessment in cybersecurity?",
+        "options": [
+            "To identify, analyze, and evaluate risks to an organization",
+            "To implement encryption methods",
+            "To monitor real-time traffic",
+            "To ensure compliance with government regulations"
+        ],
+        "answer": "To identify, analyze, and evaluate risks to an organization",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of backup strategy involves backing up only data that has changed since the last backup?",
+        "options": [
+            "Incremental Backup",
+            "Full Backup",
+            "Differential Backup",
+            "Snapshot Backup"
+        ],
+        "answer": "Incremental Backup",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which type of social engineering attack involves impersonating a trusted entity over the phone?",
+        "options": [
+            "Vishing",
+            "Phishing",
+            "Spear Phishing",
+            "Whaling"
+        ],
+        "answer": "Vishing",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol is commonly used for secure remote administration of network devices?",
+        "options": [
+            "SSH",
+            "Telnet",
+            "HTTP",
+            "SNMP"
+        ],
+        "answer": "SSH",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which cryptographic algorithm is best suited for data integrity verification?",
+        "options": [
+            "SHA-256",
+            "AES",
+            "RSA",
+            "Diffie-Hellman"
+        ],
+        "answer": "SHA-256",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What is a zero-trust security model designed to do?",
+        "options": [
+            "Assume no user or device is trusted by default",
+            "Encrypt data stored in the cloud",
+            "Block all outbound traffic on a network",
+            "Allow only administrators access to sensitive data"
+        ],
+        "answer": "Assume no user or device is trusted by default",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "Which protocol resolves IP addresses to MAC addresses?",
+        "options": [
+            "Address Resolution Protocol (ARP)",
+            "Domain Name System (DNS)",
+            "Dynamic Host Configuration Protocol (DHCP)",
+            "Internet Control Message Protocol (ICMP)"
+        ],
+        "answer": "Address Resolution Protocol (ARP)",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    },
+    {
+        "question": "What does the term 'non-repudiation' ensure in cybersecurity?",
+        "options": [
+            "Proof that an action or transaction cannot be denied",
+            "That only authorized users can access sensitive data",
+            "That encrypted data cannot be decrypted by attackers",
+            "That all network activity is logged"
+        ],
+        "answer": "Proof that an action or transaction cannot be denied",
+        "difficulty": "Medium",
+        "category": "SecurityPlus"
+    }
+]
