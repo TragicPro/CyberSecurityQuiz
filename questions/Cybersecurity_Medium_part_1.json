@@ -359,7 +359,7 @@
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
-  
+
   {
     "question": "What is the main function of a Content Delivery Network (CDN)?",
     "options": [
@@ -477,11 +477,7 @@
       "A method for backing up sensitive data",
       "A software used to monitor employee activity"
     ],
-    "answers": [
-      "Exploit kits are tools that automate the exploitation of vulnerabilities.",
-      "They are often used to deliver malware through compromised websites.",
-      "Defending against exploit kits involves patching vulnerabilities and monitoring traffic."
-    ],
+    "answer": "A tool used by attackers to deliver and execute malware",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -493,11 +489,7 @@
       "To design encryption protocols for sensitive communications",
       "To monitor real-time network activity"
     ],
-    "answers": [
-      "Red teams simulate adversarial behavior to identify weaknesses in security.",
-      "They work alongside blue teams, which focus on defense and response.",
-      "Red team exercises improve an organization’s ability to handle real attacks."
-    ],
+    "answer": "To simulate real-world attacks and test an organization’s defenses",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -509,11 +501,7 @@
       "Stateful firewalls are used for encryption, while stateless firewalls are not",
       "Stateless firewalls require more resources than stateful firewalls"
     ],
-    "answers": [
-      "Stateful firewalls analyze the context of traffic by monitoring connections.",
-      "Stateless firewalls rely on static rules without tracking ongoing sessions.",
-      "Both types serve different purposes in layered security architectures."
-    ],
+    "answer": "Stateful firewalls track the state of network connections; stateless firewalls filter traffic based on predefined rules",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -525,11 +513,7 @@
       "A ransomware variant that encrypts files without a key",
       "A tool for securely wiping sensitive data"
     ],
-    "answers": [
-      "Fileless malware resides in memory and avoids leaving a footprint on disk.",
-      "It often exploits legitimate tools like PowerShell or WMI to execute malicious actions.",
-      "Defending against fileless malware requires advanced monitoring and endpoint detection tools."
-    ],
+    "answer": "Malware that operates without installing files on the target system",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -541,11 +525,7 @@
       "A technique to detect phishing attacks",
       "A protocol for securely transmitting data"
     ],
-    "answers": [
-      "PoLP minimizes the risk of accidental or intentional misuse by limiting permissions.",
-      "It applies to users, applications, and processes within a system.",
-      "Enforcing PoLP enhances security and reduces the attack surface."
-    ],
+    "answer": "A security concept that restricts user access to only what is necessary",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -557,11 +537,7 @@
       "A proxy server for encrypting communications",
       "A firewall rule for filtering unauthorized traffic"
     ],
-    "answers": [
-      "Bastion hosts are exposed to the internet and act as gateways to internal networks.",
-      "They are heavily secured and monitored to prevent compromise.",
-      "Deploying bastion hosts is a key practice in perimeter defense strategies."
-    ],
+    "answer": "A hardened server designed to withstand attacks and provide secure access to a network",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -573,11 +549,7 @@
       "To develop secure software applications",
       "To manage encryption keys for sensitive data"
     ],
-    "answers": [
-      "Threat hunting teams identify advanced threats that bypass automated defenses.",
-      "They use threat intelligence and behavioral analysis to uncover anomalies.",
-      "Regular threat hunting improves detection capabilities and reduces dwell time."
-    ],
+    "answer": "To proactively search for hidden threats within an organization’s systems",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -589,11 +561,7 @@
       "A tool for optimizing DNS query performance",
       "A firewall feature for blocking DNS requests"
     ],
-    "answers": [
-      "DNS tunneling encodes data within DNS queries to bypass security controls.",
-      "It is often used by attackers to maintain command and control communications.",
-      "Detecting DNS tunneling requires monitoring DNS traffic for unusual patterns."
-    ],
+    "answer": "A method attackers use to exfiltrate data or communicate covertly over DNS protocol",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -605,11 +573,7 @@
       "To optimize the speed of file transfers across the network",
       "To replace firewalls in network security"
     ],
-    "answers": [
-      "Zero trust architecture assumes no implicit trust for users or devices, even inside the network.",
-      "It relies on continuous verification and least privilege principles.",
-      "Implementing zero trust reduces the risk of lateral movement by attackers."
-    ],
+    "answer": "To enforce strict identity verification for every user and device accessing resources",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -621,11 +585,7 @@
       "A protocol for monitoring email traffic",
       "A method for optimizing database queries"
     ],
-    "answers": [
-      "Honeynets simulate real networks to study attacker techniques and tactics.",
-      "They provide valuable data for improving threat detection and response.",
-      "Deploying honeynets enhances an organization’s understanding of emerging threats."
-    ],
+    "answer": "A network of decoy systems designed to attract and analyze attackers",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
