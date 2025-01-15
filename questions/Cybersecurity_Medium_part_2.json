@@ -7,11 +7,7 @@
       "A method for monitoring employee activity",
       "A protocol for securing network traffic"
     ],
-    "answers": [
-      "The cyber kill chain identifies the steps attackers take to achieve their goals.",
-      "It includes stages like reconnaissance, weaponization, delivery, and exploitation.",
-      "Understanding the kill chain helps organizations develop effective defenses."
-    ],
+    "answer": "A framework outlining the stages of a cyberattack",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -23,11 +19,7 @@
       "A type of antivirus software",
       "A firewall rule for blocking threats"
     ],
-    "answers": [
-      "APTs involve sophisticated and stealthy methods to maintain unauthorized access.",
-      "Attackers often target specific organizations to steal sensitive data.",
-      "Defending against APTs requires advanced threat detection and response."
-    ],
+    "answer": "A prolonged and targeted cyberattack by skilled adversaries",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -39,11 +31,7 @@
       "Asymmetric encryption does not require a key",
       "Symmetric encryption cannot be used for file storage"
     ],
-    "answers": [
-      "Symmetric encryption uses a single key for both encryption and decryption.",
-      "Asymmetric encryption uses a public key for encryption and a private key for decryption.",
-      "Both methods have unique use cases, such as symmetric for speed and asymmetric for secure communications."
-    ],
+    "answer": "Symmetric uses one key for encryption and decryption; asymmetric uses two keys",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -55,11 +43,7 @@
       "To monitor user activity on the network",
       "To replace outdated security protocols"
     ],
-    "answers": [
-      "Penetration tests help organizations uncover and address weaknesses before attackers can exploit them.",
-      "They involve ethical hackers mimicking real-world attacks.",
-      "Regular penetration testing is essential for maintaining robust security defenses."
-    ],
+    "answer": "To simulate a cyberattack and identify vulnerabilities",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -71,11 +55,7 @@
       "To encrypt sensitive emails",
       "To enhance the speed of file transfers"
     ],
-    "answers": [
-      "Incident response aims to contain, mitigate, and recover from security breaches.",
-      "It involves detection, analysis, containment, eradication, and recovery phases.",
-      "An effective incident response plan reduces downtime and limits damage."
-    ],
+    "answer": "To minimize damage and recover quickly from cybersecurity incidents",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -87,11 +67,7 @@
       "It is a method for encrypting sensitive files",
       "It scans networks for unauthorized access"
     ],
-    "answers": [
-      "MFA combines at least two factors: something you know (password), have (token), or are (biometric).",
-      "It significantly reduces the risk of unauthorized access, even if one factor is compromised.",
-      "MFA is crucial for protecting sensitive accounts and systems."
-    ],
+    "answer": "It strengthens security by requiring multiple forms of verification",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -103,11 +79,7 @@
       "To store sensitive user information securely",
       "To optimize the performance of network devices"
     ],
-    "answers": [
-      "NIDS detects potential security breaches by analyzing network traffic patterns.",
-      "It identifies anomalies that may indicate malicious activity.",
-      "Deploying NIDS enhances the overall security posture of an organization."
-    ],
+    "answer": "To monitor and analyze network traffic for suspicious activity",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -119,11 +91,7 @@
       "To monitor network traffic in real-time",
       "To create secure backups for sensitive files"
     ],
-    "answers": [
-      "DNSSEC protects against DNS spoofing and cache poisoning attacks.",
-      "It ensures that DNS responses come from the intended source.",
-      "Implementing DNSSEC strengthens the integrity of domain name resolution."
-    ],
+    "answer": "To add security to DNS by verifying the authenticity of responses",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -135,11 +103,7 @@
       "Monitors user activity across all network devices",
       "Creates firewalls to block unauthorized access"
     ],
-    "answers": [
-      "RBAC ensures that users can only access data and systems relevant to their role.",
-      "It reduces the risk of insider threats and accidental data exposure.",
-      "RBAC simplifies compliance with regulatory requirements by enforcing security policies."
-    ],
+    "answer": "Restricts access based on a user’s role, enhancing security",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -151,11 +115,7 @@
       "To encrypt sensitive data during storage",
       "To create secure passwords for user accounts"
     ],
-    "answers": [
-      "Security Information and Event Management (SIEM) systems provide centralized security monitoring.",
-      "They help detect, investigate, and respond to potential threats.",
-      "SIEM tools play a critical role in maintaining an organization’s security posture."
-    ],
+    "answer": "To collect, analyze, and manage security data from across an organization",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -163,16 +123,12 @@
   {
     "question": "What is the purpose of penetration testing?",
     "options": [
-      "To simulate attacks and identify vulnerabilities in a system",
       "To encrypt sensitive data during transmission",
       "To monitor network traffic for potential threats",
+      "To simulate attacks and identify vulnerabilities in a system",
       "To back up critical files in case of failure"
     ],
-    "answers": [
-      "Penetration testing evaluates the security of systems by simulating real-world attacks.",
-      "It helps organizations identify and address vulnerabilities proactively.",
-      "Regular penetration tests are critical for maintaining a strong security posture."
-    ],
+    "answer": "To simulate attacks and identify vulnerabilities in a system",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -184,60 +140,45 @@
       "Asymmetric encryption requires a secure channel for key exchange",
       "Symmetric encryption is only used for digital signatures"
     ],
-    "answers": [
-      "Symmetric encryption uses the same key for both encryption and decryption.",
-      "Asymmetric encryption uses a pair of keys: a public key for encryption and a private key for decryption.",
-      "Both methods are often combined in secure communication protocols like HTTPS."
-    ],
+    "answer": "Symmetric uses one key for encryption and decryption; asymmetric uses two keys",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
-  
+
   {
     "question": "What is a zero-day exploit?",
     "options": [
-      "An attack that exploits an unknown software vulnerability",
+
       "A phishing attack targeting specific individuals",
+      "An attack that exploits an unknown software vulnerability",
       "A brute force attack used to crack passwords",
       "A method for encrypting sensitive files before storage"
     ],
-    "answers": [
-      "Zero-day exploits target vulnerabilities that are not yet patched or publicly known.",
-      "These attacks pose significant risks due to the lack of immediate defenses.",
-      "Organizations can mitigate the impact by maintaining strong monitoring and patching practices."
-    ],
+    "answer": "An attack that exploits an unknown software vulnerability",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
   {
     "question": "What is the principle of defense in depth?",
     "options": [
-      "A strategy that uses multiple layers of security controls to protect systems",
       "A technique to encrypt data at rest",
       "A method to optimize network performance",
-      "A way to create backups for critical files"
+      "A way to create backups for critical files",
+      "A strategy that uses multiple layers of security controls to protect systems",
     ],
-    "answers": [
-      "Defense in depth ensures redundancy by implementing various security measures at different levels.",
-      "It includes firewalls, intrusion detection systems, and endpoint protection.",
-      "This approach minimizes the chances of a single failure compromising the entire system."
-    ],
+    "answer": "A strategy that uses multiple layers of security controls to protect systems",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
   {
     "question": "What is role-based access control (RBAC)?",
     "options": [
-      "A security mechanism that restricts access based on a user’s role",
       "A protocol for encrypting sensitive data",
+      "A security mechanism that restricts access based on a user’s role",
       "A system for monitoring network activity",
       "A method for detecting phishing attempts"
     ],
-    "answers": [
-      "RBAC grants permissions to users based on their roles within an organization.",
-      "It reduces the risk of unauthorized access by limiting privileges to only what is necessary.",
-      "Implementing RBAC helps enforce security policies and simplify access management."
-    ],
+    "answer": "A security mechanism that restricts access based on a user’s role",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -249,11 +190,7 @@
       "A virus targets only operating systems, while worms target browsers",
       "Worms are always harmless, while viruses cause damage"
     ],
-    "answers": [
-      "Viruses need user interaction, such as opening a file, to spread.",
-      "Worms propagate independently by exploiting network vulnerabilities.",
-      "Both are types of malware, but worms are typically more destructive due to their rapid spread."
-    ],
+    "answer": "A virus requires user action to spread, while a worm spreads automatically",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -265,11 +202,7 @@
       "To encrypt files stored on a local drive",
       "To monitor user activity across a network"
     ],
-    "answers": [
-      "DLP systems monitor and control the transfer of sensitive information.",
-      "They help protect against accidental or intentional data breaches.",
-      "Implementing DLP policies ensures compliance with data protection regulations."
-    ],
+    "answer": "To prevent sensitive data from being leaked or transmitted outside authorized channels",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -281,11 +214,7 @@
       "To encrypt all network traffic for secure communication",
       "To monitor employee productivity"
     ],
-    "answers": [
-      "Vulnerability assessments help identify and prioritize risks in systems and networks.",
-      "They support proactive measures to address potential threats before exploitation.",
-      "Regular assessments strengthen an organization’s overall security posture."
-    ],
+    "answer": "To identify and evaluate potential security weaknesses in a system",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
@@ -297,11 +226,7 @@
       "A tool for monitoring network traffic",
       "A protocol for encrypting user credentials"
     ],
-    "answers": [
-      "MFA combines two or more verification factors, such as passwords and biometrics.",
-      "It significantly enhances security by making unauthorized access more difficult.",
-      "MFA is widely used to protect sensitive systems and accounts."
-    ],
+    "answer": "A security process requiring multiple methods of verification",
     "difficulty": "Medium",
     "category": "Cybersecurity"
   },
