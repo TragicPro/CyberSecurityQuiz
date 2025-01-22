@@ -1,0 +1,436 @@
+[
+  {
+    "question": "True or False: A buffer overflow attack occurs when a program writes more data to a buffer than it can hold, potentially overwriting adjacent memory.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: The principle of least privilege states that users should have only the minimum access rights required to perform their job functions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: DNS cache poisoning allows an attacker to redirect traffic from a legitimate website to a malicious one by tampering with the DNS resolver cache.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: A zero-day vulnerability is a security flaw that has been exploited but for which a patch exists.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Cross-site scripting (XSS) attacks rely on injecting malicious code into a trusted website to execute on a victim's browser.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Encrypting sensitive data at rest and in transit eliminates all risks of data breaches.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: SQL injection attacks exploit vulnerabilities in improperly sanitized user inputs to manipulate database queries.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: The CIA triad in cybersecurity stands for Confidentiality, Integrity, and Accountability.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Ransomware attacks typically rely on exploiting vulnerabilities in web browsers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Multi-factor authentication (MFA) significantly reduces the risk of unauthorized access even if a password is compromised.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+
+  {
+    "question": "True or False: A brute-force attack involves systematically guessing passwords until the correct one is found.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Phishing attacks always involve email communication.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: A man-in-the-middle attack requires compromising both the client and server systems.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Endpoint Detection and Response (EDR) solutions are only effective against file-based malware.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Public key cryptography uses the same key for encryption and decryption.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: The WannaCry ransomware exploited a vulnerability in the SMB protocol.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: HTTP Strict Transport Security (HSTS) forces browsers to use HTTPS for all communications with a server.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Cryptojacking involves compromising systems to mine cryptocurrency.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: The Heartbleed vulnerability affected the RSA encryption algorithm.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: An Advanced Persistent Threat (APT) refers to an attack that prioritizes stealth and prolonged access to a target system.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: A rootkit is designed to gain privileged access while remaining undetected.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Secure Sockets Layer (SSL) is the most up-to-date protocol for securing web traffic.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Stateful firewalls can inspect and track the state of active connections.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Hashing is a reversible cryptographic operation used to protect passwords.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Ransomware primarily uses symmetric encryption for encrypting victim files.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Cross-Site Request Forgery (CSRF) attacks require user authentication to exploit.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Security Information and Event Management (SIEM) systems automate the remediation of vulnerabilities.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: DNSSEC ensures the authenticity and integrity of DNS responses.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Port scanning is a method attackers use to identify open ports and services on a target system.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: A honeypot is a security mechanism designed to attack malicious actors.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: A backdoor is a legitimate software feature that attackers often exploit.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Social engineering attacks rely on psychological manipulation rather than technical vulnerabilities.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: The OWASP Top 10 highlights the ten most critical web application security risks.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Wireless networks using WPA2 encryption are immune to eavesdropping.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: TLS 1.3 removes support for RSA key exchanges for improved security.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Spear phishing targets specific individuals, often based on prior research.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: A Trojan horse is malware disguised as legitimate software.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Encrypting files with AES ensures they cannot be decrypted without the correct key.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Botnets consist of compromised devices used for large-scale coordinated attacks.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: The GDPR requires organizations to notify affected individuals within 72 hours of a data breach.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+
+  {
+    "question": "An attacker exploits an unpatched vulnerability in your organization’s web server, causing unauthorized data access. What is the best immediate response?",
+    "options": [
+      "Apply the patch immediately",
+      "Isolate the server from the network",
+      "Notify affected users",
+      "Backup all data on the server"
+    ],
+    "answer": "Isolate the server from the network",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your organization is targeted by a spear phishing attack that successfully compromises an employee’s account. What is the best action to take to limit the damage?",
+    "options": [
+      "Reset the compromised account's password",
+      "Monitor the account’s activity for unusual behavior",
+      "Disable the compromised account immediately",
+      "Send a warning email to all employees"
+    ],
+    "answer": "Disable the compromised account immediately",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "After a ransomware attack encrypts critical data, your team discovers that the backup system was also compromised. What should be the first step in recovery?",
+    "options": [
+      "Identify unaffected backups, if available",
+      "Negotiate with the attacker to reduce ransom",
+      "Disconnect all systems from the network",
+      "Reinstall the operating systems on all devices"
+    ],
+    "answer": "Disconnect all systems from the network",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "During a forensic investigation of a suspected insider threat, logs reveal multiple unauthorized access attempts outside working hours. What should the security team prioritize?",
+    "options": [
+      "Analyze logs for patterns",
+      "Interview employees with access",
+      "Restrict access during non-working hours",
+      "Update access control policies"
+    ],
+    "answer": "Restrict access during non-working hours",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your team detects data exfiltration over a secure TLS connection. What is the most effective way to investigate this activity?",
+    "options": [
+      "Capture and analyze traffic using deep packet inspection",
+      "Block all outbound TLS traffic temporarily",
+      "Inspect the server certificate used for the connection",
+      "Notify law enforcement immediately"
+    ],
+    "answer": "Capture and analyze traffic using deep packet inspection",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "An organization uses outdated software that is critical to operations but no longer supported by the vendor. What is the best strategy to mitigate risks associated with this software?",
+    "options": [
+      "Isolate the software in a segmented network",
+      "Replace the software with a supported alternative",
+      "Ensure frequent manual updates",
+      "Implement multi-factor authentication for all users"
+    ],
+    "answer": "Isolate the software in a segmented network",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A cybersecurity analyst identifies a brute force attack on administrator accounts. What is the best immediate action to prevent account compromise?",
+    "options": [
+      "Enforce account lockout policies",
+      "Reset all administrator passwords",
+      "Block the attacker’s IP address",
+      "Monitor all login attempts"
+    ],
+    "answer": "Enforce account lockout policies",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "During a penetration test, testers identify an exposed management interface on a critical system. What should be the first remediation step?",
+    "options": [
+      "Disable the management interface",
+      "Restrict access to the interface using an ACL",
+      "Encrypt all traffic to the interface",
+      "Notify system administrators"
+    ],
+    "answer": "Restrict access to the interface using an ACL",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your team discovers that an attacker used a compromised IoT device as a pivot point for lateral movement. What is the best way to secure the IoT environment?",
+    "options": [
+      "Apply firmware updates to all IoT devices",
+      "Isolate IoT devices into a separate VLAN",
+      "Disable unused ports on all devices",
+      "Enable two-factor authentication for IoT devices"
+    ],
+    "answer": "Isolate IoT devices into a separate VLAN",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A distributed denial-of-service (DDoS) attack targets your organization’s public-facing web server. What is the best way to mitigate the attack in real-time?",
+    "options": [
+      "Enable rate limiting on the web server",
+      "Block all incoming traffic temporarily",
+      "Route traffic through a content delivery network (CDN)",
+      "Switch to a backup server"
+    ],
+    "answer": "Route traffic through a content delivery network (CDN)",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  }
+]
+
+

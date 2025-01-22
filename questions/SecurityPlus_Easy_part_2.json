@@ -1,0 +1,376 @@
+[
+  {
+    "question": "A user notices their browser redirects to a fake website after typing in the correct URL. What type of attack is this?",
+    "options": [ "Pharming", "Phishing", "Impersonation", "Spoofing" ],
+    "answer": "Pharming",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following BEST describes the purpose of a Security Information and Event Management (SIEM) system?",
+    "options": [
+      "Monitoring logs and providing alerts for security events",
+      "Encrypting sensitive data",
+      "Scanning for network vulnerabilities",
+      "Blocking malicious emails"
+    ],
+    "answer": "Monitoring logs and providing alerts for security events",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A firewall can both block unauthorized traffic and allow legitimate traffic.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following authentication methods uses physical tokens to grant access?",
+    "options": [ "Password authentication", "Biometric authentication", "Token-based authentication", "Challenge-response authentication" ],
+    "answer": "Token-based authentication",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which security principle ensures that only authorized users can access sensitive data?",
+    "options": [ "Integrity", "Availability", "Confidentiality", "Non-repudiation" ],
+    "answer": "Confidentiality",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An organization requires employees to change their passwords every 90 days. What type of control is this?",
+    "options": [ "Technical control", "Administrative control", "Physical control", "Preventive control" ],
+    "answer": "Administrative control",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Network segmentation can prevent attackers from accessing sensitive resources in unrelated segments.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which type of malware disguises itself as legitimate software to trick users into installing it?",
+    "options": [ "Trojan", "Ransomware", "Spyware", "Worm" ],
+    "answer": "Trojan",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the purpose of a data loss prevention (DLP) solution?",
+    "options": [
+      "To detect malicious activity in real time",
+      "To prevent sensitive data from leaving the network",
+      "To encrypt all data in transit",
+      "To monitor user access to public websites"
+    ],
+    "answer": "To prevent sensitive data from leaving the network",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: The principle of least privilege ensures users only have access to the resources necessary for their job.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "An employee connects their personal laptop to the company network without permission. What is this an example of?",
+    "options": [ "Shadow IT", "Phishing", "Rogue device", "Impersonation" ],
+    "answer": "Shadow IT",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which tool is commonly used to capture and analyze network traffic?",
+    "options": [ "Firewall", "Packet sniffer", "SIEM", "Vulnerability scanner" ],
+    "answer": "Packet sniffer",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Public key cryptography uses the same key for both encryption and decryption.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which protocol is used to encrypt web traffic?",
+    "options": [ "FTP", "SMTP", "HTTPS", "IMAP" ],
+    "answer": "HTTPS",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the primary purpose of a network-based intrusion detection system (NIDS)?",
+    "options": [
+      "Prevent unauthorized access to a network",
+      "Monitor and alert on suspicious network activity",
+      "Encrypt sensitive network traffic",
+      "Block malicious emails"
+    ],
+    "answer": "Monitor and alert on suspicious network activity",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which type of backup involves copying all data regardless of previous backups?",
+    "options": [ "Incremental", "Differential", "Full", "Snapshot" ],
+    "answer": "Full",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A demilitarized zone (DMZ) is used to isolate public-facing services from an internal network.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What does the term 'phishing' refer to?",
+    "options": [
+      "A social engineering attack using deceptive emails",
+      "An attack that redirects DNS traffic",
+      "A technique for cracking passwords",
+      "A method of encrypting sensitive data"
+    ],
+    "answer": "A social engineering attack using deceptive emails",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which security measure prevents users from visiting malicious websites?",
+    "options": [ "Content filtering", "Antivirus software", "Firewalls", "Spam filtering" ],
+    "answer": "Content filtering",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: The primary function of encryption is to ensure data availability.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "A user accidentally leaves their unlocked laptop in a public café. What is the MOST effective control to prevent unauthorized access to the device?",
+    "options": [
+      "Enable full disk encryption",
+      "Require a strong login password",
+      "Set up automatic screen locking after inactivity",
+      "Install antivirus software"
+    ],
+    "answer": "Set up automatic screen locking after inactivity",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A company executive receives a call from someone claiming to be from the IT department, asking for their login credentials to fix an issue. What is the BEST course of action?",
+    "options": [
+      "Provide the credentials since it’s the IT department",
+      "Verify the caller's identity before proceeding",
+      "Ignore the call and contact IT to confirm",
+      "Change their password immediately"
+    ],
+    "answer": "Ignore the call and contact IT to confirm",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An employee working remotely notices their internet connection is unstable while accessing sensitive company files. What is the MOST secure action they should take?",
+    "options": [
+      "Retry the download after reconnecting to the network",
+      "Use a personal device to download the files",
+      "Report the issue to IT and avoid accessing sensitive files",
+      "Connect to a public Wi-Fi network to improve speed"
+    ],
+    "answer": "Report the issue to IT and avoid accessing sensitive files",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A security analyst finds that several employees are using the same weak password across multiple accounts. What should the analyst recommend FIRST?",
+    "options": [
+      "Enable password complexity requirements",
+      "Require employees to use two-factor authentication",
+      "Reset all employee passwords immediately",
+      "Disable password reuse across systems"
+    ],
+    "answer": "Enable password complexity requirements",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A receptionist receives an email attachment from an unknown sender. The attachment is labeled 'Invoice'. What is the BEST action to take?",
+    "options": [
+      "Open the attachment to verify the content",
+      "Forward the email to the finance department",
+      "Delete the email and report it as suspicious",
+      "Reply to the sender to confirm the invoice details"
+    ],
+    "answer": "Delete the email and report it as suspicious",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An employee is using a shared office computer to access sensitive company data. What should be done to ensure their session remains secure?",
+    "options": [
+      "Log out of the system after use",
+      "Disable automatic updates on the computer",
+      "Save sensitive files on a USB drive",
+      "Use a guest account for access"
+    ],
+    "answer": "Log out of the system after use",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A network administrator detects that employees are using unauthorized cloud storage services to share files. What is the BEST solution to prevent this?",
+    "options": [
+      "Block access to unauthorized services using a firewall",
+      "Conduct training sessions on acceptable use policies",
+      "Monitor all employee internet activity",
+      "Require employees to use VPNs for file sharing"
+    ],
+    "answer": "Block access to unauthorized services using a firewall",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An employee leaves their desk without locking their workstation. What is the BEST policy to enforce in this scenario?",
+    "options": [
+      "Enable a screen lock after a short inactivity period",
+      "Install monitoring software on all workstations",
+      "Require employees to use complex passwords",
+      "Implement mandatory training on security awareness"
+    ],
+    "answer": "Enable a screen lock after a short inactivity period",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A technician discovers that several employees have administrator privileges on their workstations. What is the BEST immediate action to take?",
+    "options": [
+      "Revoke administrator privileges for employees who don’t need them",
+      "Reset all employee passwords",
+      "Enable multifactor authentication for all accounts",
+      "Monitor administrator activity logs daily"
+    ],
+    "answer": "Revoke administrator privileges for employees who don’t need them",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A user receives a pop-up notification on their computer saying that their files have been encrypted and payment is required for decryption. What type of attack is this?",
+    "options": [ "Trojan", "Ransomware", "Spyware", "Phishing" ],
+    "answer": "Ransomware",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "An employee receives an email that appears to be from their manager, asking for an urgent wire transfer. The email address looks slightly different from the manager's official address. What is the BEST way to handle this situation?",
+    "options": [
+      "Complete the wire transfer to avoid delays",
+      "Reply to the email asking for clarification",
+      "Report the email to the IT security team",
+      "Mark the email as spam and delete it"
+    ],
+    "answer": "Report the email to the IT security team",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A company enforces a policy that requires employees to use a company-issued VPN when accessing internal systems remotely. What is the PRIMARY purpose of this policy?",
+    "options": [
+      "To encrypt network traffic between remote users and the company",
+      "To ensure faster internet speeds for remote employees",
+      "To block unauthorized emails from being sent",
+      "To restrict access to non-work-related websites"
+    ],
+    "answer": "To encrypt network traffic between remote users and the company",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A technician finds a USB drive in the parking lot and wants to investigate its contents. What is the BEST course of action?",
+    "options": [
+      "Plug it into a secure computer to check for malware",
+      "Report the USB drive to the IT security team",
+      "Use antivirus software to scan the USB drive",
+      "Plug it into a personal device to avoid company network risks"
+    ],
+    "answer": "Report the USB drive to the IT security team",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A user reports that their computer is running unusually slow after downloading software from an unverified website. What is the FIRST action the IT team should take?",
+    "options": [
+      "Run a full antivirus scan on the computer",
+      "Disconnect the computer from the network",
+      "Reboot the computer in safe mode",
+      "Uninstall the recently downloaded software"
+    ],
+    "answer": "Disconnect the computer from the network",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A company introduces a clean desk policy to reduce the risk of sensitive information being exposed. Which of the following actions BEST supports this policy?",
+    "options": [
+      "Employees must lock their computer screens when leaving their desks",
+      "Require employees to use encrypted USB drives",
+      "Implement strict visitor access controls",
+      "Install surveillance cameras in office areas"
+    ],
+    "answer": "Employees must lock their computer screens when leaving their desks",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker uses a fake Wi-Fi hotspot to intercept communications between users and a legitimate network. What type of attack is this?",
+    "options": [
+      "Man-in-the-Middle (MitM)",
+      "Evil Twin",
+      "Replay Attack",
+      "DNS Spoofing"
+    ],
+    "answer": "Evil Twin",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A small business wants to ensure their customer data is protected even if their database server is physically stolen. Which solution is MOST effective?",
+    "options": [
+      "Implement full disk encryption on the database server",
+      "Use a firewall to block unauthorized access",
+      "Require employees to use strong passwords",
+      "Enable multifactor authentication for database administrators"
+    ],
+    "answer": "Implement full disk encryption on the database server",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An organization uses a biometric authentication system for employees to access secure areas. What is the PRIMARY benefit of this approach?",
+    "options": [
+      "It reduces the cost of maintaining access systems",
+      "It provides a unique identifier that cannot be easily replicated",
+      "It ensures faster logins compared to password-based systems",
+      "It eliminates the need for multi-factor authentication"
+    ],
+    "answer": "It provides a unique identifier that cannot be easily replicated",
+    "difficulty": "Easy",
+    "category": "SecurityPlus"
+  }
+]

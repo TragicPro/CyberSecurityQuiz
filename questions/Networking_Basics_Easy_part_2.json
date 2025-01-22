@@ -1,0 +1,336 @@
+[
+  {
+    "question": "True or False: A router forwards packets based on their IP address.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which device is used to connect multiple devices within the same local network?",
+    "options": [ "Switch", "Router", "Firewall", "Access Point" ],
+    "answer": "Switch",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: DNS translates domain names to IP addresses.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What protocol is used to assign IP addresses automatically?",
+    "options": [ "DHCP", "DNS", "FTP", "HTTP" ],
+    "answer": "DHCP",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: The IP address 127.0.0.1 is used to test the loopback interface on a device.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which port is used by HTTPS for secure communication?",
+    "options": [ "443", "80", "22", "21" ],
+    "answer": "443",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A MAC address is a unique identifier for a network device.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What device allows wireless devices to connect to a wired network?",
+    "options": [ "Access Point", "Switch", "Router", "Firewall" ],
+    "answer": "Access Point",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: The ping command is used to test network connectivity.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What does LAN stand for?",
+    "options": [ "Local Area Network", "Large Area Network", "Logical Access Network", "Low Access Network" ],
+    "answer": "Local Area Network",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A firewall is used to protect a network by controlling incoming and outgoing traffic.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What type of cable is commonly used for Ethernet connections?",
+    "options": [ "Twisted Pair", "Coaxial", "Fiber Optic", "Serial" ],
+    "answer": "Twisted Pair",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: The OSI model has 7 layers.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What protocol is used to transfer files over the internet?",
+    "options": [ "FTP", "SMTP", "DNS", "SNMP" ],
+    "answer": "FTP",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A public IP address is accessible from the internet.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which protocol is used for secure remote access to devices?",
+    "options": [ "SSH", "Telnet", "FTP", "HTTP" ],
+    "answer": "SSH",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: The purpose of NAT is to translate private IP addresses to public IP addresses.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What is the maximum length of a CAT5 Ethernet cable?",
+    "options": [ "100 meters", "50 meters", "200 meters", "500 meters" ],
+    "answer": "100 meters",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: Wi-Fi networks use radio waves for communication.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What does ISP stand for?",
+    "options": [ "Internet Service Provider", "Internal System Protocol", "Integrated Service Platform", "Internet Secure Protocol" ],
+    "answer": "Internet Service Provider",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A VPN is used to create a secure connection over a public network.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What is the role of a DNS server?",
+    "options": [ "Translate domain names to IP addresses", "Assign IP addresses dynamically", "Monitor network traffic", "Encrypt data packets" ],
+    "answer": "Translate domain names to IP addresses",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: The default port for FTP is 21.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which protocol is used to send emails?",
+    "options": [ "SMTP", "FTP", "SNMP", "DNS" ],
+    "answer": "SMTP",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: Private IP addresses can be used on public networks.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What is the purpose of a default gateway in a network?",
+    "options": [ "Forward packets to other networks", "Assign IP addresses", "Block unauthorized access", "Encrypt traffic" ],
+    "answer": "Forward packets to other networks",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: Ethernet is a standard communication protocol for wired networks.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What does WAN stand for?",
+    "options": [ "Wide Area Network", "Wireless Access Network", "Wide Access Network", "Wired Area Network" ],
+    "answer": "Wide Area Network",
+    "difficulty": "Easy",
+    "category": "Networking Basics"
+  },
+  
+    {
+      "question": "Your friend cannot connect to the internet and asks for your help. You see the Wi-Fi is connected, but websites won't load. What should you check first?",
+      "options": [ "DNS settings", "Router's firmware", "Firewall rules", "Cable connections" ],
+      "answer": "DNS settings",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: When you visit a website, your browser uses DNS to find the website's IP address.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "At a coffee shop, you see an open Wi-Fi network labeled 'Free_WiFi'. What security measure should you take before connecting?",
+      "options": [ "Use a VPN", "Disable antivirus", "Turn off DHCP", "Enable port forwarding" ],
+      "answer": "Use a VPN",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: A home router typically has both a public and a private IP address.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "You plug your computer into an Ethernet port, but it doesn't connect to the internet. What command can you use to verify the computer's IP address?",
+      "options": [ "ipconfig", "ping", "nslookup", "traceroute" ],
+      "answer": "ipconfig",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: The 192.168.x.x range is used for private networks.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "Your office's printer has stopped working, and it's shared over the network. What is the most likely cause?",
+      "options": [ "IP address conflict", "Broken cable", "Firewall blocking HTTP", "Outdated monitor drivers" ],
+      "answer": "IP address conflict",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: A firewall can block traffic based on IP addresses and port numbers.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "Your gaming console says 'NAT type: Strict.' What could you configure on your router to fix this?",
+      "options": [ "Enable port forwarding", "Update firmware", "Change DNS settings", "Disable VPN" ],
+      "answer": "Enable port forwarding",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: A switch connects devices within a LAN and forwards data based on MAC addresses.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "You’re setting up a smart home device, but it won’t connect to the network. What is the first thing you should verify?",
+      "options": [ "The Wi-Fi frequency (2.4 GHz or 5 GHz)", "The MAC address of your router", "The Ethernet port speed", "The router's firewall settings" ],
+      "answer": "The Wi-Fi frequency (2.4 GHz or 5 GHz)",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: HTTP is secure and encrypts all transmitted data by default.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "At home, you set up a new router, but devices keep disconnecting. Which router feature could solve this?",
+      "options": [ "Quality of Service (QoS)", "MAC filtering", "DHCP lease time", "Port mirroring" ],
+      "answer": "Quality of Service (QoS)",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: Subnet masks are used to determine the network portion of an IP address.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "A website isn't loading, but other sites work fine. Which command can help you identify if it's a DNS issue?",
+      "options": [ "nslookup", "ping", "ipconfig", "arp -a" ],
+      "answer": "nslookup",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: Devices connected to the same switch can communicate directly without a router.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "You want to prevent neighbors from using your Wi-Fi. What is the most effective way to secure it?",
+      "options": [ "Set a strong WPA3 password", "Change the SSID to 'Hidden_WiFi'", "Enable MAC address filtering", "Use a wired connection" ],
+      "answer": "Set a strong WPA3 password",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "True or False: An IP address conflict occurs when two devices are assigned the same IP address on a network.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    },
+    {
+      "question": "What command can you use to check if a specific device is reachable on the network?",
+      "options": [ "ping", "ipconfig", "nslookup", "traceroute" ],
+      "answer": "ping",
+      "difficulty": "Easy",
+      "category": "Networking Basics"
+    }
+   
+  ]
+
+ 
+  

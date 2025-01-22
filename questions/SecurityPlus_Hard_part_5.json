@@ -1,0 +1,427 @@
+[
+  {
+    "question": "An administrator detects unusual outbound traffic from a server after a recent software update. What is the FIRST step the administrator should take?",
+    "options": [
+      "Disconnect the server from the network",
+      "Roll back the recent software update",
+      "Perform a full system malware scan",
+      "Check the server's firewall rules"
+    ],
+    "answer": "Disconnect the server from the network",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following is a PRIMARY goal of implementing a honeypot in a corporate network?",
+    "options": [
+      "Encrypt sensitive files in transit",
+      "Lure attackers to analyze their behavior",
+      "Prevent unauthorized access to critical systems",
+      "Strengthen perimeter security"
+    ],
+    "answer": "Lure attackers to analyze their behavior",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which authentication protocol is commonly used with WPA3 to secure wireless networks?",
+    "options": [ "EAP", "CHAP", "Kerberos", "PAP" ],
+    "answer": "EAP",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Implementing a vulnerability scanner is sufficient to ensure the organization's network is secure.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A security team needs to monitor the organization\u2019s critical infrastructure for unauthorized changes. Which tool would BEST meet this requirement?",
+    "options": [
+      "Intrusion Prevention System (IPS)",
+      "Security Information and Event Management (SIEM)",
+      "Vulnerability Scanner",
+      "Data Loss Prevention (DLP)"
+    ],
+    "answer": "Security Information and Event Management (SIEM)",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which type of malware specifically encrypts files and demands payment for the decryption key?",
+    "options": [ "Trojan", "Ransomware", "Rootkit", "Adware" ],
+    "answer": "Ransomware",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A web developer wants to prevent attackers from using malicious input in web forms. Which technique BEST mitigates this risk?",
+    "options": [
+      "Implementing HTTPS",
+      "Using input validation",
+      "Encrypting web form data",
+      "Deploying a firewall"
+    ],
+    "answer": "Using input validation",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker is exploiting a known vulnerability in a web server that has not been patched. What type of attack is this?",
+    "options": [
+      "Zero-day exploit",
+      "Privilege escalation",
+      "SQL injection",
+      "Known exploit"
+    ],
+    "answer": "Known exploit",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which type of backup only stores the changes made since the last backup, regardless of type?",
+    "options": [ "Incremental", "Differential", "Full", "Snapshot" ],
+    "answer": "Incremental",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Enabling port security on a switch can prevent MAC address spoofing attacks.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A network administrator discovers that users are frequently accessing an unauthorized website. Which tool would BEST prevent this behavior?",
+    "options": [
+      "Web application firewall (WAF)",
+      "URL filtering",
+      "Antivirus software",
+      "SIEM"
+    ],
+    "answer": "URL filtering",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following is the BEST solution to ensure data is recoverable in case of a ransomware attack?",
+    "options": [
+      "Enable full disk encryption",
+      "Maintain regular offline backups",
+      "Deploy endpoint detection and response (EDR)",
+      "Use a data loss prevention (DLP) solution"
+    ],
+    "answer": "Maintain regular offline backups",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which type of penetration test involves testing without prior knowledge of the network or systems?",
+    "options": [ "Black box", "White box", "Gray box", "Blue team" ],
+    "answer": "Black box",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which protocol uses TCP port 22 to provide secure file transfer and remote login?",
+    "options": [ "FTPS", "SFTP", "HTTPS", "RDP" ],
+    "answer": "SFTP",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: VLAN hopping attacks can be prevented by disabling unused switch ports and enabling trunking on required ports.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A user receives a fake email that mimics a trusted organization's branding to steal their login credentials. What type of attack is this?",
+    "options": [ "Phishing", "Whaling", "Spear phishing", "Impersonation" ],
+    "answer": "Phishing",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker successfully compromises an admin account and uses it to create new accounts with elevated privileges. Which type of attack does this represent?",
+    "options": [
+      "Privilege escalation",
+      "Lateral movement",
+      "Social engineering",
+      "Credential stuffing"
+    ],
+    "answer": "Privilege escalation",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which security policy specifies how employees should handle sensitive data to prevent unauthorized disclosure?",
+    "options": [
+      "Acceptable Use Policy (AUP)",
+      "Data Classification Policy",
+      "Incident Response Policy",
+      "Password Policy"
+    ],
+    "answer": "Data Classification Policy",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the PRIMARY reason for implementing geofencing in a mobile device management (MDM) solution?",
+    "options": [
+      "Restrict access to corporate systems based on location",
+      "Monitor physical locations of mobile devices",
+      "Block unauthorized applications",
+      "Prevent malware infections"
+    ],
+    "answer": "Restrict access to corporate systems based on location",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "An attacker compromises a database server and exfiltrates customer records. Which security control would have BEST prevented this breach?",
+    "options": [
+      "Encrypt sensitive database records",
+      "Use a SIEM to detect unusual activity",
+      "Implement multifactor authentication for administrators",
+      "Disable public access to the database"
+    ],
+    "answer": "Encrypt sensitive database records",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "During a routine security audit, an administrator discovers that some user accounts have not been disabled despite the users leaving the organization months ago. What is the BEST course of action?",
+    "options": [
+      "Immediately disable the inactive accounts",
+      "Notify the HR department of the oversight",
+      "Review the accounts for suspicious activity",
+      "Create a policy to disable accounts automatically"
+    ],
+    "answer": "Review the accounts for suspicious activity",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following is the BEST solution for ensuring data security in a Bring Your Own Device (BYOD) environment?",
+    "options": [
+      "Implement Mobile Device Management (MDM)",
+      "Require employees to use antivirus software",
+      "Restrict access to corporate Wi-Fi",
+      "Conduct regular employee training"
+    ],
+    "answer": "Implement Mobile Device Management (MDM)",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A SIEM solution can detect both known and unknown threats without any manual intervention.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which stage of the cyber kill chain involves establishing persistent access to a target system?",
+    "options": [
+      "Weaponization",
+      "Exploitation",
+      "Command and Control",
+      "Delivery"
+    ],
+    "answer": "Command and Control",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker gains access to a wireless network by exploiting an outdated encryption protocol. Which protocol is MOST likely at fault?",
+    "options": [ "WPA3", "WPA2", "WEP", "802.1X" ],
+    "answer": "WEP",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A company implements time-based restrictions on login attempts to reduce brute-force attacks. What type of security control is this?",
+    "options": [
+      "Administrative",
+      "Physical",
+      "Preventive",
+      "Detective"
+    ],
+    "answer": "Preventive",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which type of malware encrypts the user’s files and demands payment for the decryption key?",
+    "options": [ "Trojan", "Ransomware", "Rootkit", "Spyware" ],
+    "answer": "Ransomware",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An organization uses port mirroring to send network traffic to an analysis tool. What is the PRIMARY purpose of this configuration?",
+    "options": [
+      "Detect malicious activity in real time",
+      "Ensure high availability of network services",
+      "Redirect traffic for load balancing",
+      "Securely encrypt data in transit"
+    ],
+    "answer": "Detect malicious activity in real time",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Password spraying targets a single account with multiple passwords to gain unauthorized access.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "An attacker uses a compromised account to scan the network for additional vulnerabilities. Which phase of the cyber kill chain does this BEST represent?",
+    "options": [ "Reconnaissance", "Exploitation", "Lateral Movement", "Command and Control" ],
+    "answer": "Lateral Movement",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which cryptographic algorithm is MOST commonly used to create digital signatures?",
+    "options": [ "RSA", "AES", "SHA-256", "3DES" ],
+    "answer": "RSA",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Enabling DNSSEC on a domain prevents all forms of DNS spoofing.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the PRIMARY benefit of using a Trusted Platform Module (TPM) in endpoint devices?",
+    "options": [
+      "Provides secure storage for cryptographic keys",
+      "Encrypts all network traffic by default",
+      "Prevents physical tampering of devices",
+      "Ensures compatibility with legacy systems"
+    ],
+    "answer": "Provides secure storage for cryptographic keys",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A system administrator implements a split-tunneling configuration for remote users. What is the PRIMARY risk of this approach?",
+    "options": [
+      "Slower internet speeds for the user",
+      "Increased vulnerability to data exfiltration",
+      "Incompatibility with legacy VPN protocols",
+      "Higher latency for remote connections"
+    ],
+    "answer": "Increased vulnerability to data exfiltration",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which security mechanism uses attributes like user location and device type to enforce access control policies?",
+    "options": [ "RBAC", "ABAC", "MAC", "DAC" ],
+    "answer": "ABAC",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker exploits a vulnerability in a mobile app to gain access to sensitive data. What type of test would BEST identify this issue?",
+    "options": [
+      "Black-box testing",
+      "Static application security testing (SAST)",
+      "White-box testing",
+      "Dynamic application security testing (DAST)"
+    ],
+    "answer": "Dynamic application security testing (DAST)",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A Security Information and Event Management (SIEM) system can automatically respond to detected incidents without manual intervention.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following BEST describes the concept of non-repudiation in cybersecurity?",
+    "options": [
+      "Ensuring users cannot deny performing an action",
+      "Providing access only to authorized users",
+      "Detecting unauthorized changes to data",
+      "Encrypting sensitive communications"
+    ],
+    "answer": "Ensuring users cannot deny performing an action",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An organization needs to ensure that unauthorized devices cannot connect to the corporate wireless network. Which security control BEST achieves this goal?",
+    "options": [
+      "MAC address filtering",
+      "802.1X authentication",
+      "WPA3 encryption",
+      "SSID cloaking"
+    ],
+    "answer": "802.1X authentication",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A user receives a warning from their browser about a certificate being invalid. What is the MOST likely cause of this warning?",
+    "options": [
+      "The certificate has been revoked",
+      "The certificate's common name does not match the URL",
+      "The certificate authority is untrusted",
+      "The certificate uses outdated encryption algorithms"
+    ],
+    "answer": "The certificate's common name does not match the URL",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which protocol is primarily used to secure communication between email servers?",
+    "options": [ "SMTPS", "SFTP", "IMAPS", "LDAPS" ],
+    "answer": "SMTPS",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker sends fraudulent emails to a company’s employees, pretending to be the CEO, to request wire transfers. What type of attack is this?",
+    "options": [ "Spear phishing", "Whaling", "Pretexting", "Impersonation" ],
+    "answer": "Whaling",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A risk register is primarily used to document and track identified vulnerabilities.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which tool is MOST effective for identifying devices on a network that are vulnerable to exploitation?",
+    "options": [
+      "Port scanner",
+      "Vulnerability scanner",
+      "Network packet analyzer",
+      "SIEM"
+    ],
+    "answer": "Vulnerability scanner",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  }
+]

@@ -1,0 +1,368 @@
+[
+  {
+    "question": "True or False: ARP spoofing can be prevented by using static ARP tables and enabling dynamic ARP inspection on switches.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: Role-Based Access Control (RBAC) assigns permissions based on user attributes like location or department.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: DNSSEC is a protocol used to encrypt DNS queries and responses.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: A botnet is a network of infected devices controlled by an attacker.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "An attacker sends a malicious file that encrypts an organization’s data and demands payment for decryption keys. What type of attack is this?",
+    "options": [ "Ransomware", "Trojan", "Worm", "Spyware" ],
+    "answer": "Ransomware",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "Your company needs to secure its email system. The security team decides to use digital signatures for emails. Which cryptographic method should be used to generate the signatures?",
+    "options": [
+      "Symmetric Encryption",
+      "Asymmetric Encryption",
+      "Hashing",
+      "Steganography"
+    ],
+    "answer": "Asymmetric Encryption",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "An attacker uses stolen credentials to gain access to a privileged account. What type of attack is this?",
+    "options": [ "Privilege Escalation", "Credential Stuffing", "Insider Threat", "Phishing" ],
+    "answer": "Credential Stuffing",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: Multi-factor authentication (MFA) combines at least two different factors for authentication, such as something you know and something you have.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: An Advanced Persistent Threat (APT) is a short-term, opportunistic attack targeting random vulnerabilities.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "Your organization’s web server is receiving a high volume of traffic from multiple sources, causing it to crash. What type of attack is likely happening?",
+    "options": [ "DDoS", "Phishing", "Man-in-the-middle", "SQL Injection" ],
+    "answer": "DDoS",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: Encrypting sensitive data in transit protects against eavesdropping attacks.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: Zero-day vulnerabilities are flaws in software that are known to the vendor but have not yet been patched.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "An attacker intercepts communication between two parties to steal sensitive data. What type of attack is this?",
+    "options": [ "Man-in-the-middle", "Phishing", "Ransomware", "DNS Spoofing" ],
+    "answer": "Man-in-the-middle",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: A firewall configured with a deny-all rule allows traffic unless explicitly blocked.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "A help desk technician receives a call from someone claiming to be a manager who forgot their password. The caller requests immediate access to the system. What type of social engineering attack is this?",
+    "options": [ "Impersonation", "Pretexting", "Phishing", "Vishing" ],
+    "answer": "Impersonation",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: Hashing ensures data confidentiality by encrypting it with a reversible algorithm.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "Your security team detects unusual login attempts from multiple locations in a short period. What type of attack might this indicate?",
+    "options": [ "Brute Force", "Credential Stuffing", "Phishing", "Man-in-the-middle" ],
+    "answer": "Credential Stuffing",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: Transport Layer Security (TLS) provides encryption, integrity, and authentication for secure communications.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "An attacker modifies the MAC address of their device to impersonate another device on the network. What is this technique called?",
+    "options": [ "MAC Spoofing", "ARP Poisoning", "DNS Spoofing", "IP Spoofing" ],
+    "answer": "MAC Spoofing",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  {
+    "question": "True or False: Social engineering attacks rely on exploiting technical vulnerabilities in systems.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Security+"
+  },
+  
+    {
+      "question": "True or False: Network segmentation helps contain the spread of malware within an organization.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: A zero-trust model assumes all devices inside and outside the network are trusted.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: Data Loss Prevention (DLP) solutions prevent sensitive data from being shared outside an organization.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "An attacker sends a fraudulent email that appears to come from a trusted source, tricking a user into providing sensitive information. What type of attack is this?",
+      "options": [ "Phishing", "Spear Phishing", "Whaling", "Pretexting" ],
+      "answer": "Phishing",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: Security Information and Event Management (SIEM) systems automate vulnerability remediation.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: An insider threat only refers to malicious employees intentionally harming an organization.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "Your organization discovers an outdated SSL certificate on its web server, exposing customer data. What is the best immediate action to take?",
+      "options": [ "Renew the SSL certificate", "Inform affected customers", "Switch to a new domain", "Shut down the web server" ],
+      "answer": "Renew the SSL certificate",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: A DMZ is designed to isolate public-facing services from the internal network.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "An attacker compromises a domain name server, redirecting users to a malicious website. What type of attack is this?",
+      "options": [ "DNS Spoofing", "ARP Poisoning", "DDoS", "Man-in-the-middle" ],
+      "answer": "DNS Spoofing",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: The principle of least privilege reduces the attack surface by granting users only the access necessary to perform their job.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: Packet filtering firewalls can inspect the contents of encrypted packets.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: Kerberos uses symmetric encryption to secure authentication messages between the client and server.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "An attacker floods a target system with ICMP echo requests, overwhelming it. What type of attack is this?",
+      "options": [ "Ping of Death", "SYN Flood", "Smurf Attack", "DNS Amplification" ],
+      "answer": "Smurf Attack",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: RADIUS encrypts the entire authentication process, including the user password.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "Your team discovers that a remote code execution vulnerability exists in the software running on a critical server. What is the best mitigation strategy?",
+      "options": [ "Apply the vendor's patch", "Isolate the server", "Disable remote access", "Perform a vulnerability scan" ],
+      "answer": "Apply the vendor's patch",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: The CIA triad in cybersecurity stands for Confidentiality, Integrity, and Accountability.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: IPSec operates at the transport layer of the OSI model.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "An attacker uses a fake Wi-Fi hotspot to capture sensitive data from connected devices. What is this attack called?",
+      "options": [ "Evil Twin", "Man-in-the-middle", "Bluejacking", "Rogue Access Point" ],
+      "answer": "Evil Twin",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: WEP is considered secure because it uses a static encryption key.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "Your organization implements an intrusion detection system (IDS). During testing, it flags legitimate traffic as malicious. What is this an example of?",
+      "options": [ "False Negative", "False Positive", "True Negative", "True Positive" ],
+      "answer": "False Positive",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: A VPN creates a secure connection over a public network by encrypting all transmitted data.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: The use of salt in password hashing protects against rainbow table attacks.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: Cross-site scripting (XSS) attacks exploit vulnerabilities in client-side code to inject malicious scripts.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "An attacker uses a compromised IoT device to gain unauthorized access to the rest of the network. What is this an example of?",
+      "options": [ "Pivoting", "Lateral Movement", "Privilege Escalation", "Eavesdropping" ],
+      "answer": "Lateral Movement",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: Digital certificates provide a mechanism for authenticating the identity of entities over a network.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "An attacker exploits a vulnerability in the software supply chain to inject malicious code. What is this type of attack called?",
+      "options": [ "Supply Chain Attack", "Watering Hole Attack", "Drive-by Download", "Injection Attack" ],
+      "answer": "Supply Chain Attack",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: A honeypot is used to actively engage with attackers to gather intelligence.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: The use of a VPN prevents all forms of eavesdropping, including on unencrypted protocols.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "An attacker intercepts an ongoing session and takes over the connection without the user's knowledge. What is this attack called?",
+      "options": [ "Session Hijacking", "Man-in-the-middle", "Replay Attack", "Spoofing" ],
+      "answer": "Session Hijacking",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: A vulnerability assessment provides a comprehensive analysis of security gaps, including active exploitation of vulnerabilities.",
+      "options": [ "True", "False" ],
+      "answer": "False",
+      "difficulty": "Hard",
+      "category": "Security+"
+    },
+    {
+      "question": "True or False: TLS ensures secure communications by encrypting data between client and server.",
+      "options": [ "True", "False" ],
+      "answer": "True",
+      "difficulty": "Hard",
+      "category": "Security+"
+    }
+  ]
+
+
+

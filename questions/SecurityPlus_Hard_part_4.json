@@ -1,0 +1,411 @@
+[
+
+  {
+    "question": "What is a key component of a zero-trust architecture?",
+    "options": [ "Open access policies", "Implicit trust for internal users", "Continuous authentication and authorization", "Trust based on location" ],
+    "answer": "Continuous authentication and authorization",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of these is NOT part of the shared responsibility model in cloud security?",
+    "options": [ "Data classification by the customer", "Physical hardware security by the cloud provider", "User account management by the customer", "Network cabling maintenance by the customer" ],
+    "answer": "Network cabling maintenance by the customer",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is a benefit of using containerization in cloud environments?",
+    "options": [ "No need for patching software", "Increased isolation between applications", "Complete removal of insider threats", "Replacement of physical hardware" ],
+    "answer": "Increased isolation between applications",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following is a redundancy strategy where data is continuously replicated to another location?",
+    "options": [ "Warm site", "Hot site", "Real-time mirroring", "Cold site" ],
+    "answer": "Real-time mirroring",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A security guard notices an intruder on the premises and alerts the control room. What type of security control is this?",
+    "options": [ "Detective", "Preventive", "Corrective", "Compensating" ],
+    "answer": "Detective",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which authentication method combines multiple factors such as passwords and biometrics?",
+    "options": [ "Single Sign-On", "Two-Factor Authentication", "Biometric Login", "Password Management" ],
+    "answer": "Two-Factor Authentication",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which role is typically responsible for ensuring effective use of new and emerging IT products and solutions to achieve business goals?",
+    "options": [ "Chief Security Officer (CSO)", "Chief Technology Officer (CTO)", "Chief Information Officer (CIO)", "Information Systems Security Officer (ISSO)" ],
+    "answer": "Chief Technology Officer (CTO)",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "Which of the following scenarios describes a compensating security control?",
+    "options": [ "Using a backup generator during a power outage", "Installing antivirus software", "Conducting regular security awareness training", "Using an encrypted USB drive to store sensitive data instead of upgrading the secure network" ],
+    "answer": "Using an encrypted USB drive to store sensitive data instead of upgrading the secure network",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "A network administrator configures a firewall to block all traffic except for ports 80 and 443. What type of security principle does this represent?",
+    "options": [ "Least Privilege", "Implicit Deny", "Defense in Depth", "Zero Trust" ],
+    "answer": "Implicit Deny",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following threat actors is most likely to have significant resources and funding?",
+    "options": [ "Hacktivists", "Insider Threats", "Nation-States", "Script Kiddies" ],
+    "answer": "Nation-States",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker gains access to a system by exploiting a vulnerability in unpatched software. Which attack type best describes this scenario?",
+    "options": [ "Phishing", "Man-in-the-Middle", "Zero-Day Exploit", "Brute Force" ],
+    "answer": "Zero-Day Exploit",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following is an example of physical security control?",
+    "options": [ "Firewall", "Biometric scanner", "Antivirus software", "Encryption" ],
+    "answer": "Biometric scanner",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "A user unknowingly downloads malicious software from an email attachment. What is the primary attack vector in this scenario?",
+    "options": [ "Phishing", "Social Engineering", "Drive-By Download", "Insider Threat" ],
+    "answer": "Phishing",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following technologies is used to securely segregate virtual machines on the same host?",
+    "options": [ "VPN", "Hypervisor", "Firewall", "Sandbox" ],
+    "answer": "Hypervisor",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A company performs regular security audits to identify vulnerabilities and improve defenses. Which type of security control does this represent?",
+    "options": [ "Detective", "Preventive", "Corrective", "Deterrent" ],
+    "answer": "Detective",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the main purpose of implementing a jump box in a network?",
+    "options": [ "To isolate and secure access to critical systems", "To serve as a firewall for remote connections", "To monitor network traffic", "To act as a backup server" ],
+    "answer": "To isolate and secure access to critical systems",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "Which security control is primarily designed to limit the scope of lateral movement within a compromised network?",
+    "options": [ "Network segmentation", "Firewall rules", "Access control lists (ACLs)", "SIEM solutions" ],
+    "answer": "Network segmentation",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the primary weakness of certificate revocation lists (CRLs) compared to OCSP?",
+    "options": [ "CRLs are not cryptographically secure", "CRLs require periodic downloads", "CRLs only work with self-signed certificates", "CRLs cannot handle wildcard certificates" ],
+    "answer": "CRLs require periodic downloads",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which attack method manipulates the ARP cache of a target to intercept or modify network traffic?",
+    "options": [ "Man-in-the-Middle (MitM)", "DNS spoofing", "ARP poisoning", "MAC flooding" ],
+    "answer": "ARP poisoning",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which secure protocol is recommended for synchronizing time across secure environments?",
+    "options": [ "SNMPv3", "NTPv4 with authentication", "HTTPS", "IPSec" ],
+    "answer": "NTPv4 with authentication",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the primary risk of shadow IT within an organization?",
+    "options": [ "Increased cost of operations", "Introduction of unapproved software and devices", "Lack of backup for authorized systems", "Difficulty in scaling infrastructure" ],
+    "answer": "Introduction of unapproved software and devices",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which technique is used to exfiltrate data by embedding it in innocuous traffic such as DNS queries?",
+    "options": [ "Covert channel", "Data masking", "DNS tunneling", "Steganography" ],
+    "answer": "DNS tunneling",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which security principle is violated when an administrator uses shared credentials for multiple accounts?",
+    "options": [ "Separation of duties", "Principle of least privilege", "Non-repudiation", "Confidentiality" ],
+    "answer": "Non-repudiation",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the most significant limitation of biometric authentication methods?",
+    "options": [ "False positives and negatives", "Incompatibility with cloud environments", "High implementation cost", "Difficulty in storing credentials" ],
+    "answer": "False positives and negatives",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which backup strategy involves backing up only the files that have changed since the last backup?",
+    "options": [ "Full backup", "Incremental backup", "Differential backup", "Snapshot backup" ],
+    "answer": "Incremental backup",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which security risk is introduced by not enforcing account lockout policies?",
+    "options": [ "Social engineering attacks", "Password brute force attacks", "SQL injection vulnerabilities", "Privilege escalation" ],
+    "answer": "Password brute force attacks",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "An organization notices an unusual spike in outbound traffic late at night from a single workstation. What is the FIRST step the administrator should take?",
+    "options": [
+      "Isolate the workstation from the network",
+      "Perform a malware scan on the workstation",
+      "Review the organization's SIEM logs",
+      "Contact the legal department to report an incident"
+    ],
+    "answer": "Isolate the workstation from the network",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following is the BEST method to ensure sensitive data remains encrypted even if stolen?",
+    "options": [
+      "Use a strong password policy",
+      "Implement full disk encryption",
+      "Utilize network segmentation",
+      "Enable two-factor authentication"
+    ],
+    "answer": "Implement full disk encryption",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A cybersecurity analyst uses a vulnerability scanner and discovers that several servers are missing critical patches. Which type of attack is MOST likely to exploit this situation?",
+    "options": [
+      "Zero-day attack",
+      "Ransomware attack",
+      "Privilege escalation",
+      "Man-in-the-Middle attack"
+    ],
+    "answer": "Privilege escalation",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Disabling unused ports on a switch is an example of a preventive control.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker attempts to execute commands on a web application by entering unexpected input into form fields. Which security control would BEST mitigate this attack?",
+    "options": [
+      "Enable input validation",
+      "Use TLS encryption for data transmission",
+      "Implement DLP solutions",
+      "Configure anti-virus software"
+    ],
+    "answer": "Enable input validation",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following steps should be taken FIRST when responding to a security incident?",
+    "options": [
+      "Notify law enforcement",
+      "Contain the affected systems",
+      "Perform forensic analysis",
+      "Restore from backups"
+    ],
+    "answer": "Contain the affected systems",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A rainbow table attack requires access to the target's password hash database.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "During a penetration test, an ethical hacker uses open-source intelligence to map an organization's external IP range. Which phase of the penetration testing lifecycle does this represent?",
+    "options": [
+      "Exploitation",
+      "Reconnaissance",
+      "Persistence",
+      "Reporting"
+    ],
+    "answer": "Reconnaissance",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A security engineer installs a web application firewall (WAF) in front of a public-facing web server. What is the PRIMARY purpose of the WAF?",
+    "options": [
+      "Encrypt sensitive web traffic",
+      "Block malicious web traffic",
+      "Detect insider threats",
+      "Log access to sensitive directories"
+    ],
+    "answer": "Block malicious web traffic",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A company implements mandatory vacation policies for all employees in sensitive roles. What is the PRIMARY security benefit of this policy?",
+    "options": [
+      "Improves employee work-life balance",
+      "Detects malicious activity through role rotation",
+      "Reduces employee burnout",
+      "Ensures compliance with labor laws"
+    ],
+    "answer": "Detects malicious activity through role rotation",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "An organization is concerned about employees accessing sensitive data from their personal devices. Which solution BEST mitigates this risk?",
+    "options": [
+      "Implement a Mobile Device Management (MDM) solution",
+      "Require employees to use multi-factor authentication (MFA)",
+      "Encrypt all sensitive files",
+      "Restrict access to the corporate network after hours"
+    ],
+    "answer": "Implement a Mobile Device Management (MDM) solution",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "During a forensic investigation, a security analyst needs to ensure that digital evidence remains unchanged. What is the BEST method to achieve this?",
+    "options": [
+      "Encrypt the evidence before analysis",
+      "Use hashing to verify the integrity of the evidence",
+      "Create multiple backups of the evidence",
+      "Restrict access to the evidence to authorized personnel"
+    ],
+    "answer": "Use hashing to verify the integrity of the evidence",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following attacks manipulates a web server to execute unauthorized commands via input fields?",
+    "options": [
+      "SQL Injection",
+      "Cross-Site Request Forgery (CSRF)",
+      "Privilege Escalation",
+      "Session Hijacking"
+    ],
+    "answer": "SQL Injection",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A company that utilizes 'air-gapped' systems for sensitive data ensures complete protection against malware.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker compromises an organization\u2019s DNS server and redirects traffic to a malicious site. Which BEST describes this type of attack?",
+    "options": [
+      "Man-in-the-Middle (MitM)",
+      "DNS Poisoning",
+      "Domain Hijacking",
+      "ARP Spoofing"
+    ],
+    "answer": "DNS Poisoning",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following provides the BEST defense against brute force attacks on user accounts?",
+    "options": [
+      "Account lockout policies",
+      "Strong password requirements",
+      "Two-factor authentication",
+      "Continuous monitoring"
+    ],
+    "answer": "Account lockout policies",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A penetration tester gains access to a restricted system and installs a backdoor to maintain access. What phase of the cyberattack lifecycle does this action represent?",
+    "options": [
+      "Reconnaissance",
+      "Exploitation",
+      "Persistence",
+      "Lateral Movement"
+    ],
+    "answer": "Persistence",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Disabling unnecessary services on a server is an example of hardening the system.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An organization deploys a proxy server to filter outgoing web traffic. Which security benefit does this primarily provide?",
+    "options": [
+      "Prevents malware from reaching the internal network",
+      "Reduces the risk of data exfiltration",
+      "Encrypts sensitive web traffic",
+      "Logs access to web resources for auditing"
+    ],
+    "answer": "Reduces the risk of data exfiltration",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which of the following would MOST effectively reduce the risk of phishing attacks across an organization?",
+    "options": [
+      "Implementing a spam filter for email traffic",
+      "Deploying antivirus software on all endpoints",
+      "Conducting regular employee training",
+      "Using TLS to secure email communication"
+    ],
+    "answer": "Conducting regular employee training",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  }
+]

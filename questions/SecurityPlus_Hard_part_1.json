@@ -1,194 +1,589 @@
 [
-    {
-        "question": "What is a zero-day vulnerability?",
-        "options": [
-            "A flaw exploited before a patch is available",
-            "A misconfiguration in a system",
-            "An outdated operating system vulnerability",
-            "An attack that occurs without warning"
-        ],
-        "answer": "A flaw exploited before a patch is available",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What is the main purpose of a honeypot?",
-        "options": [
-            "To attract attackers and study their methods",
-            "To encrypt sensitive data",
-            "To monitor legitimate network traffic",
-            "To provide high availability of resources"
-        ],
-        "answer": "To attract attackers and study their methods",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What type of attack exploits input fields to execute malicious code?",
-        "options": [
-            "SQL Injection",
-            "Cross-Site Scripting (XSS)",
-            "Brute Force Attack",
-            "Man-in-the-Middle Attack"
-        ],
-        "answer": "SQL Injection",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What is the primary purpose of a DMZ in a network?",
-        "options": [
-            "To isolate public-facing servers",
-            "To prevent phishing attacks",
-            "To block all external traffic",
-            "To perform vulnerability scans"
-        ],
-        "answer": "To isolate public-facing servers",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What does a botnet consist of?",
-        "options": [
-            "Compromised devices controlled by an attacker",
-            "Encrypted data packets",
-            "A secure network of devices",
-            "A database of malware signatures"
-        ],
-        "answer": "Compromised devices controlled by an attacker",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What is a buffer overflow attack?",
-        "options": [
-            "An attack that exploits excessive memory allocation",
-            "An attack that floods a network with data",
-            "An attack that encrypts sensitive files",
-            "An attack that manipulates input fields"
-        ],
-        "answer": "An attack that exploits excessive memory allocation",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "Which protocol is responsible for securing email communication?",
-        "options": [
-            "Secure/Multipurpose Internet Mail Extensions (S/MIME)",
-            "Post Office Protocol (POP3)",
-            "File Transfer Protocol (FTP)",
-            "Hypertext Transfer Protocol Secure (HTTPS)"
-        ],
-        "answer": "Secure/Multipurpose Internet Mail Extensions (S/MIME)",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "Which security model focuses on preventing unauthorized access to information?",
-        "options": [
-            "Bell-LaPadula Model",
-            "Clark-Wilson Model",
-            "Biba Model",
-            "Access Control Matrix"
-        ],
-        "answer": "Bell-LaPadula Model",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "Which tool is commonly used for analyzing and aggregating security logs?",
-        "options": [
-            "Splunk",
-            "Wireshark",
-            "Metasploit",
-            "Nmap"
-        ],
-        "answer": "Splunk",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What is the purpose of a hot site in disaster recovery planning?",
-        "options": [
-            "To provide a fully operational backup site ready for immediate use",
-            "To serve as a secure data storage facility",
-            "To encrypt backup files during transit",
-            "To store archived data indefinitely"
-        ],
-        "answer": "To provide a fully operational backup site ready for immediate use",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What does the term 'man-in-the-browser attack' refer to?",
-        "options": [
-            "An attack where malware intercepts communication between a user and their browser",
-            "An attack that floods a browser with pop-ups",
-            "An attack where a hacker takes control of a web server",
-            "An attack that exploits outdated browser plugins"
-        ],
-        "answer": "An attack where malware intercepts communication between a user and their browser",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What is a rainbow table attack used for?",
-        "options": [
-            "Cracking hashed passwords by using precomputed hash values",
-            "Stealing session tokens during a network transmission",
-            "Executing code on a vulnerable web application",
-            "Flooding a network with traffic to cause downtime"
-        ],
-        "answer": "Cracking hashed passwords by using precomputed hash values",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What is the primary function of a rootkit?",
-        "options": [
-            "To hide malicious activity and maintain privileged access",
-            "To encrypt sensitive data for secure storage",
-            "To monitor network traffic for anomalies",
-            "To analyze system logs for threats"
-        ],
-        "answer": "To hide malicious activity and maintain privileged access",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What is the purpose of a session hijacking attack?",
-        "options": [
-            "To take control of a user's active session and impersonate them",
-            "To disable an application by overloading its session handling",
-            "To encrypt all session data on the fly",
-            "To block legitimate users from accessing a session"
-        ],
-        "answer": "To take control of a user's active session and impersonate them",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What is the purpose of an air-gapped system?",
-        "options": [
-            "To isolate a computer or network from external connections for security",
-            "To encrypt sensitive data during transit",
-            "To block unauthorized access to applications",
-            "To monitor and log network activity"
-        ],
-        "answer": "To isolate a computer or network from external connections for security",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    },
-    {
-        "question": "What does a honeynet consist of?",
-        "options": [
-            "Multiple honeypots designed to trap attackers",
-            "A single secure network for storing sensitive data",
-            "A cloud-based security system for monitoring threats",
-            "An automated system for patch management"
-        ],
-        "answer": "Multiple honeypots designed to trap attackers",
-        "difficulty": "Hard",
-        "category": "SecurityPlus"
-    }
+  {
+    "question": "What is a zero-day vulnerability?",
+    "options": [
+      "A flaw exploited before a patch is available",
+      "A misconfiguration in a system",
+      "An outdated operating system vulnerability",
+      "An attack that occurs without warning"
+    ],
+    "answer": "A flaw exploited before a patch is available",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the main purpose of a honeypot?",
+    "options": [
+      "To attract attackers and study their methods",
+      "To encrypt sensitive data",
+      "To monitor legitimate network traffic",
+      "To provide high availability of resources"
+    ],
+    "answer": "To attract attackers and study their methods",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What type of attack exploits input fields to execute malicious code?",
+    "options": [
+      "SQL Injection",
+      "Cross-Site Scripting (XSS)",
+      "Brute Force Attack",
+      "Man-in-the-Middle Attack"
+    ],
+    "answer": "SQL Injection",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the primary purpose of a DMZ in a network?",
+    "options": [
+      "To isolate public-facing servers",
+      "To prevent phishing attacks",
+      "To block all external traffic",
+      "To perform vulnerability scans"
+    ],
+    "answer": "To isolate public-facing servers",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What does a botnet consist of?",
+    "options": [
+      "Compromised devices controlled by an attacker",
+      "Encrypted data packets",
+      "A secure network of devices",
+      "A database of malware signatures"
+    ],
+    "answer": "Compromised devices controlled by an attacker",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is a buffer overflow attack?",
+    "options": [
+      "An attack that exploits excessive memory allocation",
+      "An attack that floods a network with data",
+      "An attack that encrypts sensitive files",
+      "An attack that manipulates input fields"
+    ],
+    "answer": "An attack that exploits excessive memory allocation",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which protocol is responsible for securing email communication?",
+    "options": [
+      "Secure/Multipurpose Internet Mail Extensions (S/MIME)",
+      "Post Office Protocol (POP3)",
+      "File Transfer Protocol (FTP)",
+      "Hypertext Transfer Protocol Secure (HTTPS)"
+    ],
+    "answer": "Secure/Multipurpose Internet Mail Extensions (S/MIME)",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which security model focuses on preventing unauthorized access to information?",
+    "options": [
+      "Bell-LaPadula Model",
+      "Clark-Wilson Model",
+      "Biba Model",
+      "Access Control Matrix"
+    ],
+    "answer": "Bell-LaPadula Model",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Which tool is commonly used for analyzing and aggregating security logs?",
+    "options": [
+      "Splunk",
+      "Wireshark",
+      "Metasploit",
+      "Nmap"
+    ],
+    "answer": "Splunk",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the purpose of a hot site in disaster recovery planning?",
+    "options": [
+      "To provide a fully operational backup site ready for immediate use",
+      "To serve as a secure data storage facility",
+      "To encrypt backup files during transit",
+      "To store archived data indefinitely"
+    ],
+    "answer": "To provide a fully operational backup site ready for immediate use",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What does the term 'man-in-the-browser attack' refer to?",
+    "options": [
+      "An attack where malware intercepts communication between a user and their browser",
+      "An attack that floods a browser with pop-ups",
+      "An attack where a hacker takes control of a web server",
+      "An attack that exploits outdated browser plugins"
+    ],
+    "answer": "An attack where malware intercepts communication between a user and their browser",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is a rainbow table attack used for?",
+    "options": [
+      "Cracking hashed passwords by using precomputed hash values",
+      "Stealing session tokens during a network transmission",
+      "Executing code on a vulnerable web application",
+      "Flooding a network with traffic to cause downtime"
+    ],
+    "answer": "Cracking hashed passwords by using precomputed hash values",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the primary function of a rootkit?",
+    "options": [
+      "To hide malicious activity and maintain privileged access",
+      "To encrypt sensitive data for secure storage",
+      "To monitor network traffic for anomalies",
+      "To analyze system logs for threats"
+    ],
+    "answer": "To hide malicious activity and maintain privileged access",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the purpose of a session hijacking attack?",
+    "options": [
+      "To take control of a user's active session and impersonate them",
+      "To disable an application by overloading its session handling",
+      "To encrypt all session data on the fly",
+      "To block legitimate users from accessing a session"
+    ],
+    "answer": "To take control of a user's active session and impersonate them",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What is the purpose of an air-gapped system?",
+    "options": [
+      "To isolate a computer or network from external connections for security",
+      "To encrypt sensitive data during transit",
+      "To block unauthorized access to applications",
+      "To monitor and log network activity"
+    ],
+    "answer": "To isolate a computer or network from external connections for security",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "What does a honeynet consist of?",
+    "options": [
+      "Multiple honeypots designed to trap attackers",
+      "A single secure network for storing sensitive data",
+      "A cloud-based security system for monitoring threats",
+      "An automated system for patch management"
+    ],
+    "answer": "Multiple honeypots designed to trap attackers",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "True or False: Transport Layer Security (TLS) ensures both encryption and integrity for data in transit.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An employee reports that their email was used to send unauthorized messages. Upon investigation, the attacker used stolen session cookies. What type of attack is this?",
+    "options": [ "Session Hijacking", "Man-in-the-middle", "Credential Stuffing", "Ransomware" ],
+    "answer": "Session Hijacking",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A SIEM system collects and analyzes security events in real time for incident detection and response.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Your organization needs to enforce policies to ensure employees only access applications relevant to their role. What security model should be implemented?",
+    "options": [ "Role-Based Access Control (RBAC)", "Discretionary Access Control (DAC)", "Mandatory Access Control (MAC)", "Attribute-Based Access Control (ABAC)" ],
+    "answer": "Role-Based Access Control (RBAC)",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A digital certificate contains the public key and information about the certificate holder.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A security team uses an IDS to monitor traffic. However, it fails to detect a legitimate attack. What is this an example of?",
+    "options": [ "False Negative", "False Positive", "True Negative", "True Positive" ],
+    "answer": "False Negative",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A zero-day exploit targets vulnerabilities that are known and already patched by the vendor.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker sends phishing emails to senior executives with fake invoices to obtain sensitive information. What type of phishing is this?",
+    "options": [ "Whaling", "Spear Phishing", "Vishing", "Pretexting" ],
+    "answer": "Whaling",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Enabling multi-factor authentication (MFA) reduces the risk of account compromise even if credentials are stolen.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker exploits a vulnerability in an IoT device to access other systems on the network. What is this technique called?",
+    "options": [ "Pivoting", "Lateral Movement", "Privilege Escalation", "Phishing" ],
+    "answer": "Pivoting",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Encrypting data at rest and in transit ensures complete protection from data breaches.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Your company implements a public key infrastructure (PKI). What is the main role of a Certificate Authority (CA)?",
+    "options": [
+      "Issue and revoke digital certificates",
+      "Encrypt data for secure transmission",
+      "Generate private keys for users",
+      "Monitor network traffic for threats"
+    ],
+    "answer": "Issue and revoke digital certificates",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Disabling unused ports on a switch is a best practice to prevent unauthorized access.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker gains access to a secure network using an employee's stolen credentials. What type of threat is this?",
+    "options": [ "Insider Threat", "Credential Stuffing", "Advanced Persistent Threat (APT)", "Social Engineering" ],
+    "answer": "Credential Stuffing",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A DMZ is used to host public-facing services, isolating them from the internal network.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "A user receives a pop-up on their computer claiming their system is infected and asking for immediate payment to remove malware. What type of attack is this?",
+    "options": [ "Scareware", "Ransomware", "Adware", "Trojan" ],
+    "answer": "Scareware",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A hot site is a fully operational backup location that can be activated immediately during a disaster.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker compromises a public Wi-Fi network and intercepts traffic to capture login credentials. What type of attack is this?",
+    "options": [ "Man-in-the-middle", "Session Fixation", "Brute Force", "DNS Spoofing" ],
+    "answer": "Man-in-the-middle",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Implementing data loss prevention (DLP) can prevent sensitive data from being transmitted outside the organization without authorization.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker uses social engineering to gather information about an organization and tailgates into a secure building. What type of threat does this represent?",
+    "options": [ "Physical Security Breach", "Insider Threat", "Privilege Escalation", "Phishing" ],
+    "answer": "Physical Security Breach",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Security baselines are used to establish the minimum acceptable security configurations for systems.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A security administrator discovers that employees are connecting unauthorized personal devices to the corporate network. Which security measure can prevent this?",
+    "options": [ "Network Access Control (NAC)", "Firewalls", "Antivirus Software", "Intrusion Detection System (IDS)" ],
+    "answer": "Network Access Control (NAC)",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: In a risk assessment, a threat is any potential danger to an asset.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker hides malicious code inside an image file and sends it to a victim. What technique is being used?",
+    "options": [ "Steganography", "Polymorphism", "Code Injection", "Ransomware" ],
+    "answer": "Steganography",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Endpoint detection and response (EDR) solutions focus on monitoring and protecting individual devices in real-time.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker uses a compromised account to send malicious emails to other employees within an organization. What is this attack called?",
+    "options": [ "Internal Phishing", "Spoofing", "Watering Hole", "Credential Stuffing" ],
+    "answer": "Internal Phishing",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A sandbox environment is used to safely test suspicious files and applications.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Your organization needs to ensure secure communication between remote workers and the corporate network. What should be implemented?",
+    "options": [ "VPN", "RADIUS", "TLS", "Antivirus" ],
+    "answer": "VPN",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Disabling unnecessary services on a server can reduce the attack surface.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker uses a fake website to mimic a legitimate login page, capturing credentials when users enter them. What type of attack is this?",
+    "options": [ "Pharming", "Spoofing", "Keylogging", "Privilege Escalation" ],
+    "answer": "Pharming",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A full backup includes all files regardless of whether they have been modified since the last backup.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A security analyst notices a large number of failed login attempts on a system from multiple locations. What type of attack might this indicate?",
+    "options": [ "Brute Force", "Insider Threat", "Phishing", "Privilege Escalation" ],
+    "answer": "Brute Force",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Using a unique, long passphrase for each account improves password security.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker floods a system with more data than it can handle, causing it to crash. What type of attack is this?",
+    "options": [ "Buffer Overflow", "DDoS", "Logic Bomb", "Man-in-the-middle" ],
+    "answer": "Buffer Overflow",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Token-based authentication provides an additional layer of security by requiring a physical or software token.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+
+  {
+    "question": "An attacker exploits a vulnerability in an outdated database server to inject malicious code, enabling unauthorized data access. What is the best immediate action to mitigate this type of threat?",
+    "options": [
+      "Patch the database server",
+      "Disconnect the server from the network",
+      "Encrypt all stored data",
+      "Enable intrusion prevention systems"
+    ],
+    "answer": "Disconnect the server from the network",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: Anomaly-based intrusion detection systems (IDS) can generate alerts for new, previously unknown threats.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "During a forensic investigation, you discover that an attacker has used a rootkit to maintain persistent access to a compromised server. What should be your first step?",
+    "options": [
+      "Isolate the server to prevent further compromise",
+      "Reboot the server into safe mode",
+      "Run a malware removal tool",
+      "Reinstall the operating system"
+    ],
+    "answer": "Isolate the server to prevent further compromise",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "A CISO mandates the implementation of network segmentation to secure sensitive data. What is the primary benefit of this approach?",
+    "options": [
+      "Limits lateral movement of attackers",
+      "Increases overall network bandwidth",
+      "Reduces the need for encryption",
+      "Simplifies access control management"
+    ],
+    "answer": "Limits lateral movement of attackers",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A logic bomb is triggered by a specific event or condition, such as a user logging in or a certain date.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Your organization detects suspicious outbound traffic from a high-value asset. Upon investigation, you discover data exfiltration via an encrypted channel. What should be the next step?",
+    "options": [
+      "Block the traffic at the firewall",
+      "Decrypt the channel to inspect the content",
+      "Shut down the asset",
+      "Contact law enforcement immediately"
+    ],
+    "answer": "Block the traffic at the firewall",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A public key infrastructure (PKI) is necessary for implementing asymmetric encryption.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker uses a legitimate user's compromised credentials to access systems undetected. What security feature can reduce the risk of such attacks?",
+    "options": [
+      "Multi-factor authentication",
+      "Data loss prevention",
+      "Intrusion detection system",
+      "Tokenization"
+    ],
+    "answer": "Multi-factor authentication",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A watering hole attack compromises websites commonly visited by the targeted organization.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "Your organization needs to securely transmit sensitive data over an untrusted network. Which protocol should be used?",
+    "options": [ "TLS", "FTP", "HTTP", "ICMP" ],
+    "answer": "TLS",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: An advanced persistent threat (APT) refers to a prolonged, targeted attack by a well-resourced adversary.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "During a security audit, an administrator discovers that several servers are using default passwords. What is the most effective immediate action?",
+    "options": [
+      "Change all default passwords",
+      "Enable account lockout policies",
+      "Encrypt all stored data",
+      "Update server software"
+    ],
+    "answer": "Change all default passwords",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: A disaster recovery plan (DRP) focuses on restoring critical systems and minimizing downtime after an incident.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "An attacker uses stolen credentials and bypasses authentication to access an administrator account. Which security principle was violated?",
+    "options": [
+      "Least privilege",
+      "Separation of duties",
+      "Authentication integrity",
+      "Multi-factor enforcement"
+    ],
+    "answer": "Authentication integrity",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  },
+  {
+    "question": "True or False: File integrity monitoring (FIM) helps detect unauthorized changes to critical system files.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "SecurityPlus"
+  }
+ 
+ 
 ]

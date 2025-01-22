@@ -1,0 +1,138 @@
+[
+    {
+      "question": "Which process in IAM is responsible for tracking user activity to ensure accountability?",
+      "options": [ "Authentication", "Authorization", "Accounting", "Identification" ],
+      "answer": "Accounting",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    
+    {
+      "question": "Which type of firewall examines the state and context of network connections?",
+      "options": [ "Packet-filtering firewall", "Stateful firewall", "Proxy firewall", "Application-layer firewall" ],
+      "answer": "Stateful firewall",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "What is the role of a demilitarized zone (DMZ) in network security?",
+      "options": [ "To isolate critical internal systems", "To connect internal and external networks securely", "To encrypt all network traffic", "To host endpoint devices" ],
+      "answer": "To connect internal and external networks securely",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "In cloud security, who is responsible for configuring firewall rules for a virtual machine?",
+      "options": [ "Cloud provider", "Customer", "Third-party auditor", "System integrator" ],
+      "answer": "Customer",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "Which of the following is an example of a technical security control?",
+      "options": [ "Security policy", "Access control list", "Employee training", "Incident response plan" ],
+      "answer": "Access control list",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "What does a warm site provide in terms of business continuity?",
+      "options": [ "A fully operational backup site", "A partially equipped backup site", "A simple data backup solution", "A cloud-based backup service" ],
+      "answer": "A partially equipped backup site",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "What is a common feature of Role-Based Access Control (RBAC)?",
+      "options": [ "Permissions are assigned to roles", "Permissions are assigned to individual users", "Access is granted based on location", "Access is granted by seniority" ],
+      "answer": "Permissions are assigned to roles",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "Which cryptographic concept ensures data has not been altered during transmission?",
+      "options": [ "Confidentiality", "Integrity", "Availability", "Non-repudiation" ],
+      "answer": "Integrity",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "Which type of threat actor is most likely to exploit a vulnerability for financial gain?",
+      "options": [ "Hacktivist", "Script kiddie", "Insider", "Cybercriminal" ],
+      "answer": "Cybercriminal",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "What is the purpose of network segmentation?",
+      "options": [ "To enhance performance by isolating traffic", "To enable unrestricted data flow", "To enforce password policies", "To centralize network monitoring" ],
+      "answer": "To enhance performance by isolating traffic",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "Which term describes a cloud computing model where services are offered over the internet without user control of the underlying infrastructure?",
+      "options": [ "IaaS", "PaaS", "SaaS", "NaaS" ],
+      "answer": "SaaS",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "Which of the following controls helps mitigate the risk of unauthorized access by terminated employees?",
+      "options": [ "Encryption", "Offboarding procedures", "Firewalls", "Employee training" ],
+      "answer": "Offboarding procedures",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "What is the purpose of a honeynet in cybersecurity?",
+      "options": [ "To encrypt sensitive data", "To isolate critical systems", "To attract and analyze attackers", "To provide backup services" ],
+      "answer": "To attract and analyze attackers",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "What is the key benefit of implementing least privilege principles?",
+      "options": [ "Minimized risk of data breaches", "Easier user management", "Enhanced availability of resources", "Reduced system costs" ],
+      "answer": "Minimized risk of data breaches",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "Which type of encryption uses a pair of keys, one public and one private?",
+      "options": [ "Symmetric encryption", "Asymmetric encryption", "Hashing", "Block cipher" ],
+      "answer": "Asymmetric encryption",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "In cloud security, what is the purpose of a CASB (Cloud Access Security Broker)?",
+      "options": [ "To provide secure data storage", "To enforce security policies between users and cloud service providers", "To host virtual machines", "To monitor network traffic" ],
+      "answer": "To enforce security policies between users and cloud service providers",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "Which of the following is an example of a preventive control?",
+      "options": [ "Audit logs", "Antivirus software", "Incident response", "Penetration testing" ],
+      "answer": "Antivirus software",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "What is the role of an intrusion detection system (IDS)?",
+      "options": [ "To block malicious traffic", "To detect and alert on malicious activity", "To enforce user authentication", "To ensure data integrity" ],
+      "answer": "To detect and alert on malicious activity",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    },
+    {
+      "question": "Which type of site allows for full recovery of IT operations in the shortest time?",
+      "options": [ "Hot site", "Warm site", "Cold site", "Backup site" ],
+      "answer": "Hot site",
+      "difficulty": "Medium",
+      "category": "SecurityPlus"
+    }
+  ]
+
+

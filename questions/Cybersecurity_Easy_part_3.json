@@ -274,5 +274,190 @@
     "answer": "An attack where malware encrypts files and demands payment for decryption",
     "difficulty": "Easy",
     "category": "Cybersecurity"
+  },
+      {
+    "question": "Your friend receives an email claiming they’ve won a prize but need to provide their bank details to claim it. What type of cyberattack is this?",
+    "options": [
+      "Phishing",
+      "Ransomware",
+      "Keylogging",
+      "Man-in-the-middle"
+    ],
+    "answer": "Phishing",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Using the same password for multiple accounts increases the risk of account compromise.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A pop-up appears on your screen saying your computer is infected with a virus and asks you to click a link for removal. What should you do?",
+    "options": [
+      "Close the pop-up without clicking anything",
+      "Click the link to resolve the issue",
+      "Restart your computer",
+      "Disable your antivirus"
+    ],
+    "answer": "Close the pop-up without clicking anything",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: A strong password includes a combination of letters, numbers, and special characters.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your coworker receives a message that appears to be from IT asking for their login credentials. What type of attack is this?",
+    "options": [
+      "Spear Phishing",
+      "Whaling",
+      "Social Engineering",
+      "Spoofing"
+    ],
+    "answer": "Spear Phishing",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Public Wi-Fi networks can be risky because attackers may intercept unencrypted data.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A suspicious email asks you to download an attachment. What is the best way to handle this?",
+    "options": [
+      "Delete the email immediately",
+      "Download the attachment to check its contents",
+      "Forward it to all your contacts as a warning",
+      "Open the attachment in safe mode"
+    ],
+    "answer": "Delete the email immediately",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Antivirus software can detect and remove all types of malware.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A website asks you to create a password. What is the most secure option?",
+    "options": [
+      "Password123",
+      "Qwerty",
+      "MyPetName2023",
+      "R%8z2K!q3"
+    ],
+    "answer": "R%8z2K!q3",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Updating your software regularly can help protect against security vulnerabilities.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the primary purpose of a firewall?",
+    "options": [
+      "To monitor network performance",
+      "To block unauthorized access to a network",
+      "To encrypt sensitive data",
+      "To scan for viruses"
+    ],
+    "answer": "To block unauthorized access to a network",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Phishing emails often create a sense of urgency to trick victims into responding quickly.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What should you do if your online account gets hacked?",
+    "options": [
+      "Change your password immediately",
+      "Ignore it and hope it resolves itself",
+      "Post on social media to warn others",
+      "Delete the account permanently"
+    ],
+    "answer": "Change your password immediately",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Multi-factor authentication adds an extra layer of security to your accounts.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "An email from your bank asks you to confirm your account details by clicking a link. What should you do?",
+    "options": [
+      "Call your bank directly to confirm",
+      "Click the link and provide the details",
+      "Ignore the email",
+      "Forward the email to your friends"
+    ],
+    "answer": "Call your bank directly to confirm",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Backing up your data regularly can help you recover quickly after a ransomware attack.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "You receive a call claiming to be from tech support asking for remote access to fix your computer. What should you do?",
+    "options": [
+      "Hang up immediately",
+      "Give them access to resolve the issue",
+      "Ask for their company ID",
+      "Restart your computer"
+    ],
+    "answer": "Hang up immediately",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: A VPN encrypts your internet traffic, making it harder for attackers to intercept your data.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a safe way to use public Wi-Fi?",
+    "options": [
+      "Avoid accessing sensitive accounts",
+      "Always connect without a password",
+      "Share files over the network",
+      "Disable antivirus software"
+    ],
+    "answer": "Avoid accessing sensitive accounts",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
   }
 ]
+
+

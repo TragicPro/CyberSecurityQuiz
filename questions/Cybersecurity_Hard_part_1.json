@@ -1,374 +1,555 @@
 [
-    {
-        "question": "What attack intercepts communication between two parties?",
-        "options": [
-            "Man-in-the-Middle Attack",
-            "DDoS Attack",
-            "SQL Injection",
-            "Zero-Day Attack"
-        ],
-        "answer": "Man-in-the-Middle Attack",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does the acronym IDS stand for?",
-        "options": [
-            "Intrusion Detection System",
-            "Internet Data Security",
-            "Information Data Source",
-            "Intrusion Defense Security"
-        ],
-        "answer": "Intrusion Detection System",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the primary function of a Public Key Infrastructure (PKI)?",
-        "options": [
-            "Issuing digital certificates",
-            "Encrypting network traffic",
-            "Detecting intrusions",
-            "Preventing DDoS attacks"
-        ],
-        "answer": "Issuing digital certificates",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a zero-day vulnerability?",
-        "options": [
-            "A flaw exploited before a fix is available",
-            "A vulnerability discovered on the day of attack",
-            "An unpatched system vulnerability",
-            "An old vulnerability that is re-exploited"
-        ],
-        "answer": "A flaw exploited before a fix is available",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is SQL Injection?",
-        "options": [
-            "Injecting malicious SQL commands",
-            "Hacking encrypted databases",
-            "Deploying a database virus",
-            "Injecting malware into applications"
-        ],
-        "answer": "Injecting malicious SQL commands",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a buffer overflow attack?",
-        "options": [
-            "Exploiting excessive memory allocation",
-            "Flooding the network with data",
-            "Decrypting secure traffic",
-            "Injecting SQL commands"
-        ],
-        "answer": "Exploiting excessive memory allocation",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which tool monitors network traffic for suspicious activity?",
-        "options": [
-            "IDS",
-            "VPN",
-            "Firewall",
-            "AES"
-        ],
-        "answer": "IDS",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does a vulnerability scanner do?",
-        "options": [
-            "Identifies security weaknesses",
-            "Encrypts sensitive files",
-            "Prevents DDoS attacks",
-            "Authenticates users"
-        ],
-        "answer": "Identifies security weaknesses",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is spear phishing?",
-        "options": [
-            "A targeted phishing attack",
-            "Malware spread through email",
-            "A brute force attack on credentials",
-            "A social engineering tactic"
-        ],
-        "answer": "A targeted phishing attack",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which protocol is used to encrypt emails?",
-        "options": [
-            "PGP",
-            "SMTP",
-            "FTP",
-            "HTTP"
-        ],
-        "answer": "PGP",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does a honeypot do in cybersecurity?",
-        "options": [
-            "Attracts attackers to detect malicious activities",
-            "Encrypts sensitive data",
-            "Prevents phishing attacks",
-            "Monitors network traffic"
-        ],
-        "answer": "Attracts attackers to detect malicious activities",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which type of attack exploits a software vulnerability before it's patched?",
-        "options": [
-            "Zero-Day Attack",
-            "Brute Force Attack",
-            "Phishing",
-            "Spyware"
-        ],
-        "answer": "Zero-Day Attack",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the primary purpose of a DMZ in network security?",
-        "options": [
-            "Isolating public-facing servers",
-            "Encrypting internal traffic",
-            "Detecting intrusions",
-            "Managing firewalls"
-        ],
-        "answer": "Isolating public-facing servers",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the difference between symmetric and asymmetric encryption?",
-        "options": [
-            "Symmetric uses one key; asymmetric uses two",
-            "Symmetric uses public keys only",
-            "Asymmetric is faster than symmetric",
-            "Symmetric provides higher security"
-        ],
-        "answer": "Symmetric uses one key; asymmetric uses two",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the purpose of network segmentation?",
-        "options": [
-            "Restricting access to critical systems",
-            "Encrypting traffic",
-            "Preventing malware infections",
-            "Detecting phishing emails"
-        ],
-        "answer": "Restricting access to critical systems",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the primary purpose of a security audit?",
-        "options": [
-            "Evaluating system vulnerabilities",
-            "Encrypting sensitive data",
-            "Preventing DDoS attacks",
-            "Blocking phishing emails"
-        ],
-        "answer": "Evaluating system vulnerabilities",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a polymorphic virus?",
-        "options": [
-            "A virus that changes its code to avoid detection",
-            "A virus that targets multiple systems simultaneously",
-            "A virus that encrypts its payload",
-            "A virus that spreads through email"
-        ],
-        "answer": "A virus that changes its code to avoid detection",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the main goal of an Advanced Persistent Threat (APT)?",
-        "options": [
-            "Stealing sensitive information over time",
-            "Disrupting services",
-            "Encrypting user data for ransom",
-            "Intercepting network traffic"
-        ],
-        "answer": "Stealing sensitive information over time",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a zero-trust security model?",
-        "options": [
-            "A model that assumes no user or device is inherently trusted",
-            "A model that blocks all access by default",
-            "A model focused on endpoint protection",
-            "A model that requires encrypted data transfer"
-        ],
-        "answer": "A model that assumes no user or device is inherently trusted",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which cybersecurity tool provides a visual representation of network activity?",
-        "options": [
-            "SIEM",
-            "Firewall",
-            "VPN",
-            "DMZ"
-        ],
-        "answer": "SIEM",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the role of a Security Information and Event Management (SIEM) system?",
-        "options": [
-            "To aggregate and analyze security data",
-            "To block malware in real-time",
-            "To encrypt network traffic",
-            "To scan devices for vulnerabilities"
-        ],
-        "answer": "To aggregate and analyze security data",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a rootkit?",
-        "options": [
-            "A type of malware that hides its presence",
-            "A system recovery tool",
-            "A type of encryption software",
-            "A firewall component"
-        ],
-        "answer": "A type of malware that hides its presence",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a mantrap in physical security?",
-        "options": [
-            "A physical security mechanism for controlled access",
-            "A type of intrusion detection system",
-            "A malware removal tool",
-            "A firewall rule for network segmentation"
-        ],
-        "answer": "A physical security mechanism for controlled access",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does endpoint detection and response (EDR) focus on?",
-        "options": [
-            "Detecting and responding to threats on devices",
-            "Encrypting all communications",
-            "Blocking phishing emails",
-            "Monitoring server performance"
-        ],
-        "answer": "Detecting and responding to threats on devices",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a phishing kit?",
-        "options": [
-            "A set of tools used by attackers to automate phishing campaigns",
-            "A recovery tool for email accounts",
-            "A cryptographic algorithm",
-            "A type of intrusion detection system"
-        ],
-        "answer": "A set of tools used by attackers to automate phishing campaigns",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the purpose of a honeynet?",
-        "options": [
-            "To lure attackers into a controlled environment",
-            "To encrypt all network traffic",
-            "To scan for vulnerabilities",
-            "To block unauthorized users"
-        ],
-        "answer": "To lure attackers into a controlled environment",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the purpose of an air-gapped system?",
-        "options": [
-            "To isolate a device from external networks for security",
-            "To monitor physical access",
-            "To encrypt email communications",
-            "To block unauthorized logins"
-        ],
-        "answer": "To isolate a device from external networks for security",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a rainbow table attack?",
-        "options": [
-            "An attack using precomputed hashes to crack passwords",
-            "A phishing attack on cloud systems",
-            "An exploit targeting outdated SSL certificates",
-            "A brute force attack on encrypted data"
-        ],
-        "answer": "An attack using precomputed hashes to crack passwords",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does the term 'zero-day exploit' mean?",
-        "options": [
-            "An exploit for a vulnerability not yet patched",
-            "An exploit used after a patch is released",
-            "An exploit targeting outdated software",
-            "An exploit that spreads via email"
-        ],
-        "answer": "An exploit for a vulnerability not yet patched",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the purpose of a Bastion host?",
-        "options": [
-            "To act as a secure entry point to a network",
-            "To encrypt network traffic",
-            "To block phishing attempts",
-            "To manage patch deployments"
-        ],
-        "answer": "To act as a secure entry point to a network",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does a forensic investigation in cybersecurity involve?",
-        "options": [
-            "Analyzing systems to determine the cause of a breach",
-            "Blocking malicious traffic",
-            "Encrypting sensitive data",
-            "Monitoring endpoint activity"
-        ],
-        "answer": "Analyzing systems to determine the cause of a breach",
-        "difficulty": "Hard",
-        "category": "Cybersecurity"
-    }
+  {
+    "question": "What attack intercepts communication between two parties?",
+    "options": [
+      "Man-in-the-Middle Attack",
+      "DDoS Attack",
+      "SQL Injection",
+      "Zero-Day Attack"
+    ],
+    "answer": "Man-in-the-Middle Attack",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does the acronym IDS stand for?",
+    "options": [
+      "Intrusion Detection System",
+      "Internet Data Security",
+      "Information Data Source",
+      "Intrusion Defense Security"
+    ],
+    "answer": "Intrusion Detection System",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the primary function of a Public Key Infrastructure (PKI)?",
+    "options": [
+      "Issuing digital certificates",
+      "Encrypting network traffic",
+      "Detecting intrusions",
+      "Preventing DDoS attacks"
+    ],
+    "answer": "Issuing digital certificates",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a zero-day vulnerability?",
+    "options": [
+      "A flaw exploited before a fix is available",
+      "A vulnerability discovered on the day of attack",
+      "An unpatched system vulnerability",
+      "An old vulnerability that is re-exploited"
+    ],
+    "answer": "A flaw exploited before a fix is available",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is SQL Injection?",
+    "options": [
+      "Injecting malicious SQL commands",
+      "Hacking encrypted databases",
+      "Deploying a database virus",
+      "Injecting malware into applications"
+    ],
+    "answer": "Injecting malicious SQL commands",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a buffer overflow attack?",
+    "options": [
+      "Exploiting excessive memory allocation",
+      "Flooding the network with data",
+      "Decrypting secure traffic",
+      "Injecting SQL commands"
+    ],
+    "answer": "Exploiting excessive memory allocation",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which tool monitors network traffic for suspicious activity?",
+    "options": [
+      "IDS",
+      "VPN",
+      "Firewall",
+      "AES"
+    ],
+    "answer": "IDS",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does a vulnerability scanner do?",
+    "options": [
+      "Identifies security weaknesses",
+      "Encrypts sensitive files",
+      "Prevents DDoS attacks",
+      "Authenticates users"
+    ],
+    "answer": "Identifies security weaknesses",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is spear phishing?",
+    "options": [
+      "A targeted phishing attack",
+      "Malware spread through email",
+      "A brute force attack on credentials",
+      "A social engineering tactic"
+    ],
+    "answer": "A targeted phishing attack",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which protocol is used to encrypt emails?",
+    "options": [
+      "PGP",
+      "SMTP",
+      "FTP",
+      "HTTP"
+    ],
+    "answer": "PGP",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does a honeypot do in cybersecurity?",
+    "options": [
+      "Attracts attackers to detect malicious activities",
+      "Encrypts sensitive data",
+      "Prevents phishing attacks",
+      "Monitors network traffic"
+    ],
+    "answer": "Attracts attackers to detect malicious activities",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which type of attack exploits a software vulnerability before it's patched?",
+    "options": [
+      "Zero-Day Attack",
+      "Brute Force Attack",
+      "Phishing",
+      "Spyware"
+    ],
+    "answer": "Zero-Day Attack",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the primary purpose of a DMZ in network security?",
+    "options": [
+      "Isolating public-facing servers",
+      "Encrypting internal traffic",
+      "Detecting intrusions",
+      "Managing firewalls"
+    ],
+    "answer": "Isolating public-facing servers",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the difference between symmetric and asymmetric encryption?",
+    "options": [
+      "Symmetric uses one key; asymmetric uses two",
+      "Symmetric uses public keys only",
+      "Asymmetric is faster than symmetric",
+      "Symmetric provides higher security"
+    ],
+    "answer": "Symmetric uses one key; asymmetric uses two",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of network segmentation?",
+    "options": [
+      "Restricting access to critical systems",
+      "Encrypting traffic",
+      "Preventing malware infections",
+      "Detecting phishing emails"
+    ],
+    "answer": "Restricting access to critical systems",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the primary purpose of a security audit?",
+    "options": [
+      "Evaluating system vulnerabilities",
+      "Encrypting sensitive data",
+      "Preventing DDoS attacks",
+      "Blocking phishing emails"
+    ],
+    "answer": "Evaluating system vulnerabilities",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a polymorphic virus?",
+    "options": [
+      "A virus that changes its code to avoid detection",
+      "A virus that targets multiple systems simultaneously",
+      "A virus that encrypts its payload",
+      "A virus that spreads through email"
+    ],
+    "answer": "A virus that changes its code to avoid detection",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the main goal of an Advanced Persistent Threat (APT)?",
+    "options": [
+      "Stealing sensitive information over time",
+      "Disrupting services",
+      "Encrypting user data for ransom",
+      "Intercepting network traffic"
+    ],
+    "answer": "Stealing sensitive information over time",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a zero-trust security model?",
+    "options": [
+      "A model that assumes no user or device is inherently trusted",
+      "A model that blocks all access by default",
+      "A model focused on endpoint protection",
+      "A model that requires encrypted data transfer"
+    ],
+    "answer": "A model that assumes no user or device is inherently trusted",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which cybersecurity tool provides a visual representation of network activity?",
+    "options": [
+      "SIEM",
+      "Firewall",
+      "VPN",
+      "DMZ"
+    ],
+    "answer": "SIEM",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the role of a Security Information and Event Management (SIEM) system?",
+    "options": [
+      "To aggregate and analyze security data",
+      "To block malware in real-time",
+      "To encrypt network traffic",
+      "To scan devices for vulnerabilities"
+    ],
+    "answer": "To aggregate and analyze security data",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a rootkit?",
+    "options": [
+      "A type of malware that hides its presence",
+      "A system recovery tool",
+      "A type of encryption software",
+      "A firewall component"
+    ],
+    "answer": "A type of malware that hides its presence",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a mantrap in physical security?",
+    "options": [
+      "A physical security mechanism for controlled access",
+      "A type of intrusion detection system",
+      "A malware removal tool",
+      "A firewall rule for network segmentation"
+    ],
+    "answer": "A physical security mechanism for controlled access",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does endpoint detection and response (EDR) focus on?",
+    "options": [
+      "Detecting and responding to threats on devices",
+      "Encrypting all communications",
+      "Blocking phishing emails",
+      "Monitoring server performance"
+    ],
+    "answer": "Detecting and responding to threats on devices",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a phishing kit?",
+    "options": [
+      "A set of tools used by attackers to automate phishing campaigns",
+      "A recovery tool for email accounts",
+      "A cryptographic algorithm",
+      "A type of intrusion detection system"
+    ],
+    "answer": "A set of tools used by attackers to automate phishing campaigns",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of a honeynet?",
+    "options": [
+      "To lure attackers into a controlled environment",
+      "To encrypt all network traffic",
+      "To scan for vulnerabilities",
+      "To block unauthorized users"
+    ],
+    "answer": "To lure attackers into a controlled environment",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of an air-gapped system?",
+    "options": [
+      "To isolate a device from external networks for security",
+      "To monitor physical access",
+      "To encrypt email communications",
+      "To block unauthorized logins"
+    ],
+    "answer": "To isolate a device from external networks for security",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a rainbow table attack?",
+    "options": [
+      "An attack using precomputed hashes to crack passwords",
+      "A phishing attack on cloud systems",
+      "An exploit targeting outdated SSL certificates",
+      "A brute force attack on encrypted data"
+    ],
+    "answer": "An attack using precomputed hashes to crack passwords",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does the term 'zero-day exploit' mean?",
+    "options": [
+      "An exploit for a vulnerability not yet patched",
+      "An exploit used after a patch is released",
+      "An exploit targeting outdated software",
+      "An exploit that spreads via email"
+    ],
+    "answer": "An exploit for a vulnerability not yet patched",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of a Bastion host?",
+    "options": [
+      "To act as a secure entry point to a network",
+      "To encrypt network traffic",
+      "To block phishing attempts",
+      "To manage patch deployments"
+    ],
+    "answer": "To act as a secure entry point to a network",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does a forensic investigation in cybersecurity involve?",
+    "options": [
+      "Analyzing systems to determine the cause of a breach",
+      "Blocking malicious traffic",
+      "Encrypting sensitive data",
+      "Monitoring endpoint activity"
+    ],
+    "answer": "Analyzing systems to determine the cause of a breach",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+
+  {
+    "question": "Your organization’s database logs show repeated failed login attempts from a single IP address outside business hours. What should the immediate action be?",
+    "options": [
+      "Blacklist the IP address at the firewall",
+      "Increase monitoring on the database server",
+      "Alert all database users to change their passwords",
+      "Run a vulnerability scan on the server"
+    ],
+    "answer": "Blacklist the IP address at the firewall",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "An attacker compromises a third-party vendor with access to your internal systems. What is the best mitigation strategy to limit future risks?",
+    "options": [
+      "Implement zero-trust policies",
+      "Revoke all vendor access immediately",
+      "Rotate all user passwords",
+      "Add more antivirus solutions"
+    ],
+    "answer": "Implement zero-trust policies",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "During an incident response, malware is found communicating with an external IP. What should your team prioritize?",
+    "options": [
+      "Block the external IP address",
+      "Perform memory analysis on affected systems",
+      "Quarantine the infected systems",
+      "Identify similar traffic in network logs"
+    ],
+    "answer": "Quarantine the infected systems",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your organization suspects an insider threat. Logs reveal unusual data downloads at night. What security measure can reduce this risk in the future?",
+    "options": [
+      "Implement least privilege access",
+      "Increase physical security controls",
+      "Use honeypots to detect malicious activity",
+      "Monitor all employees’ social media accounts"
+    ],
+    "answer": "Implement least privilege access",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "An external penetration tester reports a critical unpatched vulnerability in your web application. What should be your first step?",
+    "options": [
+      "Deploy a virtual patch at the firewall",
+      "Disable the application temporarily",
+      "Test the patch in a staging environment",
+      "Notify all affected customers"
+    ],
+    "answer": "Deploy a virtual patch at the firewall",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A team member receives an email requesting urgent wire transfer approval. What is the most likely attack being attempted?",
+    "options": [
+      "Business Email Compromise (BEC)",
+      "Man-in-the-middle",
+      "DNS Spoofing",
+      "Privilege Escalation"
+    ],
+    "answer": "Business Email Compromise (BEC)",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your organization identifies shadow IT services being used by employees. What is the best approach to reduce this risk?",
+    "options": [
+      "Deploy a CASB (Cloud Access Security Broker)",
+      "Block all unauthorized cloud traffic",
+      "Increase awareness training",
+      "Disable employee administrative privileges"
+    ],
+    "answer": "Deploy a CASB (Cloud Access Security Broker)",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your SIEM alerts you to unusual file transfers to an external server. What is the best immediate action?",
+    "options": [
+      "Block the external server",
+      "Quarantine the affected endpoints",
+      "Alert the end users involved",
+      "Perform a full network scan"
+    ],
+    "answer": "Quarantine the affected endpoints",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A phishing campaign successfully installs ransomware on an employee’s device. What should be your first response?",
+    "options": [
+      "Disconnect the infected device from the network",
+      "Pay the ransom immediately",
+      "Update all endpoint antivirus systems",
+      "Block all email communication temporarily"
+    ],
+    "answer": "Disconnect the infected device from the network",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "An attacker uses a compromised smart thermostat as an entry point to your network. What is the best way to reduce this risk?",
+    "options": [
+      "Isolate IoT devices on a separate network",
+      "Disable remote access to the thermostat",
+      "Encrypt all internal network traffic",
+      "Rotate passwords for all IoT devices regularly"
+    ],
+    "answer": "Isolate IoT devices on a separate network",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your team identifies unusual outbound traffic from a database server. What is the first step to investigate the issue?",
+    "options": [
+      "Check server logs for unauthorized access",
+      "Restart the server to clear connections",
+      "Notify all database users",
+      "Run a full antivirus scan on the server"
+    ],
+    "answer": "Check server logs for unauthorized access",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A user accidentally sends sensitive files to the wrong email address. What is the most effective way to prevent this in the future?",
+    "options": [
+      "Implement Data Loss Prevention (DLP) policies",
+      "Disable all file attachments in email",
+      "Use end-to-end email encryption",
+      "Limit email use during work hours"
+    ],
+    "answer": "Implement Data Loss Prevention (DLP) policies",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "An attacker compromises your organization’s private key. What should you prioritize immediately?",
+    "options": [
+      "Revoke the compromised certificate",
+      "Update all cryptographic libraries",
+      "Generate a new root key",
+      "Notify affected customers"
+    ],
+    "answer": "Revoke the compromised certificate",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your company needs to identify and mitigate risks from third-party software vendors. What is the best approach?",
+    "options": [
+      "Conduct regular vendor security assessments",
+      "Block third-party access by default",
+      "Limit vendor privileges to low-level systems",
+      "Require vendors to use company hardware"
+    ],
+    "answer": "Conduct regular vendor security assessments",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your organization identifies unauthorized API access attempts. What is the best strategy to secure APIs?",
+    "options": [
+      "Enforce strong authentication for API access",
+      "Disable APIs until the issue is resolved",
+      "Rotate API keys weekly",
+      "Increase the server's timeout settings"
+    ],
+    "answer": "Enforce strong authentication for API access",
+    "difficulty": "Hard",
+    "category": "Cybersecurity"
+  }
 ]

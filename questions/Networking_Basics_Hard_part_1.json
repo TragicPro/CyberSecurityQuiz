@@ -1,194 +1,468 @@
 [
-    {
-        "question": "What is the purpose of subnetting in a network?",
-        "options": [
-            "Dividing a network into smaller, manageable segments",
-            "Encrypting traffic between devices",
-            "Managing IP addresses",
-            "Improving wireless connectivity"
-        ],
-        "answer": "Dividing a network into smaller, manageable segments",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "What does MTU stand for in networking?",
-        "options": [
-            "Maximum Transmission Unit",
-            "Maximum Traffic Utility",
-            "Minimum Traffic Unit",
-            "Maximum Transfer Usage"
-        ],
-        "answer": "Maximum Transmission Unit",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "What type of attack involves intercepting and altering communication between two parties?",
-        "options": [
-            "Man-in-the-Middle",
-            "DDoS",
-            "Phishing",
-            "Spoofing"
-        ],
-        "answer": "Man-in-the-Middle",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "What is the primary function of the ARP protocol?",
-        "options": [
-            "To map IP addresses to MAC addresses",
-            "To route packets between networks",
-            "To encrypt transmitted data",
-            "To monitor network traffic"
-        ],
-        "answer": "To map IP addresses to MAC addresses",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "Which networking topology connects all devices to a single backbone cable?",
-        "options": [
-            "Bus",
-            "Star",
-            "Ring",
-            "Mesh"
-        ],
-        "answer": "Bus",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "What is the primary purpose of a network gateway?",
-        "options": [
-            "To connect different networks",
-            "To filter incoming data packets",
-            "To route data within a LAN",
-            "To monitor network activity"
-        ],
-        "answer": "To connect different networks",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "Which layer of the OSI model is responsible for error detection and correction?",
-        "options": [
-            "Data Link",
-            "Network",
-            "Transport",
-            "Application"
-        ],
-        "answer": "Data Link",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "What does MTU stand for in networking?",
-        "options": [
-            "Maximum Transmission Unit",
-            "Minimum Transfer Unit",
-            "Maximum Transfer Utility",
-            "Minimum Transmission Utility"
-        ],
-        "answer": "Maximum Transmission Unit",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "Which type of cable is used to connect computers directly without a switch?",
-        "options": [
-            "Crossover Cable",
-            "Straight-Through Cable",
-            "Fiber Optic Cable",
-            "Coaxial Cable"
-        ],
-        "answer": "Crossover Cable",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "Which network topology provides the most redundancy?",
-        "options": [
-            "Mesh",
-            "Star",
-            "Ring",
-            "Bus"
-        ],
-        "answer": "Mesh",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "What is the purpose of port forwarding in a network?",
-        "options": [
-            "To allow external devices to access internal services",
-            "To monitor bandwidth usage",
-            "To assign IP addresses",
-            "To block incoming traffic"
-        ],
-        "answer": "To allow external devices to access internal services",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "Which type of wireless encryption is considered the most secure?",
-        "options": [
-            "WPA3",
-            "WPA2",
-            "WEP",
-            "TKIP"
-        ],
-        "answer": "WPA3",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "What is the main role of the Session layer in the OSI model?",
-        "options": [
-            "To manage and control dialog sessions between applications",
-            "To encrypt data packets",
-            "To monitor network traffic",
-            "To assign IP addresses"
-        ],
-        "answer": "To manage and control dialog sessions between applications",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "Which routing protocol is used for exchanging information within an autonomous system?",
-        "options": [
-            "OSPF",
-            "BGP",
-            "RIP",
-            "EIGRP"
-        ],
-        "answer": "OSPF",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "Which protocol is used to manage and monitor network devices?",
-        "options": [
-            "SNMP",
-            "SMTP",
-            "DNS",
-            "ICMP"
-        ],
-        "answer": "SNMP",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    },
-    {
-        "question": "Which protocol is used for network device configuration and automation?",
-        "options": [
-            "NETCONF",
-            "FTP",
-            "SMTP",
-            "DNS"
-        ],
-        "answer": "NETCONF",
-        "difficulty": "Hard",
-        "category": "Networking Basics"
-    }
+  {
+    "question": "What is the purpose of subnetting in a network?",
+    "options": [
+      "Dividing a network into smaller, manageable segments",
+      "Encrypting traffic between devices",
+      "Managing IP addresses",
+      "Improving wireless connectivity"
+    ],
+    "answer": "Dividing a network into smaller, manageable segments",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What does MTU stand for in networking?",
+    "options": [
+      "Maximum Transmission Unit",
+      "Maximum Traffic Utility",
+      "Minimum Traffic Unit",
+      "Maximum Transfer Usage"
+    ],
+    "answer": "Maximum Transmission Unit",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What type of attack involves intercepting and altering communication between two parties?",
+    "options": [
+      "Man-in-the-Middle",
+      "DDoS",
+      "Phishing",
+      "Spoofing"
+    ],
+    "answer": "Man-in-the-Middle",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What is the primary function of the ARP protocol?",
+    "options": [
+      "To map IP addresses to MAC addresses",
+      "To route packets between networks",
+      "To encrypt transmitted data",
+      "To monitor network traffic"
+    ],
+    "answer": "To map IP addresses to MAC addresses",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which networking topology connects all devices to a single backbone cable?",
+    "options": [
+      "Bus",
+      "Star",
+      "Ring",
+      "Mesh"
+    ],
+    "answer": "Bus",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What is the primary purpose of a network gateway?",
+    "options": [
+      "To connect different networks",
+      "To filter incoming data packets",
+      "To route data within a LAN",
+      "To monitor network activity"
+    ],
+    "answer": "To connect different networks",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which layer of the OSI model is responsible for error detection and correction?",
+    "options": [
+      "Data Link",
+      "Network",
+      "Transport",
+      "Application"
+    ],
+    "answer": "Data Link",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What does MTU stand for in networking?",
+    "options": [
+      "Maximum Transmission Unit",
+      "Minimum Transfer Unit",
+      "Maximum Transfer Utility",
+      "Minimum Transmission Utility"
+    ],
+    "answer": "Maximum Transmission Unit",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which type of cable is used to connect computers directly without a switch?",
+    "options": [
+      "Crossover Cable",
+      "Straight-Through Cable",
+      "Fiber Optic Cable",
+      "Coaxial Cable"
+    ],
+    "answer": "Crossover Cable",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which network topology provides the most redundancy?",
+    "options": [
+      "Mesh",
+      "Star",
+      "Ring",
+      "Bus"
+    ],
+    "answer": "Mesh",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What is the purpose of port forwarding in a network?",
+    "options": [
+      "To allow external devices to access internal services",
+      "To monitor bandwidth usage",
+      "To assign IP addresses",
+      "To block incoming traffic"
+    ],
+    "answer": "To allow external devices to access internal services",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which type of wireless encryption is considered the most secure?",
+    "options": [
+      "WPA3",
+      "WPA2",
+      "WEP",
+      "TKIP"
+    ],
+    "answer": "WPA3",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "What is the main role of the Session layer in the OSI model?",
+    "options": [
+      "To manage and control dialog sessions between applications",
+      "To encrypt data packets",
+      "To monitor network traffic",
+      "To assign IP addresses"
+    ],
+    "answer": "To manage and control dialog sessions between applications",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which routing protocol is used for exchanging information within an autonomous system?",
+    "options": [
+      "OSPF",
+      "BGP",
+      "RIP",
+      "EIGRP"
+    ],
+    "answer": "OSPF",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which protocol is used to manage and monitor network devices?",
+    "options": [
+      "SNMP",
+      "SMTP",
+      "DNS",
+      "ICMP"
+    ],
+    "answer": "SNMP",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "Which protocol is used for network device configuration and automation?",
+    "options": [
+      "NETCONF",
+      "FTP",
+      "SMTP",
+      "DNS"
+    ],
+    "answer": "NETCONF",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+
+  {
+    "question": "True or False: The OSPF routing protocol uses a cost metric based on the speed of the link.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network administrator discovers that two switches are connected via multiple links, causing a broadcast storm. Which protocol can prevent this issue?",
+    "options": [ "Spanning Tree Protocol", "RIP", "OSPF", "VLAN Trunking Protocol" ],
+    "answer": "Spanning Tree Protocol",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: MAC address spoofing is a technique used to impersonate another device on the same network.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "An attacker floods a network with DHCP requests to exhaust the available IP addresses. What type of attack is this?",
+    "options": [ "DHCP Starvation", "DNS Spoofing", "ARP Poisoning", "ICMP Flood" ],
+    "answer": "DHCP Starvation",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A Layer 3 switch can only operate at the network layer and does not support VLANs.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A rogue DHCP server can disrupt network operations by assigning incorrect IP configurations to clients.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "An administrator configures a router with the command `ip route 192.168.10.0 255.255.255.0 192.168.1.1`. What is the purpose of this configuration?",
+    "options": [
+      "To create a static route to the 192.168.10.0 network",
+      "To create a default route",
+      "To assign an IP address to an interface",
+      "To configure a NAT policy"
+    ],
+    "answer": "To create a static route to the 192.168.10.0 network",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: The BGP routing protocol is primarily used for exchanging routing information between autonomous systems on the internet.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network engineer discovers an IP address conflict between two devices. What immediate action should the engineer take?",
+    "options": [
+      "Manually configure a unique IP address for one of the devices",
+      "Restart both devices",
+      "Replace one of the devices",
+      "Disable DHCP on both devices"
+    ],
+    "answer": "Manually configure a unique IP address for one of the devices",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: VLANs allow devices on different physical networks to communicate as if they were on the same logical network.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "An attacker intercepts and alters communication between two devices without their knowledge. What type of attack is this?",
+    "options": [ "Man-in-the-middle", "ARP Poisoning", "DNS Spoofing", "Evil Twin" ],
+    "answer": "Man-in-the-middle",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: Subnetting reduces the size of broadcast domains and improves network performance.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network administrator needs to block traffic from a specific IP address at the router. What type of access control mechanism should they configure?",
+    "options": [ "Access Control List (ACL)", "Firewall Rule", "DHCP Scope", "Static Route" ],
+    "answer": "Access Control List (ACL)",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: IPv6 uses a 128-bit address space, providing significantly more addresses than IPv4.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network technician observes excessive collisions on an Ethernet segment. What is the most likely cause?",
+    "options": [ "A duplex mismatch", "A faulty router", "A failed switch", "Incorrect DNS settings" ],
+    "answer": "A duplex mismatch",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+
+  {
+    "question": "True or False: The OSPF routing protocol uses a cost metric based on the speed of the link.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network administrator discovers that two switches are connected via multiple links, causing a broadcast storm. Which protocol can prevent this issue?",
+    "options": [ "Spanning Tree Protocol", "RIP", "OSPF", "VLAN Trunking Protocol" ],
+    "answer": "Spanning Tree Protocol",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: MAC address spoofing is a technique used to impersonate another device on the same network.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "An attacker floods a network with DHCP requests to exhaust the available IP addresses. What type of attack is this?",
+    "options": [ "DHCP Starvation", "DNS Spoofing", "ARP Poisoning", "ICMP Flood" ],
+    "answer": "DHCP Starvation",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A Layer 3 switch can only operate at the network layer and does not support VLANs.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A rogue DHCP server can disrupt network operations by assigning incorrect IP configurations to clients.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "An administrator configures a router with the command `ip route 192.168.10.0 255.255.255.0 192.168.1.1`. What is the purpose of this configuration?",
+    "options": [
+      "To create a static route to the 192.168.10.0 network",
+      "To create a default route",
+      "To assign an IP address to an interface",
+      "To configure a NAT policy"
+    ],
+    "answer": "To create a static route to the 192.168.10.0 network",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: The BGP routing protocol is primarily used for exchanging routing information between autonomous systems on the internet.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network engineer discovers an IP address conflict between two devices. What immediate action should the engineer take?",
+    "options": [
+      "Manually configure a unique IP address for one of the devices",
+      "Restart both devices",
+      "Replace one of the devices",
+      "Disable DHCP on both devices"
+    ],
+    "answer": "Manually configure a unique IP address for one of the devices",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: VLANs allow devices on different physical networks to communicate as if they were on the same logical network.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "An attacker intercepts and alters communication between two devices without their knowledge. What type of attack is this?",
+    "options": [ "Man-in-the-middle", "ARP Poisoning", "DNS Spoofing", "Evil Twin" ],
+    "answer": "Man-in-the-middle",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: Subnetting reduces the size of broadcast domains and improves network performance.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network administrator needs to block traffic from a specific IP address at the router. What type of access control mechanism should they configure?",
+    "options": [ "Access Control List (ACL)", "Firewall Rule", "DHCP Scope", "Static Route" ],
+    "answer": "Access Control List (ACL)",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: IPv6 uses a 128-bit address space, providing significantly more addresses than IPv4.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network technician observes excessive collisions on an Ethernet segment. What is the most likely cause?",
+    "options": [ "A duplex mismatch", "A faulty router", "A failed switch", "Incorrect DNS settings" ],
+    "answer": "A duplex mismatch",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A network's MTU (Maximum Transmission Unit) determines the largest packet size that can be transmitted without fragmentation.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network administrator needs to prioritize VoIP traffic over other data on the network. What feature should be configured?",
+    "options": [ "Quality of Service (QoS)", "Port Mirroring", "Link Aggregation", "Static Routes" ],
+    "answer": "Quality of Service (QoS)",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: A VPN concentrator is used to terminate VPN connections and manage encryption for remote users.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "An attacker exploits a weakness in a routing protocol to send malicious route updates. What type of attack is this?",
+    "options": [ "Route Poisoning", "Man-in-the-middle", "DHCP Starvation", "DNS Spoofing" ],
+    "answer": "Route Poisoning",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "True or False: Port security on a switch can restrict access based on MAC address to prevent unauthorized devices from connecting.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  },
+  {
+    "question": "A network engineer needs to aggregate multiple physical links into a single logical link for redundancy and increased bandwidth. What feature should be used?",
+    "options": [ "Link Aggregation", "Port Mirroring", "Access Control Lists", "Dynamic Routing" ],
+    "answer": "Link Aggregation",
+    "difficulty": "Hard",
+    "category": "Networking Basics"
+  }
 ]

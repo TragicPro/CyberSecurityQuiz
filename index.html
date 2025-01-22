@@ -1,70 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberSecurity Quiz</title>
     <link rel="stylesheet" href="formating.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap" rel="stylesheet">
+    <title>Cybersecurity Quiz</title>
 </head>
+
+
 <body>
-    <h1>CyberSecurity Quiz</h1>
-    <div class="theme-switcher">
-        <button id="theme-button">Switch to Dark Mode</button>
+    <div class="header-container">
+        <h1 class="quiz-title">Cybersecurity Quiz</h1>
+        <img src="images/cyber-quiz-graphic.png" alt="Cybersecurity Logo" class="quiz-logo">
+        <button id="theme-button">Dark Mode</button>
     </div>
-    <div class="container">
-        <!-- Category Dropdown -->
-        <label for="category">Select Quiz Category:</label>
-        <select id="category">
-            <option value="Cybersecurity">Cybersecurity</option>
-            <option value="SecurityPlus">Security+</option>
-            <option value="Networking Basics">Networking</option>
-        </select>
 
-        <!-- Difficulty Dropdown -->
-        <label for="difficulty">Select Difficulty:</label>
-        <select id="difficulty">
-            <option value="Easy">Easy</option>
-            <option value="Medium">Medium</option>
-            <option value="Hard">Hard</option>
-        </select>
+    <main class="container">
+        <!-- Quiz Setup -->
+        <section class="quiz-setup">
+            <!-- Category Dropdown -->
+            <label for="category">Select Quiz Category:</label>
+            <select id="category">
+                <option value="Cybersecurity">Cybersecurity</option>
+                <option value="SecurityPlus">Security+</option>
+                <option value="Networking Basics">Networking</option>
+            </select>
 
-        <button id="start-quiz">Start Quiz</button>
+            <!-- Difficulty Dropdown -->
+            <label for="difficulty">Select Difficulty:</label>
+            <select id="difficulty">
+                <option value="Easy">Easy</option>
+                <option value="Medium">Medium</option>
+                <option value="Hard">Hard</option>
+            </select>
+
+            <button id="start-quiz">Start Quiz</button>
+        </section>
 
         <!-- Quiz Content -->
-        <div id="quiz-container"></div>
-
-        <!-- Submit Button -->
-        <button id="submit-quiz">Submit</button>
+        <section id="quiz-container" class="quiz-content"></section>
 
         <!-- Results Display -->
-        <div id="result"></div>
+        <section id="result" class="results-display"></section>
 
         <!-- Support Section -->
-        <div class="support">
-            <p>Enjoy the quiz? Support my work!</p>
+        <section class="support">
+            <p>Enjoyed this? Show your support!</p>
             <a href="https://www.buymeacoffee.com/tragicpro" target="_blank">
                 <img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png"
                      alt="Buy Me A Coffee"
-                     style="height: 60px !important; width: 217px !important;">
+                     style="height: 60px; width: 217px;">
             </a>
-        </div>
-    </div>
-    <script src="script.js"></script>
+        </section>
+    </main>
+
     <footer>
         <div id="version-info">
-            <p>Version: 1.3.1</p>
+            <p>Version: 1.4.0 (220125)</p>
             <button id="view-changelog">View Changelog</button>
         </div>
+
         <div id="changelog" style="display: none;">
+            <h3>Changelog</h3>
             <ul>
-                <li>Version 1.3.1 - Improved questions in the cybersecurity category, removed duplicates, and added more questions totaling 474 questions across the quiz.</li>
-                <li>Version 1.3.0 - Enhanced UX, added version history, and refined dark mode aesthetics.</li>
-                <li>Version 1.2.0 - Highlighted selected answers and disabled the Submit button until the quiz starts.</li>
-                <li>Version 1.1.0 - Added personalized feedback messages and mobile optimizations.</li>
-                <li>Version 1.0.0 - Initial release with quiz functionality, dark mode, and responsive design.</li>
+                <li>
+                    <b>Version 1.4.0</b> - Major Update
+                    <ul>
+                        <li>
+                            Added over 500 new questions across multiple categories, including advanced, scenario-based,
+                            and multiple-choice formats.
+                        </li>
+                        <li>
+                            Refined existing questions for better clarity, relevance, and alignment with industry
+                            standards.
+                        </li>
+                        <li>Introduced new question types, such as true/false, best-answer scenarios.</li>
+                        <li>
+                            Revamped the quiz format:
+                            <ul>
+                                <li>Added a timer feature to increase engagement and mimic real-world test conditions.</li>
+                                <li>Streamlined question progression for smoother navigation.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Improved visual design:
+                            <ul>
+                                <li>Enhanced typography and spacing for readability.</li>
+                                <li>Added animations for a more interactive experience.</li>
+                                <li>Updated dark mode styling for better contrast and aesthetics.</li>
+                            </ul>
+                        </li>
+                        <li>
+                            Bug Fixes:
+                            <ul>
+                                <li>Fixed an issue where the wrong question would occasionally display during quizzes.</li>
+                                <li>
+                                    Resolved a problem where the Submit button would remain disabled after completing a
+                                    quiz.
+                                </li>
+                                <li>Corrected a bug causing questions to repeat unnecessarily in some sessions.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <!-- Additional versions omitted for brevity -->
             </ul>
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
+
 </html>

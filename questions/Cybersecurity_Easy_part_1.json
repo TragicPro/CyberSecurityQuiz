@@ -1,361 +1,552 @@
 [
-    {
-        "question": "What does SSL stand for?",
-        "options": [
-            "Secure Socket Layer",
-            "Safe Socket Layer",
-            "Secure System Log",
-            "Secure System Layer"
-        ],
-        "answer": "Secure Socket Layer",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is phishing?",
-        "options": [
-            "An email scam",
-            "A type of malware",
-            "A firewall technique",
-            "A cryptographic algorithm"
-        ],
-        "answer": "An email scam",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a firewall used for?",
-        "options": [
-            "Encrypting data",
-            "Preventing unauthorized access",
-            "Scanning for viruses",
-            "Detecting spyware"
-        ],
-        "answer": "Preventing unauthorized access",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does HTTPS stand for?",
-        "options": [
-            "HyperText Transfer Protocol Secure",
-            "HyperText Transfer Protocol Standard",
-            "Hyper Transfer Text Protocol",
-            "Hyper Transfer Text Secure"
-        ],
-        "answer": "HyperText Transfer Protocol Secure",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which of the following is NOT a form of authentication?",
-        "options": [
-            "Password",
-            "Biometrics",
-            "Firewall",
-            "Smart Card"
-        ],
-        "answer": "Firewall",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does the acronym VPN stand for?",
-        "options": [
-            "Virtual Private Network",
-            "Virtual Protected Node",
-            "Verified Private Network",
-            "Verified Protection Network"
-        ],
-        "answer": "Virtual Private Network",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What technique disguises malware as a legitimate program?",
-        "options": [
-            "Trojan Horse",
-            "Worm",
-            "Spyware",
-            "Ransomware"
-        ],
-        "answer": "Trojan Horse",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What protocol is commonly used to transfer email?",
-        "options": [
-            "SMTP",
-            "FTP",
-            "HTTP",
-            "SNMP"
-        ],
-        "answer": "SMTP",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which protocol is used to secure web traffic?",
-        "options": [
-            "HTTP",
-            "HTTPS",
-            "FTP",
-            "SMTP"
-        ],
-        "answer": "HTTPS",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does the term 'malware' refer to?",
-        "options": [
-            "Harmful software",
-            "Encrypted software",
-            "Firewall rules",
-            "Software patches"
-        ],
-        "answer": "Harmful software",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the purpose of a VPN?",
-        "options": [
-            "Encrypting internet traffic",
-            "Blocking viruses",
-            "Scanning email",
-            "Preventing phishing"
-        ],
-        "answer": "Encrypting internet traffic",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the primary function of a firewall?",
-        "options": [
-            "Blocking unauthorized access",
-            "Encrypting files",
-            "Detecting phishing attempts",
-            "Scanning emails"
-        ],
-        "answer": "Blocking unauthorized access",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does the term 'brute force' refer to in cybersecurity?",
-        "options": [
-            "Trying all possible passwords",
-            "Exploiting a software vulnerability",
-            "Intercepting network traffic",
-            "Injecting malicious code"
-        ],
-        "answer": "Trying all possible passwords",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which of the following is a strong password example?",
-        "options": [
-            "password123",
-            "qwerty",
-            "Tr0ub4dor&3",
-            "abc123"
-        ],
-        "answer": "Tr0ub4dor&3",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is ransomware?",
-        "options": [
-            "Malware that encrypts files for payment",
-            "A tool for testing security",
-            "A type of phishing",
-            "An encryption protocol"
-        ],
-        "answer": "Malware that encrypts files for payment",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does CAPTCHA help prevent?",
-        "options": [
-            "Automated bot attacks",
-            "Phishing emails",
-            "Malware infections",
-            "Man-in-the-Middle attacks"
-        ],
-        "answer": "Automated bot attacks",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which of these is an example of two-factor authentication?",
-        "options": [
-            "Password and SMS code",
-            "Password only",
-            "Biometric scan only",
-            "Security questions only"
-        ],
-        "answer": "Password and SMS code",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the purpose of two-factor authentication (2FA)?",
-        "options": [
-            "To require two forms of verification for security",
-            "To encrypt user data",
-            "To restrict access to specific IP addresses",
-            "To block malware"
-        ],
-        "answer": "To require two forms of verification for security",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which of the following is a method of biometric authentication?",
-        "options": [
-            "Fingerprint scan",
-            "Password",
-            "Security questions",
-            "Captcha"
-        ],
-        "answer": "Fingerprint scan",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does DNS stand for?",
-        "options": [
-            "Domain Name System",
-            "Data Network Security",
-            "Dynamic Node Server",
-            "Digital Name Service"
-        ],
-        "answer": "Domain Name System",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "Which of these is a form of physical security?",
-        "options": [
-            "Smart card access",
-            "Firewall",
-            "Antivirus software",
-            "Email encryption"
-        ],
-        "answer": "Smart card access",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a brute force attack?",
-        "options": [
-            "A method of trying all possible passwords",
-            "A type of malware attack",
-            "A vulnerability in encryption protocols",
-            "A way to intercept communications"
-        ],
-        "answer": "A method of trying all possible passwords",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the primary purpose of a Virtual Private Network (VPN)?",
-        "options": [
-            "Encrypting internet traffic",
-            "Detecting malware",
-            "Scanning email attachments",
-            "Blocking phishing attempts"
-        ],
-        "answer": "Encrypting internet traffic",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does an SSL/TLS certificate validate?",
-        "options": [
-            "The authenticity of a website",
-            "The encryption of files",
-            "The security of a network",
-            "The integrity of a database"
-        ],
-        "answer": "The authenticity of a website",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is spyware?",
-        "options": [
-            "Malware that secretly monitors user activity",
-            "A type of encryption software",
-            "A method of phishing",
-            "A tool for securing email communications"
-        ],
-        "answer": "Malware that secretly monitors user activity",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does the term 'data at rest' refer to?",
-        "options": [
-            "Data stored on a device",
-            "Data being transmitted over a network",
-            "Data in a backup system",
-            "Data being processed in memory"
-        ],
-        "answer": "Data stored on a device",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the purpose of an anti-virus program?",
-        "options": [
-            "To detect and remove malware",
-            "To block unauthorized access",
-            "To encrypt sensitive files",
-            "To monitor network bandwidth"
-        ],
-        "answer": "To detect and remove malware",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is the main purpose of encryption?",
-        "options": [
-            "To protect data by converting it into an unreadable format",
-            "To monitor user activity",
-            "To detect phishing attempts",
-            "To block unauthorized access"
-        ],
-        "answer": "To protect data by converting it into an unreadable format",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What is a phishing email designed to do?",
-        "options": [
-            "Trick recipients into revealing sensitive information",
-            "Encrypt the recipient's device",
-            "Detect vulnerabilities in the network",
-            "Redirect web traffic to malicious sites"
-        ],
-        "answer": "Trick recipients into revealing sensitive information",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    },
-    {
-        "question": "What does the CIA triad stand for?",
-        "options": [
-            "Confidentiality, Integrity, Availability",
-            "Control, Integrity, Adaptability",
-            "Confidentiality, Identification, Accountability"
-        ],
-        "answer": "Confidentiality, Integrity, Availability",
-        "difficulty": "Easy",
-        "category": "Cybersecurity"
-    }
+  {
+    "question": "What does SSL stand for?",
+    "options": [
+      "Secure Socket Layer",
+      "Safe Socket Layer",
+      "Secure System Log",
+      "Secure System Layer"
+    ],
+    "answer": "Secure Socket Layer",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is phishing?",
+    "options": [
+      "An email scam",
+      "A type of malware",
+      "A firewall technique",
+      "A cryptographic algorithm"
+    ],
+    "answer": "An email scam",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a firewall used for?",
+    "options": [
+      "Encrypting data",
+      "Preventing unauthorized access",
+      "Scanning for viruses",
+      "Detecting spyware"
+    ],
+    "answer": "Preventing unauthorized access",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does HTTPS stand for?",
+    "options": [
+      "HyperText Transfer Protocol Secure",
+      "HyperText Transfer Protocol Standard",
+      "Hyper Transfer Text Protocol",
+      "Hyper Transfer Text Secure"
+    ],
+    "answer": "HyperText Transfer Protocol Secure",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which of the following is NOT a form of authentication?",
+    "options": [
+      "Password",
+      "Biometrics",
+      "Firewall",
+      "Smart Card"
+    ],
+    "answer": "Firewall",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does the acronym VPN stand for?",
+    "options": [
+      "Virtual Private Network",
+      "Virtual Protected Node",
+      "Verified Private Network",
+      "Verified Protection Network"
+    ],
+    "answer": "Virtual Private Network",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What technique disguises malware as a legitimate program?",
+    "options": [
+      "Trojan Horse",
+      "Worm",
+      "Spyware",
+      "Ransomware"
+    ],
+    "answer": "Trojan Horse",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What protocol is commonly used to transfer email?",
+    "options": [
+      "SMTP",
+      "FTP",
+      "HTTP",
+      "SNMP"
+    ],
+    "answer": "SMTP",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which protocol is used to secure web traffic?",
+    "options": [
+      "HTTP",
+      "HTTPS",
+      "FTP",
+      "SMTP"
+    ],
+    "answer": "HTTPS",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does the term 'malware' refer to?",
+    "options": [
+      "Harmful software",
+      "Encrypted software",
+      "Firewall rules",
+      "Software patches"
+    ],
+    "answer": "Harmful software",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of a VPN?",
+    "options": [
+      "Encrypting internet traffic",
+      "Blocking viruses",
+      "Scanning email",
+      "Preventing phishing"
+    ],
+    "answer": "Encrypting internet traffic",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the primary function of a firewall?",
+    "options": [
+      "Blocking unauthorized access",
+      "Encrypting files",
+      "Detecting phishing attempts",
+      "Scanning emails"
+    ],
+    "answer": "Blocking unauthorized access",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does the term 'brute force' refer to in cybersecurity?",
+    "options": [
+      "Trying all possible passwords",
+      "Exploiting a software vulnerability",
+      "Intercepting network traffic",
+      "Injecting malicious code"
+    ],
+    "answer": "Trying all possible passwords",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which of the following is a strong password example?",
+    "options": [
+      "password123",
+      "qwerty",
+      "Tr0ub4dor&3",
+      "abc123"
+    ],
+    "answer": "Tr0ub4dor&3",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is ransomware?",
+    "options": [
+      "Malware that encrypts files for payment",
+      "A tool for testing security",
+      "A type of phishing",
+      "An encryption protocol"
+    ],
+    "answer": "Malware that encrypts files for payment",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does CAPTCHA help prevent?",
+    "options": [
+      "Automated bot attacks",
+      "Phishing emails",
+      "Malware infections",
+      "Man-in-the-Middle attacks"
+    ],
+    "answer": "Automated bot attacks",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which of these is an example of two-factor authentication?",
+    "options": [
+      "Password and SMS code",
+      "Password only",
+      "Biometric scan only",
+      "Security questions only"
+    ],
+    "answer": "Password and SMS code",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of two-factor authentication (2FA)?",
+    "options": [
+      "To require two forms of verification for security",
+      "To encrypt user data",
+      "To restrict access to specific IP addresses",
+      "To block malware"
+    ],
+    "answer": "To require two forms of verification for security",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which of the following is a method of biometric authentication?",
+    "options": [
+      "Fingerprint scan",
+      "Password",
+      "Security questions",
+      "Captcha"
+    ],
+    "answer": "Fingerprint scan",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does DNS stand for?",
+    "options": [
+      "Domain Name System",
+      "Data Network Security",
+      "Dynamic Node Server",
+      "Digital Name Service"
+    ],
+    "answer": "Domain Name System",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which of these is a form of physical security?",
+    "options": [
+      "Smart card access",
+      "Firewall",
+      "Antivirus software",
+      "Email encryption"
+    ],
+    "answer": "Smart card access",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a brute force attack?",
+    "options": [
+      "A method of trying all possible passwords",
+      "A type of malware attack",
+      "A vulnerability in encryption protocols",
+      "A way to intercept communications"
+    ],
+    "answer": "A method of trying all possible passwords",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the primary purpose of a Virtual Private Network (VPN)?",
+    "options": [
+      "Encrypting internet traffic",
+      "Detecting malware",
+      "Scanning email attachments",
+      "Blocking phishing attempts"
+    ],
+    "answer": "Encrypting internet traffic",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does an SSL/TLS certificate validate?",
+    "options": [
+      "The authenticity of a website",
+      "The encryption of files",
+      "The security of a network",
+      "The integrity of a database"
+    ],
+    "answer": "The authenticity of a website",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is spyware?",
+    "options": [
+      "Malware that secretly monitors user activity",
+      "A type of encryption software",
+      "A method of phishing",
+      "A tool for securing email communications"
+    ],
+    "answer": "Malware that secretly monitors user activity",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does the term 'data at rest' refer to?",
+    "options": [
+      "Data stored on a device",
+      "Data being transmitted over a network",
+      "Data in a backup system",
+      "Data being processed in memory"
+    ],
+    "answer": "Data stored on a device",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the purpose of an anti-virus program?",
+    "options": [
+      "To detect and remove malware",
+      "To block unauthorized access",
+      "To encrypt sensitive files",
+      "To monitor network bandwidth"
+    ],
+    "answer": "To detect and remove malware",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the main purpose of encryption?",
+    "options": [
+      "To protect data by converting it into an unreadable format",
+      "To monitor user activity",
+      "To detect phishing attempts",
+      "To block unauthorized access"
+    ],
+    "answer": "To protect data by converting it into an unreadable format",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a phishing email designed to do?",
+    "options": [
+      "Trick recipients into revealing sensitive information",
+      "Encrypt the recipient's device",
+      "Detect vulnerabilities in the network",
+      "Redirect web traffic to malicious sites"
+    ],
+    "answer": "Trick recipients into revealing sensitive information",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does the CIA triad stand for?",
+    "options": [
+      "Confidentiality, Integrity, Availability",
+      "Control, Integrity, Adaptability",
+      "Confidentiality, Identification, Accountability"
+    ],
+    "answer": "Confidentiality, Integrity, Availability",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+
+  {
+    "question": "You find a USB drive in the parking lot of your office. What should you do?",
+    "options": [
+      "Report it to your IT department",
+      "Plug it into your computer to see what's on it",
+      "Give it to your coworker",
+      "Dispose of it immediately"
+    ],
+    "answer": "Report it to your IT department",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Clicking on unknown links in emails can expose your device to malware.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "A website asks for your credit card information over an HTTP connection. What should you do?",
+    "options": [
+      "Do not enter any sensitive information",
+      "Proceed with caution",
+      "Use a VPN to make it secure",
+      "Ignore the connection type and proceed"
+    ],
+    "answer": "Do not enter any sensitive information",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Social engineering attacks manipulate people to gain access to sensitive information.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Your smartphone prompts you to install a security update. What should you do?",
+    "options": [
+      "Install the update immediately",
+      "Ignore the prompt",
+      "Turn off your phone",
+      "Wait a month to see if it’s safe"
+    ],
+    "answer": "Install the update immediately",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Using unique passwords for each account can limit the impact of a data breach.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "You receive a notification from your bank about a login attempt from an unfamiliar location. What should you do?",
+    "options": [
+      "Change your password immediately",
+      "Ignore it if your account still works",
+      "Log in to confirm the activity",
+      "Disable your account temporarily"
+    ],
+    "answer": "Change your password immediately",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Public charging stations are completely safe to use.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What should you do before selling your old phone or laptop?",
+    "options": [
+      "Erase all data and perform a factory reset",
+      "Give it to a friend without checking it",
+      "Turn it off and store it",
+      "Sell it as is without any changes"
+    ],
+    "answer": "Erase all data and perform a factory reset",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Clearing your browser cache regularly can enhance your online privacy.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is the safest way to download software?",
+    "options": [
+      "From the official website of the software",
+      "From a friend’s USB drive",
+      "From any free download site",
+      "By searching for it on social media"
+    ],
+    "answer": "From the official website of the software",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Two-factor authentication requires a password and an additional verification step.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "You receive an unexpected email with an attachment labeled 'urgent_invoice.pdf.' What should you do?",
+    "options": [
+      "Verify the sender before opening it",
+      "Open it immediately",
+      "Forward it to your IT department",
+      "Delete it without verifying"
+    ],
+    "answer": "Verify the sender before opening it",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Hackers can use fake Wi-Fi hotspots to intercept sensitive data.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What is a simple step to avoid phishing attacks?",
+    "options": [
+      "Do not click on links from unknown senders",
+      "Keep your computer turned off",
+      "Never browse the internet",
+      "Use only public Wi-Fi"
+    ],
+    "answer": "Do not click on links from unknown senders",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Browsing in incognito mode hides your activity from your internet service provider.",
+    "options": [ "True", "False" ],
+    "answer": "False",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "Which of the following is a secure method to share sensitive files?",
+    "options": [
+      "Using an encrypted file-sharing service",
+      "Uploading to any free file-sharing website",
+      "Sending via unsecured email",
+      "Sharing through public social media"
+    ],
+    "answer": "Using an encrypted file-sharing service",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Always verifying the URL of a website can help prevent phishing.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "What does HTTPS in a website URL indicate?",
+    "options": [
+      "The site uses encryption for secure communication",
+      "The website is approved by the government",
+      "The site is completely safe from all threats",
+      "The site is hosted in the cloud"
+    ],
+    "answer": "The site uses encryption for secure communication",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  },
+  {
+    "question": "True or False: Avoiding unknown USB drives can help prevent malware infections.",
+    "options": [ "True", "False" ],
+    "answer": "True",
+    "difficulty": "Easy",
+    "category": "Cybersecurity"
+  }
 ]
