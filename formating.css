@@ -21,6 +21,7 @@
 body {
     font-family: 'Play', sans-serif; /* Apply Play font globally */
     background: var(--bg-color) url('images/backgrounds/quiz-background-light.jpg') no-repeat center center fixed;
+    background-size: cover; /* Ensure it covers the entire viewport */
     color: var(--text-color);
     line-height: 1.6;
     margin: 10px;
