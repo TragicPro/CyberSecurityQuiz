@@ -3,8 +3,8 @@
     --bg-color: #f4f8fb;
     --text-color: #2c2c2c;
     --container-bg: rgba(255, 255, 255, 0.85);
-    --button-bg: linear-gradient(135deg, #007bff, #0056b3);
-    --button-hover-bg: linear-gradient(135deg, #0056b3, #007bff);
+    --button-bg: linear-gradient(135deg, #d5d, #ff6a00);
+    --button-hover-bg: linear-gradient(135deg, #b200ff, #007bff);
     --selected-option-bg: #d1e7ff;
     --selected-option-border: #007bff;
     --result-bg: rgba(255, 255, 255, 0.9);
@@ -41,8 +41,8 @@ body {
         --bg-color: #121212;
         --text-color: #e0e0e0;
         --container-bg: rgba(30, 30, 30, 0.85);
-        --button-bg: linear-gradient(135deg, #1de9b6, #00bfa5);
-        --button-hover-bg: linear-gradient(135deg, #00bfa5, #1de9b6);
+        --button-bg: linear-gradient(135deg, #121212, #0056b3);
+        --button-hover-bg: linear-gradient(135deg, #b200ff, #1de9b6);
         --selected-option-bg: #00796b;
         --selected-option-border: #00e676;
         --result-bg: rgba(40, 40, 40, 0.95);
@@ -137,6 +137,7 @@ h1 {
 
 /* Category and Difficulty Labels */
 label {
+    font-family: 'Play', sans-serif;
     display: block;
     text-align: center;
     font-size: 0.85rem; /* Smaller text */
@@ -146,6 +147,7 @@ label {
 
 /* Dropdowns */
 select {
+    font-family: 'Play', sans-serif;
     width: 100%;
     max-width: 350px;
     padding: 12px;
